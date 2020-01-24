@@ -40,6 +40,53 @@ const Home = () => {
       <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Our experts provide maintenance on all equipment that require regular maintenance to provide to most longevity of your equipment. Security is our priority and make sure our procedures a HIPAA safe.</div>
       <button className='certified_button'>Get Started</button>
     </div>
+
+    <div className='mission_container'>
+      <div className='mission_text_container'>
+        <div className='mission_title'>Our Mission</div>
+        <div className='mission_description'>Your equipment is secure and will receive the best repair services. We support most medical brands.</div>
+      </div>
+
+      <div className='mission_secure'>
+        <i class="las la-shield-alt la-4x"></i>
+        <div>Secure</div> 
+      </div>
+
+      <div className='mission_repair'>
+        <i class="las la-tools la-4x"></i>
+        <div>Repair</div>
+      </div>
+
+      <div className='mission_support'>
+        <i class="las la-life-ring la-4x"></i>
+        <div>Support</div>
+      </div>
+    </div>
+
+    <div className='testimonial_title'>What People Are Saying</div>
+    
+    <div className='testimonial_container'>
+      <div className='testimonial_title1'>
+        <div className='testimonial_description1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+        <div className='testimonial_name1'>Adeline West</div>
+        <div className='testimonial_location1'>Baptist</div>
+      </div>
+      <div className='testimonial_title2'>
+        <div className='testimonial_description2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+        <div className='testimonial_name2'>Theresa Reeves</div>
+        <div className='testimonial_location2'>Miami Plastic Surgery Center</div>
+      </div>
+      <div className='testimonial_title3'>
+        <div className='testimonial_description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+        <div className='testimonial_name3'>Adeline West</div>
+        <div className='testimonial_location3'>Baptist</div>
+      </div>
+      <div className='testimonial_title4'>
+        <div className='testimonial_description4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+        <div className='testimonial_name4'>Theresa Reeves</div>
+        <div className='testimonial_location4'>Miami Plastic Surgery Center</div>
+      </div>
+    </div>
     </>
   )
 }
