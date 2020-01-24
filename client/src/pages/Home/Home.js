@@ -22,17 +22,23 @@ const Home = () => {
         <i class="las la-shipping-fast la-5x"></i>
       </div>
       <div className='services_title1'>Ship Your Equipment</div>
-      <div className='services_description1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit sed ullamcorper morbi tincidunt. Neque sodales ut etiam sit amet nisl.</div>
+      <div className='services_description1'>Ship your equipment to the closest one of our office locations. Once we receive your shipment we will contact you to inform you we received your equipment.</div>
       <div className='services_icon2'>
         <i class="las la-tools la-5x"></i>
       </div>
       <div className='services_title2'>Equipment Repair</div>
-      <div className='services_description2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit sed ullamcorper morbi tincidunt. Neque sodales ut etiam sit amet nisl.</div>
+      <div className='services_description2'>Our Expert Medical Repair technicians will evaluate your equipment sent as well as analyze it. It will then get repaired and it will then get ready for shipment.</div>
       <div className='services_icon3'>
        <i class="las la-shipping-fast la-5x"></i>
       </div>
       <div className='services_title3'>Receive Your Equipment</div>
-      <div className='services_description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit sed ullamcorper morbi tincidunt. Neque sodales ut etiam sit amet nisl.</div>
+      <div className='services_description3'>Once your equipment is repaired, we will then ship our your equipment. You will receive your equipment as quick as possible for as little as to possible down time.</div>
+    </div>
+
+    <div className='certified_container'>
+      <div className='certified_title'>Certified Repair Technicians</div>
+      <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Our experts provide maintenance on all equipment that require regular maintenance to provide to most longevity of your equipment. Security is our priority and make sure our procedures a HIPAA safe.</div>
+      <button className='certified_button'>Get Started</button>
     </div>
     </>
   )
