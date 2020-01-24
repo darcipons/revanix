@@ -1,0 +1,27 @@
+#nav-bar {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 10%) 14% 10%;
+  padding: 10px; 
+  font-size: 24px; 
+  text-decoration: none;
+  padding: 20px; 
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav_item {
+  margin: 20px;
+  justify-self: end;
+}
+
+.text{
+  color: black;
+  text-decoration: none !important; 
+  
+}
+
+.navbar_logo {
+  padding-left: 3%;
+}
