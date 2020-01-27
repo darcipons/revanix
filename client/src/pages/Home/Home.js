@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from './../../components/ContactUs/ContactUs'
 import './Home.css'
 
 const Home = () => {
@@ -87,6 +88,9 @@ const Home = () => {
         <div className='testimonial_location4'>Miami Plastic Surgery Center</div>
       </div>
     </div>
+
+    <ContactUs/>
+    
     </>
   )
 }
