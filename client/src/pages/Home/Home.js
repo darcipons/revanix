@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
 import Iso from './iso.png'
+import Chemist from './chemist.jpg'
 import './Home.css'
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
       <div className='home_intro_text'>
         <div className='home_intro_title'>Certified Medical Equipment Repairs</div>
         <div className='home_intro_location'>Located in Florida and California</div>
-        <div className='home_intro_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div className='home_intro_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </div>
         <div className='home_intro_iso'>
           <img src={Iso} alt='iso certificate' className='intro_iso'></img>
@@ -47,9 +48,19 @@ const Home = () => {
     </div>
 
     <div className='certified_container'>
+      
       <div className='certified_title'>Certified Repair Technicians</div>
-      <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Our experts provide maintenance on all equipment that require regular maintenance to provide to most longevity of your equipment. Security is our priority and make sure our procedures a HIPAA safe.</div>
+
+      <div className='certified_mini_container'>
+        <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Our experts provide maintenance on all equipment that require regular maintenance to provide to most longevity of your equipment. Security is our priority and make sure our procedures a HIPAA safe.
+        </div>
+        <div className='certified_chemist_container'>
+          <img src={Chemist} alt='chemist in lab' className='certified_chemist'></img>
+        </div>
+      </div>
+
       <button className='certified_button'>Get Started</button>
+     
     </div>
 
     <div className='mission_container'>
