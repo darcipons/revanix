@@ -112,8 +112,9 @@ const Home = () => {
       </div>
     </div>
 
-    <ContactUs/>
-    
+    <div className='contactus'>
+      <ContactUs/>
+    </div>
     </>
   )
 }

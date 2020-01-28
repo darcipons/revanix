@@ -1,4 +1,12 @@
 form{
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  padding: 5%;
+  font-size: 25px;
 }
+
+label {
+  padding: 5%;
+}
+
+
