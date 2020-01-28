@@ -63,7 +63,7 @@ const Home = () => {
      
     </div>
 
-    <div className='mission_container'>
+    {/* <div className='mission_container'>
       <div className='mission_text_container'>
         <div className='mission_title'>Our Mission</div>
         <div className='mission_description'>Your equipment is secure and will receive the best repair services. We support most medical brands.</div>
@@ -83,9 +83,11 @@ const Home = () => {
         <i class="las la-life-ring la-4x"></i>
         <div>Support</div>
       </div>
-    </div>
+    </div> */}
 
     <div className='testimonial_title'>What People Are Saying</div>
+
+    <div className='home_title_line'></div>
     
     <div className='testimonial_container'>
       <div className='testimonial_title1'>
