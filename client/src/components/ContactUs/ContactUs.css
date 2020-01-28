@@ -1,11 +1,50 @@
 .contact_us_container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   margin: 7%;
+  padding: 3%;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 .info_container {
+  grid-column: 1;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   justify-items: center;
+  padding: 5%;
+}
+
+.contact_us_title {
+  grid-row: 1;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.florida_address {
+  grid-row: 2; 
+}
+
+.california_address {
+  grid-row: 3;
+  padding-top: 3%;
+}
+
+.state {
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.address {
+  font-size: 25px
+}
+
+.street {
+  font-size: 25px;
+}
+
+.email_phone_fax {
+  grid-row: 4;
+  font-size: 25px;
+  padding-top: 3%;
 }
