@@ -1,8 +1,8 @@
 .contact_us_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 7%;
-  padding: 3%;
+  margin-top: 2%;
+  padding: 5%;
   font-family: 'Yantramanav', sans-serif;
 }
 

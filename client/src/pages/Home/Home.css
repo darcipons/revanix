@@ -100,7 +100,7 @@
 .services_sub_container2 {
   display: grid;
   grid-template-rows:  30% 40% 50%;
-  background-color: #C61B1C;
+  background-color: #ef5858;
   padding: 15%;
   padding-bottom: 35%;
   border-radius: 2%;
@@ -223,7 +223,7 @@
 .testimonial_title{
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   font-size: 70px;
   font-weight: medium;
@@ -235,9 +235,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 2%;
-  grid-row-gap: 15%;
-  margin-top: 4%;
-  margin-bottom: 10%;
   font-family: 'Yantramanav', sans-serif;
 }
 
@@ -245,9 +242,41 @@
   grid-column: 2;
   grid-row: 1;
   font-size: 20px;
-  background-color: #F1F1F1;
-  padding: 30px;
+  width: 300px;
+  margin: 50px auto;
+  border: 4px solid #34A392;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
 }
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #34A392;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #34A392;
+  border-bottom: 10px solid transparent;
+  right: -21px;
+  top: 6px;
+}
+
+.sb1:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 7px solid #fff;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  right: -11px;
+  top: 10px;
+}
+
 
 .testimonial_name1 {
   padding-top: 30px;
@@ -259,9 +288,40 @@
   grid-column: 3;
   grid-row: 1;
   font-size: 20px;
-  background-color: #2773a9;
-  padding: 30px;
   color: white;
+  width: 300px;
+  margin: 50px auto;
+  border: 4px solid darkgray;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+
+.sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid darkgray;
+  border-right: 10px solid transparent;
+  border-top: 10px solid darkgray;
+  border-bottom: 10px solid transparent;
+  left: 20px;
+  bottom: -23px;
+}
+
+.sb2:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  left: 24px;
+  bottom: -13px;
 }
 
 .testimonial_name2 {
@@ -274,9 +334,40 @@
   grid-column: 2;
   grid-row: 2;
   font-size: 20px;
-  background-color: #34A392;
-  padding: 30px;
   color: white; 
+  width: 300px;
+  margin: 50px auto;
+  border: 4px solid darkgray;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid darkgray;
+  border-top: 10px solid darkgray;
+  border-bottom: 10px solid transparent;
+  right: 20px;
+  bottom: -23px;
+}
+
+.sb3:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #fff;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 24px;
+  bottom: -13px;
 }
 
 .testimonial_name3 {
@@ -289,8 +380,39 @@
   grid-column: 3;
   grid-row: 2;
   font-size: 20px;
-  background-color: #F1F1F1;
-  padding: 30px;
+  width: 300px;
+  margin: 50px auto;
+  border: 4px solid #2773a9;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #2773a9;
+  border-top: 10px solid #2773a9;
+  border-bottom: 10px solid transparent;
+  left: -21px;
+  top: 6px;
+}
+
+.sb4:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid #fff;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  left: -11px;
+  top: 10px;
 }
 
 .testimonial_name4 {
@@ -301,6 +423,6 @@
 
 .contactus {
   background-color: #f1f1f1;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23ffffff' fill-opacity='0.85'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23ffffff' fill-opacity='0.85'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
