@@ -1,37 +1,41 @@
 import React from 'react'
+import { Form, ButtonToolbar, Button } from 'react-bootstrap'
+
 import './Form.css'
 
-const Form = () => {
+const FormBox = () => {
 
   return (
     <>
       <Form>
-        <Form.Group controlId="exampleForm.ControlInput1">
+        <Form.Group controlId="name">
           <Form.Control type="text" placeholder="Name" />
         </Form.Group>
 
-        <Form.Group controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
+        <Form.Group controlId="name">
           <Form.Control type="email" placeholder="Email" />
         </Form.Group>
 
-        <Form.Group controlId="exampleForm.ControlInput1">
-          <Form.Label>Phone</Form.Label>
+        <Form.Group controlId="name">
           <Form.Control type="email" placeholder="Phone" />
         </Form.Group>
 
-        <Form.Group controlId="exampleForm.ControlInput1">
-          <Form.Label>Subject</Form.Label>
+        <Form.Group controlId="name">
           <Form.Control type="email" placeholder="Subject" />
         </Form.Group>
         
-        <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" rows="3" />
+        <Form.Group controlId="textarea">
+          <Form.Control as="textarea" rows="3"  placeholder="Message"/>
         </Form.Group>
+
+        <ButtonToolbar>
+          <Button variant="primary" size="lg"> Submit </Button>
+        </ButtonToolbar>
+
       </Form>
+      
     </>
   )
 }
 
-export default Form
+export default FormBox

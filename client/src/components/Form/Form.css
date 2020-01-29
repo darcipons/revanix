@@ -1,12 +1,41 @@
 form{
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   padding: 5%;
   font-size: 25px;
 }
 
-label {
-  padding: 5%;
+.form-group {
+  padding: 3%;
 }
+
+#name {
+  font-size: 20px;
+  padding: 2%;
+  width: 50%;
+}
+
+#textarea {
+  width: 54%;
+  height: 140%;
+}
+
+.btn-toolbar {
+  padding: 3%;
+}
+
+.btn {
+  padding: 3%;
+  width: 45%;
+  grid-row: 6;
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #34A392;
+  border-radius: 2%;
+}
+
+
 
 

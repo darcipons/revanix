@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from './../Form/Form' 
+import FormBox from './../Form/Form' 
 import './ContactUs.css'
 
 const ContactUs = () => {
@@ -29,7 +29,7 @@ const ContactUs = () => {
         </div>
 
         <div className='contact_form'>
-          <Form/>
+          <FormBox />
         </div>
 
     </div>
