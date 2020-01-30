@@ -5,6 +5,8 @@ import Chemist from './chemist.jpg'
 import Seth2 from './steth2.jpg'
 import Doctors from './doctors.jpg'
 import Lab from './lab.jpg'
+import Ca from './cali.png'
+import Fl from './florida.png'
 import './Home.css'
 
 const Home = () => {
@@ -13,7 +15,9 @@ const Home = () => {
     <div className='home_main_image'>
       <div className='home_intro_text'>
         <div className='home_intro_title'>Certified Medical Equipment Repairs</div>
-        <div className='home_intro_location'>Located in Florida and California</div>
+        <div className='home_intro_location'>Located in California and Florida</div>
+        <img src={Ca} alt='california' className='state_icon'></img>
+        <img src={Fl} alt='florida' className='state_icon'></img>
         <div className='home_intro_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </div>
         <div className='home_intro_iso'>
@@ -84,28 +88,6 @@ const Home = () => {
 
         {/* <button className='certified_button'>Get Started</button> */}
     </div>
-
-    {/* <div className='mission_container'>
-      <div className='mission_text_container'>
-        <div className='mission_title'>Our Mission</div>
-        <div className='mission_description'>Your equipment is secure and will receive the best repair services. We support most medical brands.</div>
-      </div>
-
-      <div className='mission_secure'>
-        <i class="las la-shield-alt la-4x"></i>
-        <div>Secure</div> 
-      </div>
-
-      <div className='mission_repair'>
-        <i class="las la-tools la-4x"></i>
-        <div>Repair</div>
-      </div>
-
-      <div className='mission_support'>
-        <i class="las la-life-ring la-4x"></i>
-        <div>Support</div>
-      </div>
-    </div> */}
 
     <div className='testimonial_title'>What People Are Saying</div>
 
