@@ -2,6 +2,9 @@ import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
 import Iso from './iso.png'
 import Chemist from './chemist.jpg'
+import Seth2 from './steth2.jpg'
+import Doctors from './doctors.jpg'
+import Lab from './lab.jpg'
 import './Home.css'
 
 const Home = () => {
@@ -48,19 +51,28 @@ const Home = () => {
     </div>
 
     <div className='certified_container'>
-      
-      <div className='certified_title'>Certified Repair Technicians</div>
-
-      <div className='certified_mini_container'>
-        <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Our experts provide maintenance on all equipment that require regular maintenance to provide to most longevity of your equipment. Security is our priority and make sure our procedures a HIPAA safe.
+        <div className='certified_mini_container1'>
+          <img src={Doctors} alt='doctors' className='certified_image1'></img>
+          <div className='certified_sub_container1'>
+            <img src={Seth2} alt='medical equipment' className='certified_image2'></img>
+            <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Security is our priority and make sure our procedures a HIPAA safe.
+            </div>
+            
+          </div>
         </div>
-        <div className='certified_chemist_container'>
-          <img src={Chemist} alt='chemist in lab' className='certified_chemist'></img>
-        </div>
-      </div>
 
-      <button className='certified_button'>Get Started</button>
-     
+        <div className='certified_mini_container2'>
+          <div className='certified_sub_container2'>
+          <div className='certified_small_square'>
+              <div className='certified_title'>Certified Repair Technicians</div>
+              <img src={Iso} alt='iso certificate' className='certified_iso'></img>
+            </div>
+            <img src={Chemist} alt='chemist' className='certified_image2'></img>
+          </div>
+          <img src={Lab} alt='lab' className='certified_image1'></img>
+        </div>
+
+        {/* <button className='certified_button'>Get Started</button> */}
     </div>
 
     {/* <div className='mission_container'>
