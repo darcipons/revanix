@@ -9,10 +9,7 @@ const Navbar = () => {
   return (
     <div>
      
-      <Nav className="justify-content-end" id='nav-bar' activeKey="/home">
-      <div className='navbar_logo'>
-        <img src= {logo} alt='revanix logo' ></img>
-      </div>
+      <Nav className="justify-content-center" id='nav-bar' activeKey="/home" sticky='top'>
         <div className="nav_item">
         <Nav.Item>
           <Link className="text" to={'/'}>Home</Link>
@@ -23,11 +20,13 @@ const Navbar = () => {
           <Link className="text" to={'/about'}>About Us</Link>
         </Nav.Item>
         </div>
+        <div className='navbar_logo'>
+          <img src={logo} alt='revanix logo' ></img>
+        </div>
         <div className="nav_item">
         <Nav.Item>
           <Link className="text" to={'/repairs'}>Equipment Repairs</Link>
         </Nav.Item>
-      
         </div>
         <div className="nav_item">
         <Nav.Item>
