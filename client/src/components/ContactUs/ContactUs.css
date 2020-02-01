@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 2%;
-  padding: 5%;
+  padding: 3%;
   font-family: 'Yantramanav', sans-serif;
 }
 
@@ -27,12 +27,12 @@
 .california_address {
   grid-row: 3;
   padding-top: 3%;
+  /* padding-left: 6%; */
 }
 
 .state {
   font-size: 30px;
   font-weight: bold;
-  
 }
 
 .address {
@@ -47,4 +47,5 @@
   grid-row: 4;
   font-size: 25px;
   padding-top: 3%;
+  /* padding-left: 6%; */
 }

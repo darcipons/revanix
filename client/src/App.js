@@ -5,18 +5,20 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Repairs from './pages/Repairs/Repairs'
 import Contact from './pages/Contact/Contact'
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="background">
+      {/* <div className="background"> */}
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/repairs" component={Repairs} />
         <Route path="/contact" component={Contact} />
-      </div>
+      {/* </div> */}
+      <Footer/>
     </BrowserRouter>
   );
 }
