@@ -16,7 +16,7 @@ const Home = () => {
     <div className='home_main_image'>
       <div className='home_intro_text'>
         <div className='home_intro_title'>Certified Medical Equipment Repairs</div>
-        <div className='home_intro_location'>Locations in California and Florida</div>
+        <div className='home_intro_location'>Located in California and Florida</div>
         {/* <img src={Ca} alt='california' className='state_icon'></img>
         <img src={Fl} alt='florida' className='state_icon'></img> */}
         <div className='home_intro_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

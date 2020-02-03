@@ -7,7 +7,10 @@ const FormBox = () => {
 
   return (
     <>
+      
       <Form>
+        <div className='contact_us_title'>Contact Us</div>
+        
         <Form.Group controlId="name">
           <Form.Control type="text" placeholder="Name" />
         </Form.Group>

@@ -3,40 +3,54 @@
   grid-template-columns: 1fr 1fr;
   margin-top: 2%;
   padding: 3%;
+  padding-bottom: 8%;
   font-family: 'Yantramanav', sans-serif;
+  color: #F1F1F1;
 }
 
 .info_container {
   grid-column: 1;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  justify-items: center;
-  padding: 5%;
+  grid-template-rows: repeat(3, 1fr);
+  padding-top: 7%;
+  padding-left: 7%;
+  /* justify-items: center; */
+  /* padding: 5%; */
 }
 
-.contact_us_title {
+/* .contact_us_title {
   grid-row: 1;
   font-size: 50px;
   font-weight: bolder;
-}
+} */
 
 .florida_address {
-  grid-row: 2; 
+  grid-row: 1; 
 }
 
 .california_address {
-  grid-row: 3;
+  grid-row: 2;
   padding-top: 3%;
   /* padding-left: 6%; */
 }
 
+.contact_us_line {
+  border-bottom: solid;
+  border-width: 1%;
+  border-color: #F1F1F1;
+  width: 20%;
+  /* margin: auto; */
+}
+
 .state {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .address {
-  font-size: 25px
+  font-size: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .street {
@@ -44,7 +58,7 @@
 }
 
 .email_phone_fax {
-  grid-row: 4;
+  grid-row: 3;
   font-size: 25px;
   padding-top: 3%;
   /* padding-left: 6%; */
