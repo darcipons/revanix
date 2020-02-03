@@ -1,4 +1,4 @@
-.testimonial_container{
+/* .testimonial_container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -193,4 +193,28 @@
   padding-top: 30px;
   padding-bottom: 10px;
   font-weight: bolder;
-} 
+}  */
+
+.testimonal_container {
+  padding: 3%;
+  font-size: 20px;
+}
+
+.quotes_icon {
+  padding-left: 10%;
+}
+
+.testimonial_description {
+  text-align: center;
+}
+
+.testimonial_name {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+.testimonial_location {
+  text-align: center;
+}
+

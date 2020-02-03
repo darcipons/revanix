@@ -94,8 +94,6 @@ const Home = () => {
 
     <div className='home_title_line'></div>
     
-   
-
     <Testimonial/>
 
     <div className='contactus'>

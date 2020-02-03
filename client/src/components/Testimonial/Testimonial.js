@@ -5,7 +5,7 @@ const Testimonial = () => {
   
   return (
     <>
-      <div className='testimonial_container'>
+      {/* <div className='testimonial_container'>
         <div className='testimonial_title1 sb1'>
           <div className='testimonial_description1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
           <div className='testimonial_name1'>Adeline West</div>
@@ -26,7 +26,18 @@ const Testimonial = () => {
           <div className='testimonial_name4'>Theresa Reeves</div>
           <div className='testimonial_location4'>Miami Plastic Surgery Center</div>
         </div>
+      </div> */}
+
+      <div className='testimonal_container'>
+          <div className='quotes_icon'>
+            <i class="las la-quote-left la-4x"></i>
+          </div>
+          <div className='testimonial_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+          <div className='testimonial_name'>Adeline West</div>
+          <div className='testimonial_location'>Baptist</div>
       </div>
+
+      
     </>
   )
 }
