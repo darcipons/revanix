@@ -7,6 +7,7 @@ import Repairs from './pages/Repairs/Repairs'
 import Contact from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
