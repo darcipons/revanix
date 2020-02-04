@@ -1,12 +1,48 @@
 form{
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  padding: 5%;
+  grid-template-rows: repeat(5, 20%) 30% 20%;
+  /* padding-top: 5%; */
   font-size: 25px;
 }
 
-label {
-  padding: 5%;
+.contact_us_title {
+  grid-row: 1;
+  font-size: 50px;
+  font-weight: bolder;
 }
+
+/* .form-group {
+  padding: 3%;
+} */
+
+#name {
+  font-size: 20px;
+  padding: 2%;
+  width: 50%;
+}
+
+#textarea {
+  width: 54%;
+  height: 90%;
+}
+
+
+.btn {
+  padding: 3%;
+  width: 20%;
+  grid-row: 6;
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #34A392;
+  border-color: #34A392;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+
+
+
 
 
