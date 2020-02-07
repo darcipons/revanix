@@ -1,5 +1,5 @@
 .home_main_image {
-  background-image: url(header.jpg);
+  background-image: url(repair.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -8,42 +8,52 @@
 
 .home_intro_text {
   /* text-align: center; */
-  font-family: 'Yantramanav', sans-serif;
-  padding-right: 40%;
-  padding-left: 3%;
+  font-family: 'Work Sans', sans-serif;
+  /* padding-right: 40%;
+  padding-left: 3%; */
 }
 
 .home_intro_title {
   font-size: 80px;
-  padding-top: 20%;
-  color: black;
+  padding-top: 15%;
+  color: white;
   font-weight: bold;
+  text-align: center;
 }
 
 .home_intro_location {
   font-size: 40px;
   padding-top: 1%;
+  color: white;
+  text-align: center;
 }
+
+/* .state_icon_container {
+  text-align: center;
+} */
 
 /* .state_icon {
   padding-left: 10%;
 } */
 
+
 .home_intro_description {
   padding-top: 3%;
-  /* text-align: center; */
-  /* padding-left: 3%;
-  padding-right: 40%; */
-  font-size: 25px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
 }
 
 .home_intro_iso {
   padding-top: 2%;
-  
+  text-align: center;
 }
 
 .intro_iso {
-  height: 80px;
+  height: 120px;
 }
 
 .home_title {
@@ -84,8 +94,12 @@
   grid-row: 1;
   justify-self: center;
   background-color: #ccc5c5;
-  padding: 10%;
-  border-radius: 100%;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services_title1 {
@@ -113,8 +127,12 @@
   grid-row: 1;
   justify-self: center;
   background-color: #ef5858;
-  padding: 10%;
-  border-radius: 100%;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services_title2 {
@@ -142,9 +160,13 @@
 .services_icon3{
   grid-row: 1;
   justify-self: center;
-  padding: 10%;
   background-color: #ccc5c5;
-  border-radius: 100%;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services_title3 {
@@ -172,9 +194,13 @@
 .services_icon4{
   grid-row: 1;
   justify-self: center;
-  padding: 10%;
   background-color: #ef5858;
-  border-radius: 100%;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services_title4 {
@@ -244,7 +270,7 @@
 
 .certified_iso {
   width: 20%;
-  padding-left: 40%;
+  margin-left: 40%;
 }
 
 .certified_description {

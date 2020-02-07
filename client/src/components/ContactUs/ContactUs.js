@@ -12,7 +12,7 @@ const ContactUs = () => {
           <div className='florida_address'>
             <div className='state'>Florida </div>
             <div className='contact_us_line'></div>
-            <div className='address'>12429 NW 25th Street </div>
+            <div className='address'>10139 NW 31st Street</div>
             <div className='street'>Coral Springs, FL 33065</div>
           </div>
 
