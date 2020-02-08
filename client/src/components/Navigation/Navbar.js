@@ -1,7 +1,9 @@
 import React from 'react';
-// import { Nav, NavDropdown} from 'react-bootstrap';
-// import { Link } from "react-router-dom";
+import { Link, Route } from 'react-router-dom'
+import About from '../../pages/About/About'
+import Contact from '../../pages/Contact/Contact'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import DropDown from '../NavbarDropDown/NavbarDropDown'
 import logo from './logo.png'
 import './Navbar.css'
 
@@ -16,17 +18,23 @@ const Navbar = props => {
           </div>
           <div className='toolbar_nav_items'>
             <ul>
-              <li><a href='/'>Locations</a></li>
-              <li><a href='/'>Home</a></li>
-              <li><a href='/'>About Us</a></li>
+              <li><Link to='/locations'>Locations</Link></li>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/about'>About Us</Link></li>
               <li>
                 <img src={logo} alt='logo'></img>
               </li>
-              <li><a href='/'>Esquipment Repair</a></li>
-              <li><a href='/'>Contact Us</a></li>
+              <li>
+                <DropDown/>
+              </li>
+              <li><Link to='/contact'>Contact Us</Link></li>
             </ul>
           </div>
         </nav>
+
+        
+        <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contact}/>
       </header>
     </>
   )

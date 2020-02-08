@@ -1,0 +1,26 @@
+.dropdown_button {
+  background-color: #F1F1F1;
+  border: none;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bold;
+}
+
+.dropdown_button a:hover,
+.dropdown_button a:active {
+  color: #2773a9;
+}
+
+.dropdown_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: thin;
+}
+
+.patient_list {
+  list-style: none;
+}
+
+.surgical_list {
+  list-style: none;
+}
