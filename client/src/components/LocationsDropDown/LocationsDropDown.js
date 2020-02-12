@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import './NavbarDropDown.css'
+import React, {Component} from 'react';
+import './LocationsDropDown.css'
 
-const patient_column = ['Patient Monitoring', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders/Regulators']
-const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope Repair', 'Power Equipment', 'Video Equipment','On-Site Instrument Repair']
+const locations = ['Florida', 'California']
 
-class DropDown extends Component {
+class Location extends Component {
   constructor() {
     super();
     
@@ -34,18 +33,11 @@ class DropDown extends Component {
     return <li className='list_item'>{list_item}</li>
   }
 
-  renderListHeader = (list_header) => {
-    return <li className='list_header'>{list_header}</li>
-  }
-
   renderSection = (section_titles) => {
     const titles = JSON.parse(JSON.stringify(section_titles))
-    const section_header = titles.shift()
     return (
-
       <div className='list_container'>
         <ul className='list_column'>
-          {this.renderListHeader(section_header)}
           {titles.map((title) => this.renderListItem(title) )}
         </ul>
       </div>
@@ -56,7 +48,7 @@ class DropDown extends Component {
     return (
       <div>
         <button className='dropdown_button' onClick={this.showDropDown}>
-          Equipment Repair
+          Locations
         </button>
         
         {
@@ -66,8 +58,7 @@ class DropDown extends Component {
                 this.dropdownMenu = element;
               }}
             >
-              {this.renderSection(patient_column)}
-              {this.renderSection(surgical_column)}
+              {this.renderSection(locations)}
             </div>
             ) : (
               null
@@ -78,4 +69,4 @@ class DropDown extends Component {
   }
 }
 
-export default DropDown
+export default Location

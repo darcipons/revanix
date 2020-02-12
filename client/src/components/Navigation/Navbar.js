@@ -4,6 +4,7 @@ import About from '../../pages/About/About'
 import Contact from '../../pages/Contact/Contact'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import DropDown from '../NavbarDropDown/NavbarDropDown'
+import Locations from '../../components/LocationsDropDown/LocationsDropDown'
 import logo from './logo.png'
 import './Navbar.css'
 
@@ -18,7 +19,9 @@ const Navbar = props => {
           </div>
           <div className='toolbar_nav_items'>
             <ul>
-              <li><Link to='/locations'>Locations</Link></li>
+              <li>
+                <Locations />
+              </li>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/about'>About Us</Link></li>
               <li>
