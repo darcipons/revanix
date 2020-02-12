@@ -1,59 +1,45 @@
 import React from 'react';
-import { Nav, NavDropdown} from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import { Link, Route } from 'react-router-dom'
+import About from '../../pages/About/About'
+import Contact from '../../pages/Contact/Contact'
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import DropDown from '../NavbarDropDown/NavbarDropDown'
+import Locations from '../../components/LocationsDropDown/LocationsDropDown'
 import logo from './logo.png'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = props => {
 
   return (
+    <>
+      <header className='toolbar'>
+        <nav className='toolbar_nav'>
+          <div className='toolbar_toggle_button'>
+            <DrawerToggleButton click={props.drawerClickHandler}/>
+          </div>
+          <div className='toolbar_nav_items'>
+            <ul>
+              <li>
+                <Locations />
+              </li>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/about'>About Us</Link></li>
+              <li>
+                <img src={logo} alt='logo'></img>
+              </li>
+              <li>
+                <DropDown/>
+              </li>
+              <li><Link to='/contact'>Contact Us</Link></li>
+            </ul>
+          </div>
+        </nav>
 
-    <div>
-      <Nav className="justify-content-center" id='nav-bar' activeKey="/home" sticky='top'>
-        <div className="nav_item">
-          <Nav.Item>
-            <Link className="text" to={'/'}>Home</Link>
-          </Nav.Item>
-        </div>
-        <div className="nav_item">
-          <Nav.Item>
-            <Link className="text" to={'/about'}>About Us</Link>
-          </Nav.Item>
-        </div>
-        <div className='navbar_logo'>
-          <img src={logo} alt='revanix logo' ></img>
-        </div>
-        <div className="nav_item" id='nav_dropdown'>
-          <NavDropdown title="Equipment Repairs" id="nav-dropdown" className="text">
-            <div className='dropdown_left'>
-            <NavDropdown.Item eventKey="4.1" className='dropdown_header'>Surgical</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item eventKey="4.2">Flexible Endoscope</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Rigid Endoscope Repair</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Power Equipment</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Video Equipment</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">On-Site Instrument Repair</NavDropdown.Item>
-            </div>
-
-            <div className='dropdown_right'>
-            <NavDropdown.Item eventKey="4.1" className='dropdown_header'>Patient Monitoring</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item eventKey="4.2">Patient Monitoring</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Patient Cables</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Parts</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Infusion Pumps</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Blenders/Regulators</NavDropdown.Item>
-            </div>
-          </NavDropdown>
-        </div>
-        <div className="nav_item">
-          <Nav.Item>
-            <Link className="text" to={'/contact'}>Contact Us</Link>
-          </Nav.Item>
-        </div>
-      </Nav>
-    </div>
-
+        
+        <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contact}/>
+      </header>
+    </>
   )
 }
 
