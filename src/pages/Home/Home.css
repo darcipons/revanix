@@ -1,7 +1,8 @@
 .home_main_image {
-  background-image: url(repair.jpg);
+  /* background-image: url(repair.jpg); */
   background-position: center;
   background-size: cover;
+  background-color: #5d33bf; 
   width: 100%;
   height: 100vh;
 }
@@ -14,9 +15,10 @@
 }
 
 .home_intro_title {
-  font-size: 80px;
+  font-size: 100px;
   padding-top: 15%;
-  color: white;
+  color:  #8974b6;
+  text-shadow: 2px 2px white;
   font-weight: bold;
   text-align: center;
 }

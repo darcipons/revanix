@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './NavbarDropDown.css'
 
-const patient_column = ['Patient Monitoring', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders/Regulators']
-const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope Repair', 'Power Equipment', 'Video Equipment','On-Site Instrument Repair']
+const patient_column = ['Patient Monitoring', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders/Regulators', 'Dental Handpiece Repair']
+const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope Repair', 'Power Equipment', 'Video Equipment','Ultrasound Probe Repair','Instrument Repair']
 
 class DropDown extends Component {
   constructor() {

@@ -18,20 +18,25 @@ const Navbar = props => {
             <DrawerToggleButton click={props.drawerClickHandler}/>
           </div>
           <div className='toolbar_nav_items'>
+            <div>
             <ul>
-              <li>
-                <Locations />
-              </li>
-              <li><Link to='/'>Home</Link></li>
-              <li><Link to='/about'>About Us</Link></li>
-              <li>
+              <li className='toolbar_logo'>
                 <img src={logo} alt='logo'></img>
               </li>
+            </ul>
+            </div>
+            <div>
+              <ul>
+              <li><Link to='/about'>About Us</Link></li>
               <li>
                 <DropDown/>
               </li>
+              <li>
+                <Locations />
+              </li>
               <li><Link to='/contact'>Contact Us</Link></li>
             </ul>
+            </div>
           </div>
         </nav>
 
