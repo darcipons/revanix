@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom'
-import About from '../../pages/About/About'
-import Contact from '../../pages/Contact/Contact'
+// import About from '../../pages/About/About'
+// import Contact from '../../pages/Contact/Contact'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import DropDown from '../NavbarDropDown/NavbarDropDown'
 import Locations from '../../components/LocationsDropDown/LocationsDropDown'
@@ -23,7 +23,7 @@ const Navbar = props => {
               <li className='toolbar_logo'>
                 <Link to='/'><img src={logo} alt='logo'></img></Link>
               </li>
-              <li><Link to='/about'>About Us</Link></li>
+              <li><Link to='/'>About Us</Link></li>
               <li>
                 <Locations />
               </li>
@@ -33,15 +33,15 @@ const Navbar = props => {
               <li><Link to='/'>Equipment Sale/Purchase</Link></li>
               <li><Link to='/'>Education</Link></li>
               <li><Link to='/'>Career</Link></li>
-              <li><Link to='/contact'>Contact Us</Link></li>
+              <li><Link to='/'>Contact Us</Link></li>
             </ul>
             
           </div>
         </nav>
 
-        
+{/*         
         <Route path='/about' component={About}/>
-        <Route path='/contact' component={Contact}/>
+        <Route path='/contact' component={Contact}/> */}
       </header>
     </>
   )
