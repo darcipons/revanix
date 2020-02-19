@@ -5,8 +5,9 @@ import Chemist from './chemist.jpg'
 import Seth2 from './steth2.jpg'
 import Doctors from './doctors.jpg'
 import Lab from './lab.jpg'
-// import Ca from './cali.png'
-// import Fl from './florida.png'
+import Award from './award.png'
+import Touch from './touch.png'
+import Tv from './tv.png'
 import Testimonial from './../../components/Testimonial/Testimonial'
 import './Home.css'
 
@@ -17,10 +18,6 @@ const Home = () => {
       <div className='home_intro_text'>
         <div className='home_intro_title'>Certified Medical Equipment Repairs</div>
         <div className='home_intro_location'>Located in California and Florida</div>
-        {/* <div className='state_icon_container'>
-          <img src={Ca} alt='california' className='state_icon'></img>
-          <img src={Fl} alt='florida' className='state_icon'></img>
-        </div> */}
         <div className='home_intro_description'>The World Leader in Biomedical and Surgical    Repairs 
         </div>
         <div className='home_intro_iso'>
@@ -29,41 +26,48 @@ const Home = () => {
       </div>
     </div>
 
-    <div className='home_title'>What We Do</div>
-
-    <div className='home_title_line'></div>
+    <div className='icon_container'>
+      <div>
+        <img src={Touch} alt='award icon'className='services_icon'></img>
+      </div>
+      <div>
+        <img src={Award} alt='award icon'className='services_icon'></img>
+      </div>
+      <div>
+        <img src={Tv} alt='award icon'className='services_icon'></img>
+      </div>
+    </div>
 
     <div className='services_container'>
-      <div className='services_sub_container1'>
-        <div className='services_icon1'>
-          <i className="las la-shipping-fast la-5x"></i>
-        </div>
-        <div className='services_title1'>Ship Your Equipment</div>
-        <div className='services_description1'>Ship your equipment to the closest one of our office locations. Once we receive your shipment we will contact you to inform you we received your equipment.</div>
-      </div>
 
       <div className='services_sub_container2'>
-        <div className='services_icon2'>
-          <i className="las la-tools la-5x"></i>
+        
+        <div className='services_title2'>WHY CHOOSE US</div>
+        <div className='services_description2'>
+          <ul>
+            <li>Worldwise excellent repair services</li>
+            <li>Professionally trained technicians</li>
+            <li>Free loaners</li>
+            <li>Free shipping</li>
+            <li>Competitive pricing</li>
+            <li>24/7 real-time access to repairs</li>
+          </ul>
         </div>
-        <div className='services_title2'>Equipment Repair</div>
-        <div className='services_description2'>Our Expert Medical Repair technicians will evaluate your equipment sent as well as analyze it. It will then get repaired and it will then get ready for shipment.</div>
       </div>
 
       <div className='services_sub_container3'>
-        <div className='services_icon3'>
-         <i className="las la-shipping-fast la-5x"></i>
+        <div className='services_title3'>CERTIFICATIONS</div>
+        <div className='services_description3'>
+          <ul>
+            <li>Revanix Biomedical is ISO 9001:2015 and ISO 13485:2016 certified medical device repair company.</li>
+            <li>We are committed to your satisfaction! </li>
+          </ul>
         </div>
-        <div className='services_title3'>Receive Your Equipment</div>
-        <div className='services_description3'>Once your equipment is repaired, we will then ship our your equipment. You will receive your equipment as quick as possible for as little as to possible down time.</div>
       </div>
 
       <div className='services_sub_container4'>
-          <div className='services_icon4'>
-            <i className="las la-shield-alt la-5x"></i> 
-          </div>
-          <div className='services_title4'>Our Mission</div>
-          <div className='services_description4'>Your equipment is secure and will receive the best repair services. We support most medical brands.</div>
+          <div className='services_title4'>OUR MISSION</div>
+          <div className='services_description4'>We are committed to providing superior customer service by exceeding customers expectations and serving them with unparalleled honesty, integrity and quality.</div>
       </div>
     </div>
 
@@ -72,7 +76,15 @@ const Home = () => {
           <img src={Doctors} alt='doctors' className='certified_image1'></img>
           <div className='certified_sub_container1'>
             <img src={Seth2} alt='medical equipment' className='certified_image2'></img>
-            <div className='certified_description'>Our repair technicians are experts in repairing medical equipment hardware and software. Security is our priority and make sure our procedures a HIPAA safe.
+            <div className='certified_description'>
+              <ul>
+                <li>Flexible Endoscopes Repairs</li>
+                <li>Rigid Scope Repairs</li>
+                <li>Patient Monitoring Repairs</li>
+                <li>Ultrasound Equipment Repairs</li>
+                <li>Dental Handpiece Repairs</li>
+                <li>Biomedical Equipment Repairs</li>
+              </ul>
             </div>
             
           </div>
@@ -89,10 +101,9 @@ const Home = () => {
           <img src={Lab} alt='lab' className='certified_image1'></img>
         </div>
 
-        {/* <button className='certified_button'>Get Started</button> */}
     </div>
 
-    <div className='testimonial_title'>What Our Customers Are Saying</div>
+    <div className='testimonial_title'>What Our Clients Are Saying</div>
 
     <div className='home_title_line'></div>
     
