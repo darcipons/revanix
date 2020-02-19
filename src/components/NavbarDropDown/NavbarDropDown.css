@@ -7,7 +7,7 @@
 
 .dropdown_button a:hover,
 .dropdown_button a:active {
-  color: #2773a9;
+  color: #472a8e;
 }
 
 .dropdown_container {
@@ -15,7 +15,7 @@
   grid-template-columns: auto auto;
   font-family: 'Yantramanav', sans-serif;
   font-weight: 200;
-  background-color: #2773a9;
+  background-color :#472a8e;
   position: absolute;
   z-index: 999;
   color: white; 
@@ -51,6 +51,6 @@
 
 .list_item:hover {
   background-color: white;
-  color: #2773a9; 
+  color: #8974b6; 
 }
 

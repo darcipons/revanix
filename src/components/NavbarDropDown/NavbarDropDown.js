@@ -11,7 +11,6 @@ class DropDown extends Component {
     this.state = {
       showDropDown: false,
     }
-
   }
 
   showDropDown = (event) => {
@@ -66,8 +65,8 @@ class DropDown extends Component {
                 this.dropdownMenu = element;
               }}
             >
-              {this.renderSection(patient_column)}
               {this.renderSection(surgical_column)}
+              {this.renderSection(patient_column)}
             </div>
             ) : (
               null
