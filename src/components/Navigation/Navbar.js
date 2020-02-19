@@ -17,12 +17,14 @@ const Navbar = props => {
           <div className='toolbar_toggle_button'>
             <DrawerToggleButton click={props.drawerClickHandler}/>
           </div>
+
+          <div className='toolbar_logo'>
+            <Link to='/'><img src={logo} alt='logo'></img></Link>
+          </div>
+
           <div className='toolbar_nav_items'>
             
             <ul>
-              <li className='toolbar_logo'>
-                <Link to='/'><img src={logo} alt='logo'></img></Link>
-              </li>
               <li><Link to='/'>About Us</Link></li>
               <li>
                 <Locations />

@@ -16,6 +16,9 @@
   align-items: center;
 }
 
+.toolbar_logo {
+  padding-left: 3%;
+}
 
 .toolbar_nav_items ul {
   list-style: none;
@@ -49,3 +52,4 @@
     display: none;
   }
 }
+
