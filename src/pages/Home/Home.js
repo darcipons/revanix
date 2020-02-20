@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
 import Iso from './iso.png'
+import Iso2 from './iso2.png'
 import Chemist from './chemist.jpg'
 import Seth2 from './steth2.jpg'
 import Doctors from './doctors.jpg'
@@ -22,52 +23,50 @@ const Home = () => {
         </div>
         <div className='home_intro_iso'>
           <img src={Iso} alt='iso certificate' className='intro_iso'></img>
+          <img src={Iso2} alt='iso certificate' className='intro_iso'></img>
         </div>
       </div>
     </div>
 
-    <div className='icon_container'>
-      <div>
-        <img src={Touch} alt='award icon'className='services_icon'></img>
-      </div>
-      <div>
-        <img src={Award} alt='award icon'className='services_icon'></img>
-      </div>
-      <div>
-        <img src={Tv} alt='award icon'className='services_icon'></img>
-      </div>
-    </div>
+    <div className='icon_services_container'>
 
-    <div className='services_container'>
-
-      <div className='services_sub_container2'>
-        
-        <div className='services_title2'>WHY CHOOSE US</div>
-        <div className='services_description2'>
-          <ul>
-            <li>Worldwise excellent repair services</li>
-            <li>Professionally trained technicians</li>
-            <li>Free loaners</li>
-            <li>Free shipping</li>
-            <li>Competitive pricing</li>
-            <li>24/7 real-time access to repairs</li>
-          </ul>
+      <div className='icon_container'>
+        <div className='serices_icon_div'>
+          <img src={Touch} alt='award icon'className='services_icon'></img>
+        </div>
+        <div className='serices_icon_div'>
+          <img src={Award} alt='award icon'className='services_icon'></img>
+        </div>
+        <div className='serices_icon_div'>
+          <img src={Tv} alt='award icon'className='services_icon'></img>
         </div>
       </div>
 
-      <div className='services_sub_container3'>
-        <div className='services_title3'>CERTIFICATIONS</div>
-        <div className='services_description3'>
-          <ul>
-            <li>Revanix Biomedical is ISO 9001:2015 and ISO 13485:2016 certified medical device repair company.</li>
-            <li>We are committed to your satisfaction! </li>
-          </ul>
+      <div className='services_container'>
+        <div className='services_sub_container1'>
+          <div className='services_title1'>WHY CHOOSE US</div>
+          <div className='services_description1'>
+              <div>Worldwise excellent repair services</div>
+              <div>Professionally trained technicians</div>
+              <div>Free loaners</div>
+              <div>Free shipping</div>
+              <div>Competitive pricing</div>
+              <div>24/7 real-time access to repairs</div>
+          </div>
         </div>
-      </div>
 
-      <div className='services_sub_container4'>
-          <div className='services_title4'>OUR MISSION</div>
-          <div className='services_description4'>We are committed to providing superior customer service by exceeding customers expectations and serving them with unparalleled honesty, integrity and quality.</div>
+        <div className='services_sub_container2'>
+          <div className='services_title2'>CERTIFICATIONS</div>
+          <div className='services_description2'>
+            <div className='services_description21'>Revanix Biomedical is ISO 9001:2015 and ISO 13485:2016 certified medical device repair company.</div>
+            <div className='services_description22'>We are committed to your satisfaction! </div>
+          </div>
+        </div>
+
+        <div className='services_sub_container3'>
+            <div className='services_title3'>OUR MISSION</div>
+            <div className='services_description3'>We are committed to providing superior customer service by exceeding customers expectations and serving them with unparalleled honesty, integrity and quality.</div>
+        </div>
       </div>
     </div>
 
@@ -92,9 +91,9 @@ const Home = () => {
 
         <div className='certified_mini_container2'>
           <div className='certified_sub_container2'>
-          <div className='certified_small_square'>
-              <div className='certified_title'>Certified Repair Technicians</div>
-              <img src={Iso} alt='iso certificate' className='certified_iso'></img>
+            <div className='certified_small_square'>
+              <img src={Iso} alt='iso certificate' className='certified_iso1'></img>
+              <img src={Iso2} alt='iso certificate' className='certified_iso2'></img>
             </div>
             <img src={Chemist} alt='chemist' className='certified_image2'></img>
           </div>
@@ -104,8 +103,9 @@ const Home = () => {
     </div>
 
     <div className='testimonial_title'>What Our Clients Are Saying</div>
-
     <div className='home_title_line'></div>
+    <div className='testimonial_actual'>Actual Client Testimonial</div>
+
     
     <Testimonial/>
 
