@@ -80,7 +80,6 @@
   grid-template-columns: repeat(3, 30%);
   grid-gap: 5%;
   margin: 3%;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .services_sub_container1 {
@@ -206,7 +205,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 5%;
-  margin: 5%;
+  margin: 10%;
 } 
 
 .certified_iso1 {
@@ -235,11 +234,22 @@
   display: flex;
   justify-content: center;
   margin-top: 3%;
-  margin-bottom: 2%;
   font-size: 70px;
   font-weight: medium;
 }
 
+.home_title_line {
+  border-bottom: solid;
+  border-width: thin;
+  border-color: black;
+  width: 70%;
+  margin: auto;
+}
+
+.testimonial_actual {
+  text-align: center;
+  font-size: 25px;
+}
 
 .contactus {
   background-color: #8974b6;

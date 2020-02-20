@@ -103,8 +103,9 @@ const Home = () => {
     </div>
 
     <div className='testimonial_title'>What Our Clients Are Saying</div>
-
     <div className='home_title_line'></div>
+    <div className='testimonial_actual'>Actual Client Testimonial</div>
+
     
     <Testimonial/>
 
