@@ -20,9 +20,11 @@
 }
 
 .home_intro_location {
-  font-size: 40px;
+  font-size: 70px;
   padding-top: 1%;
-  color: white;
+  color:  #8974b6;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -31,8 +33,10 @@
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 35px;
-  color: white;
+  font-size: 45px;
+  color:  #8974b6;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
   font-weight: bold;
 }
 
@@ -48,16 +52,9 @@
 .icon_services_container {
   width: 100%;
   height: 100%;
-  /* position: relative; */
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-
-/* .icon_container .services_container {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
 
 .icon_container {
   display: grid;
@@ -207,27 +204,31 @@
 
 .certified_small_square {
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  margin: 5%;
+} 
+
+.certified_iso1 {
+  grid-column: 1;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  margin: 13%;
 }
 
-.certified_title {
-  font-size: 43px;
-  color: #F1F1F1;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 15%;
-}
-
-.certified_iso {
-  width: 20%;
-  margin-left: 40%;
+.certified_iso2 {
+  grid-column: 2;
+  width: 95%;
+  align-self: center;
+  justify-self: center;
+  margin: 13%;
 }
 
 .certified_description {
   font-size: 30px;
   color: #F1F1F1;
-  text-align: center;
-  padding-top: 7%;
+  padding-top: 15%;
 }
 
 .testimonial_title{

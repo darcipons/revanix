@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
 import Iso from './iso.png'
+import Iso2 from './iso2.png'
 import Chemist from './chemist.jpg'
 import Seth2 from './steth2.jpg'
 import Doctors from './doctors.jpg'
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
         <div className='home_intro_iso'>
           <img src={Iso} alt='iso certificate' className='intro_iso'></img>
+          <img src={Iso2} alt='iso certificate' className='intro_iso'></img>
         </div>
       </div>
     </div>
@@ -29,13 +31,13 @@ const Home = () => {
     <div className='icon_services_container'>
 
       <div className='icon_container'>
-        <div>
+        <div className='serices_icon_div'>
           <img src={Touch} alt='award icon'className='services_icon'></img>
         </div>
-        <div>
+        <div className='serices_icon_div'>
           <img src={Award} alt='award icon'className='services_icon'></img>
         </div>
-        <div>
+        <div className='serices_icon_div'>
           <img src={Tv} alt='award icon'className='services_icon'></img>
         </div>
       </div>
@@ -89,9 +91,9 @@ const Home = () => {
 
         <div className='certified_mini_container2'>
           <div className='certified_sub_container2'>
-          <div className='certified_small_square'>
-              <div className='certified_title'>Certified Repair Technicians</div>
-              <img src={Iso} alt='iso certificate' className='certified_iso'></img>
+            <div className='certified_small_square'>
+              <img src={Iso} alt='iso certificate' className='certified_iso1'></img>
+              <img src={Iso2} alt='iso certificate' className='certified_iso2'></img>
             </div>
             <img src={Chemist} alt='chemist' className='certified_image2'></img>
           </div>
