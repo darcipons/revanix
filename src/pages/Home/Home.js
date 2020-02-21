@@ -46,7 +46,7 @@ const Home = () => {
         <div className='services_sub_container1'>
           <div className='services_title1'>WHY CHOOSE US</div>
           <div className='services_description1'>
-              <div>Worldwise excellent repair services</div>
+              <div>Worldwide superior repair services</div>
               <div>Professionally trained technicians</div>
               <div>Free loaners</div>
               <div>Free shipping</div>
