@@ -20,56 +20,96 @@
 }
 
 .flex_repair_services_title {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
+  color: #8974b6;
 }
 
 .flex_repair_services_description {
   font-size: 30px;
 }
 
-.flex_middle_container {
+.flex_brand_container {
   display: grid;
-  grid-template-columns: 40% 20% 40%;
-  justify-items: center;
-  align-items: center;
-  font-size: 25px;
+  grid-template-columns: 30% 30% 30%;
+  margin-bottom: 5%;
+  padding-left: 8%;
 }
 
-.flex_brand_container {
+.flex_brand_flex1 {
   grid-column: 1;
 }
 
+.flex_image1 {
+  width: 100%;
+}
+
+.flex_brand_middle {
+  grid-column: 2;
+  text-align: center;
+  align-self: center;
+}
+
 .flex_brand_title {
-  font-size: 40px;
+  font-size: 50px;
   color: #8974b6;
   font-weight: bold;
 }
 
 .flex_brand_list ul {
   list-style: none;
+  font-size: 30px;
 }
 
-.flex_middle_line {
-  grid-column: 2;
-  border-right: 2px solid;
-  border-color: #8974b6;
-  padding: 50%;
-  margin-right: 100%;
+.flex_brand_flex2 {
+  grid-column: 3;
+}
+
+.flex_image2 {
+  width: 100%;
+}
+
+.flex_middle_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 5%;
 }
 
 .flex_perform_container {
-  grid-column: 3;
+  grid-column: 1;
 }
 
 .flex_perform_title {
   font-size: 40px;
   color: #8974b6;
   font-weight: bold;
+  text-align: center;
 }
 
 .flex_perform_list ul {
   list-style: none;
+  text-align: center;
+}
+
+.flex_services_container {
+  grid-column: 2;
+  
+}
+
+.flex_services_title {
+  font-size: 40px;
+  color: #8974b6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex_services_list ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: -5%;
 }
 
 
