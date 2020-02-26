@@ -12,8 +12,7 @@
 
 .dropdown_container {
   display: grid;
-  grid-template-columns: auto auto;
-  font-family: 'Yantramanav', sans-serif;
+  grid-template-columns: 30% 30%;
   font-weight: 200;
   background-color :#472a8e;
   position: absolute;
@@ -27,13 +26,12 @@
   overflow: visible;
 }
 
-.list_column {
+/* .list_column {
   list-style: none;
   padding-left: 0;
   align-items: flex-start !important;
   flex-direction: column;
-
-}
+} */
 
 .list_header {
   font-weight: 900;
@@ -47,6 +45,11 @@
   padding: 15px !important;
   transition: background-color ease-in-out 300ms, color ease-in-out 300ms !important;
   width: 20rem;
+  background-color: #472a8e;
+  color: white;
+  border: transparent;
+  text-align: left;
+  outline-style: none;
 }
 
 .list_item:hover {
