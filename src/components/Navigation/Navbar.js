@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom'
-import About from '../../pages/About/About'
+import { Link } from 'react-router-dom'
 // import Contact from '../../pages/Contact/Contact'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import DropDown from '../NavbarDropDown/NavbarDropDown'
@@ -41,7 +40,7 @@ const Navbar = props => {
         </nav>
 
        
-        <Route path='/About Us' component={About}/>
+        
         {/* <Route path='/contact' component={Contact}/>  */}
       </header>
     </>

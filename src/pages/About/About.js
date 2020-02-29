@@ -5,8 +5,9 @@ import './About.css'
 const About = () => {
   return (
     <div>
-     <h1 className='abouttt'>About</h1>
-     <div>heyy</div>
+      <div className='about_title_container'>
+        <div className='about_title'>About Us</div>
+      </div>
     </div>
   )
 }
