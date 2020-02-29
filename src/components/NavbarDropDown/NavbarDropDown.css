@@ -3,6 +3,7 @@
   border: none;
   font-family: 'Yantramanav', sans-serif;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .dropdown_button a:hover,
@@ -10,9 +11,15 @@
   color: #472a8e;
 }
 
+button:focus {
+  outline: none;
+}
+
 .dropdown_container {
-  display: grid;
-  grid-template-columns: 30% 30%;
+  width: 45rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-weight: 200;
   background-color :#472a8e;
   position: absolute;
