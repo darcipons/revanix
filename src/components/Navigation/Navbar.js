@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-// import About from '../../pages/About/About'
+import { Link, Route } from 'react-router-dom'
+import About from '../../pages/About/About'
 // import Contact from '../../pages/Contact/Contact'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import DropDown from '../NavbarDropDown/NavbarDropDown'
@@ -24,7 +24,7 @@ const Navbar = props => {
             </div>
 
             <ul>
-              <li><Link to='/'>About Us</Link></li>
+              <li><Link to='/About Us'>About Us</Link></li>
               <li>
                 <Locations />
               </li>
@@ -40,9 +40,9 @@ const Navbar = props => {
           </div>
         </nav>
 
-{/*         
-        <Route path='/about' component={About}/>
-        <Route path='/contact' component={Contact}/> */}
+       
+        <Route path='/About Us' component={About}/>
+        {/* <Route path='/contact' component={Contact}/>  */}
       </header>
     </>
   )

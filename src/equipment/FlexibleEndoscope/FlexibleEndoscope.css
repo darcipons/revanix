@@ -42,6 +42,8 @@
 
 .flex_image1 {
   width: 100%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .flex_brand_middle {
@@ -59,6 +61,7 @@
 .flex_brand_list ul {
   list-style: none;
   font-size: 30px;
+  padding-left: 0;
 }
 
 .flex_brand_flex2 {
@@ -67,13 +70,15 @@
 
 .flex_image2 {
   width: 100%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .flex_middle_container {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center;
-  align-items: center;
+  align-items: flex-start;
   font-size: 30px;
   margin-bottom: 5%;
 }
@@ -92,6 +97,7 @@
 .flex_perform_list ul {
   list-style: none;
   text-align: center;
+  padding-left: 0;
 }
 
 .flex_services_container {
@@ -110,6 +116,7 @@
   list-style: none;
   text-align: center;
   padding-bottom: -5%;
+  padding-left: 0;
 }
 
 

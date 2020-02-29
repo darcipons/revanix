@@ -23,13 +23,13 @@ class App extends Component {
 
   return (
       <React.Fragment>
-      <div style={{height: '100%'}}>
-        <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen}/>
-        <Route exact path="/" component={Home} />
-        <Route path="/Flexible Endoscope" component={FlexibleEndoscope} />
-      </div>
-      <Footer/>
+        <div style={{height: '100%'}}>
+          <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen}/>
+          <Route exact path="/" component={Home} />
+          <Route path="/Flexible Endoscope" component={FlexibleEndoscope} />
+        </div>
+        <Footer/>
       </React.Fragment>
   );
   }
