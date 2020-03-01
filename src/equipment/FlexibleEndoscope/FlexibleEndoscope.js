@@ -1,6 +1,7 @@
 import React from 'react'
 import Flex1 from './flexible-endoscope.png'
 import Flex2 from './flexible-endoscope-2.png'
+import FedEx from './fedex.png'
 import './FlexibleEndoscope.css'
 
 function FlexibleEndoscope () {
@@ -74,6 +75,14 @@ function FlexibleEndoscope () {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className='fedex_container'>
+        <div className='fedex_title'>Steps to Take When Your Equipment Needs Repair</div>
+        <div>
+          <img src={FedEx} alt='fedex logo' className='fedex_logo'></img>
+        </div>
+        <div className='fedex_description'>To get started you must print out a shipping label. You will send the equipment to our closest location.</div>
       </div>
 
     </div>
