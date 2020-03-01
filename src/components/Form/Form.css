@@ -1,7 +1,6 @@
 form{
   display: grid;
   grid-template-rows: repeat(5, 20%) 30% 20%;
-  /* padding-top: 5%; */
   font-size: 25px;
 }
 
@@ -10,10 +9,6 @@ form{
   font-size: 50px;
   font-weight: bolder;
 }
-
-/* .form-group {
-  padding: 3%;
-} */
 
 #name {
   font-size: 20px;
