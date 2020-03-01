@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 import Navbar from './components/Navigation/Navbar'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import SideDrawer from './components/SideDrawer/SideDrawer'
 import FlexibleEndoscope from './equipment/FlexibleEndoscope/FlexibleEndoscope'
@@ -29,6 +30,7 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen}/>
           <Route exact path="/" component={Home} />
           <Route path='/About Us' component={About}/>
+          <Route path='/contact' component={Contact}/> 
           <Route path="/Flexible Endoscope" component={FlexibleEndoscope} />
         </div>
         <Footer/>
