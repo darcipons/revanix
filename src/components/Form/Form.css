@@ -21,7 +21,6 @@ form{
   height: 90%;
 }
 
-
 .btn {
   padding: 3%;
   width: 20%;
@@ -29,12 +28,16 @@ form{
   align-self: center;
   font-size: 20px;
   font-weight: bold;
-  color: white;
-  background-color: #34A392;
-  border-color: #34A392;
+  color: black;
   border-radius: 4%;
   cursor: pointer;
 }
+
+.btn-primary {
+  background-color: #5d33bf !important;
+  border-color: #5d33bf !important;
+}
+
 
 
 
