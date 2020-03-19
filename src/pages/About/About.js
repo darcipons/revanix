@@ -18,7 +18,7 @@ const About = () => {
 
         <div className='about_us_description_container'>
           <div className='about_us_title'>Who We Are</div>
-          <div className='about_us_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis nunc sed augue lacus viverra. Sit amet massa vitae tortor condimentum lacinia quis vel eros. Felis eget nunc lobortis mattis aliquam.</div>
+          <div className='about_us_description'>Revanix Biomedical is a privately held company with over 25 years of combined experience in the medical repair industry and provides services worldwide. As a leading international medical device repair company, Revanix Biomedical is dedicated to provide the highest quality products and services in the most cost-effective manner. The entire Revanix Biomedical team has a strong commitment to excellence.</div>
         </div>
       </div>
 
