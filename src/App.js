@@ -30,7 +30,7 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen}/>
           <Route exact path="/" component={Home} />
           <Route path='/About Us' component={About}/>
-          <Route path='/contact' component={Contact}/> 
+          <Route path='/Contact Us' component={Contact}/> 
           <Route path="/Flexible Endoscope" component={FlexibleEndoscope} />
         </div>
         <Footer/>
