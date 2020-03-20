@@ -7,6 +7,7 @@ import Contact from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import SideDrawer from './components/SideDrawer/SideDrawer'
 import FlexibleEndoscope from './equipment/FlexibleEndoscope/FlexibleEndoscope'
+import RigidEndoscope from './equipment/RigidEndoscope/RigidEndoscope'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -32,6 +33,7 @@ class App extends Component {
           <Route path='/About Us' component={About}/>
           <Route path='/Contact Us' component={Contact}/> 
           <Route path="/Flexible Endoscope" component={FlexibleEndoscope} />
+          <Route path='/Rigid Endoscope' component={RigidEndoscope}/>
         </div>
         <Footer/>
       </React.Fragment>
