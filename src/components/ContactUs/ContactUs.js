@@ -11,7 +11,7 @@ const ContactUs = () => {
           <div className='florida_address'>
             <div className='state'>World Headquarters</div>
             <div className='contact_us_line'></div>
-            <div className='address'>10139 NW 31st Street</div>
+            <div className='address'>10139 NW 31st Street, Suite 102</div>
             <div className='street'>Coral Springs, FL 33065</div>
           </div>
 
