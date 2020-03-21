@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from '../../components/ContactUs/ContactUs'
 import './Career.css'
 
 function Career () {
@@ -34,7 +35,10 @@ function Career () {
               <div className='postion_location 3'>South Florida</div>
             </div>
           </div>
+        </div>
 
+        <div className='contactus'>
+          <ContactUs />
         </div>
 
     </div>
