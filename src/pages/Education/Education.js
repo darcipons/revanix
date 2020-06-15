@@ -14,7 +14,7 @@ function Education () {
         </div>
 
         <div className='contact_text_container'>
-          <div className='contact_text_title'>Never Stop Learning</div>
+          <div className='contact_text_title'>Education Matters</div>
           <div className='contact_text_description'>Revanix Biomedical offers CE Credits - Microbiologist test, educate care, and handling of surgical equipment included with Preventive Maintenance  Services.</div>
         </div>
       </div>
