@@ -1,24 +1,24 @@
 import React from 'react'
 import FedEx from '../../images/fedex.png'
-import Rigid from './rigid-endoscope.png'
-import './RigidEndoscope.css'
+import Power from './power-equip.png'
+import './PowerEquip.css'
 
-function RigidEndoscope () {
+function PowerEquip () {
   return (
     <div>
       <div className='rigid_header_container'>
-        <div className='rigid_title'>Rigid Endoscope Repairs</div>
+        <div className='rigid_title'>Power Equipment</div>
         <div className='rigid_repair_description'>Revanix Biomedical repair all rigid types of endoscopes and Specialty Scopes. And to the OEM specifications when needed.</div>
       </div>
 
       <div className='rigid_repair_services_container'>
-        <div className='rigid_repair_services_title'>Rigid Endoscope Repair Services</div>
+        <div className='rigid_repair_services_title'>Power Equipment Services</div>
         <div className='rigid_repair_services_description'>We use only the quality replacement components. Rest Assured our team of Technical Specialists will complete a comprehensive evaluation of damage, and perform leak & shock testing and properly replace all components. In addition, for the perfect hermetic seal of all autoclavable scopes laser welded using our YAG laser welder. </div>
       </div>
 
       <div className='rigid_center_container'>
         <div className='rigid_center1'>
-          <img src={Rigid} alt='rigid endoscope' className='rigid_image'></img>
+          <img src={Power} alt='rigid endoscope' className='rigid_image'></img>
         </div>
 
         <div className='rigid_center_middle'>
@@ -68,8 +68,8 @@ function RigidEndoscope () {
         <div className='fedex_description'>To get started you must print out a shipping label. You will send the equipment to our closest location.</div>
       </div>
 
-    </div>
+  </div>
   )
 }
 
-export default RigidEndoscope 
+export default PowerEquip

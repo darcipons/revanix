@@ -1,0 +1,130 @@
+.rigid_header_container {
+  background: linear-gradient(0deg, #8974b6,rgb(2, 28, 51));
+  padding-top: 13%;
+  padding-bottom: 8%;
+  text-align: center;
+  color: white;
+}
+
+.rigid_title {
+  font-size: 60px;
+}
+
+.rigid_repair_description {
+  font-size: 35px;
+  margin: 0 4rem;
+}
+
+.rigid_repair_services_container {
+  text-align: center;
+  padding: 5%;
+}
+
+.rigid_repair_services_title {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #8974b6;
+}
+
+.rigid_repair_services_description {
+  font-size: 30px;
+}
+
+.rigid_center_container {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  margin-bottom: 5%;
+  padding-left: 2rem;
+}
+
+.rigid_center1 {
+  grid-column: 1;
+}
+
+.rigid_image {
+  width: 90%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+}
+
+.rigid_center_middle {
+  grid-column: 2;
+  text-align: center;
+  align-self: center;
+  justify-self: end;
+}
+
+.rigid_center_title {
+  font-size: 50px;
+  color: #8974b6;
+  font-weight: bold;
+}
+
+.rigid_center_list ul {
+  list-style: none;
+  font-size: 30px;
+  padding-left: 0;
+}
+
+.rigid_middle_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: flex-start;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
+
+.rigid_perform_container {
+  grid-column: 1;
+}
+
+.rigid_perform_title {
+  font-size: 40px;
+  color: #8974b6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rigid_perform_list ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.rigid_services_container {
+  grid-column: 2;
+  
+}
+
+.rigid_services_title {
+  font-size: 40px;
+  color: #8974b6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rigid_services_list ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: -5%;
+  padding-left: 0;
+}
+
+.fedex_container {
+  text-align: center;
+}
+
+.fedex_title {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #8974b6;
+}
+
+.fedex_logo {
+  width: 30%;
+}
+
+.fedex_description {
+  font-size: 20px;
+}

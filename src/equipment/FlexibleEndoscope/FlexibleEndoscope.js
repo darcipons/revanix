@@ -1,7 +1,7 @@
 import React from 'react'
 import Flex1 from './flexible-endoscope.png'
 import Flex2 from './flexible-endoscope-2.png'
-import FedEx from './fedex.png'
+import FedEx from '../../images/fedex.png'
 import './FlexibleEndoscope.css'
 
 function FlexibleEndoscope () {
