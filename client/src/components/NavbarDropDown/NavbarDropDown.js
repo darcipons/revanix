@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import {withRouter} from 'react-router-dom'
 import './NavbarDropDown.css'
 
-const patient_column = ['Patient Monitoring', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders/Regulators']
-const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope Repair', 'Power Equipment', 'Video Equipment','On-Site Instrument Repair']
+const patient_column = ['Patient Monitoring', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders/Regulators', 'Fiber Optic Cable', 'EKG', 'Footpedal']
+const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope', 'Power Equipment', 'Video Equipment','Ultrasound Probe','Instruments', 'Endoeye', 'Dental Handpieces']
 
 class DropDown extends Component {
   constructor() {
@@ -11,7 +12,10 @@ class DropDown extends Component {
     this.state = {
       showDropDown: false,
     }
+  }
 
+  handleRedirect = (path) => {
+    this.props.history.push(path)
   }
 
   showDropDown = (event) => {
@@ -31,11 +35,11 @@ class DropDown extends Component {
   }
   
   renderListItem = (list_item) => {
-    return <li className='list_item'>{list_item}</li>
+    return <button className='list_item' onClick={() => this.handleRedirect(list_item) }>{list_item}</button>
   }
 
   renderListHeader = (list_header) => {
-    return <li className='list_header'>{list_header}</li>
+    return <div className='list_header'>{list_header}</div>
   }
 
   renderSection = (section_titles) => {
@@ -44,10 +48,10 @@ class DropDown extends Component {
     return (
 
       <div className='list_container'>
-        <ul className='list_column'>
+        <div className='list_column'>
           {this.renderListHeader(section_header)}
           {titles.map((title) => this.renderListItem(title) )}
-        </ul>
+        </div>
       </div>
    )
   }
@@ -66,8 +70,8 @@ class DropDown extends Component {
                 this.dropdownMenu = element;
               }}
             >
-              {this.renderSection(patient_column)}
               {this.renderSection(surgical_column)}
+              {this.renderSection(patient_column)}
             </div>
             ) : (
               null
@@ -78,4 +82,4 @@ class DropDown extends Component {
   }
 }
 
-export default DropDown
+export default withRouter(DropDown)

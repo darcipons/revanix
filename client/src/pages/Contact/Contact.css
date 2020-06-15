@@ -1,0 +1,57 @@
+.contact_title_container {
+  background: linear-gradient(0deg, #8974b6,rgb(2, 28, 51));
+  padding-top: 13%;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.contact_title {
+  font-size: 70px;
+}
+
+.contact_description {
+  font-size: 40px;
+}
+
+.contact_iso_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.contact_iso {
+  height: 150px;
+}
+
+.contact_help_container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  padding-left: 6%;
+  margin: 5%;
+}
+
+.contact_help_img_container {
+  grid-column: 1;
+}
+
+.contact_help_img {
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+}
+
+.contact_text_container {
+  grid-column: 2;
+}
+
+.contact_text_title {
+  font-size: 50px;
+  color: #8974b6;
+  font-weight: bold;
+}
+
+.contact_text_description {
+  font-size: 25px;
+}

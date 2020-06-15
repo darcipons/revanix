@@ -6,25 +6,35 @@
   font-size: 25px; 
   font-family: 'Yantramanav', sans-serif;
   font-weight: bold;
-  padding: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  z-index: 11;
+  box-shadow: 0 0 7px -1px;
 }
 
 .toolbar_nav {
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: center;
 }
 
+.toolbar_logo {
+  padding-left: 3%;
+}
+
+.toolbar_nav_items {
+  display: flex;
+}
 
 .toolbar_nav_items ul {
-  list-style: none;
   display: flex;
   align-items: center;
 }
 
 .toolbar_nav_items li {
   padding: 0 1rem;
+  list-style: none;
+  display: flex;
 }
 
 .toolbar_nav_items ul li a {
@@ -34,7 +44,7 @@
 
 .toolbar_nav_items a:hover,
 .toolbar_nav_items a:active {
-  color: #2773a9;
+  color: #472a8e;
 }
 
 

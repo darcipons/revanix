@@ -30,7 +30,7 @@ class Location extends Component {
   }
   
   renderListItem = (list_item) => {
-    return <li className='list_item'>{list_item}</li>
+    return <button className='list_item'>{list_item}</button>
   }
 
   renderSection = (section_titles) => {

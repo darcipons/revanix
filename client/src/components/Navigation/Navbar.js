@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom'
-import About from '../../pages/About/About'
-import Contact from '../../pages/Contact/Contact'
+import { Link } from 'react-router-dom'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import DropDown from '../NavbarDropDown/NavbarDropDown'
 import Locations from '../../components/LocationsDropDown/LocationsDropDown'
@@ -18,26 +16,27 @@ const Navbar = props => {
             <DrawerToggleButton click={props.drawerClickHandler}/>
           </div>
           <div className='toolbar_nav_items'>
+           
+            <div className='toolbar_logo'>
+              <Link to='/'><img src={logo} alt='logo'></img></Link>
+            </div>
+
             <ul>
+              <li><Link to='/About Us'>About Us</Link></li>
               <li>
                 <Locations />
-              </li>
-              <li><Link to='/'>Home</Link></li>
-              <li><Link to='/about'>About Us</Link></li>
-              <li>
-                <img src={logo} alt='logo'></img>
               </li>
               <li>
                 <DropDown/>
               </li>
-              <li><Link to='/contact'>Contact Us</Link></li>
+              <li><Link to='/'>Equipment Sale/Purchase</Link></li>
+              <li><Link to='/Education'>Education</Link></li>
+              <li><Link to='/Career'>Career</Link></li>
+              <li><Link to='/Contact Us'>Contact Us</Link></li>
             </ul>
+            
           </div>
         </nav>
-
-        
-        <Route path='/about' component={About}/>
-        <Route path='/contact' component={Contact}/>
       </header>
     </>
   )
