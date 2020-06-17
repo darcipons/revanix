@@ -1,9 +1,9 @@
 import React from 'react'
 import FedEx from '../../images/fedex.png'
 import InstrumentPic from './instrument.png'
-import './Instrument.css'
+import './Instruments.css'
 
-function Instrument () {
+function Instruments () {
   return (
     <div>
       <div className='rigid_header_container'>
@@ -72,4 +72,4 @@ function Instrument () {
   )
 }
 
-export default Instrument
+export default Instruments
