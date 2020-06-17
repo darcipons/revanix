@@ -29,7 +29,7 @@ const Navbar = props => {
               <li>
                 <DropDown/>
               </li>
-              <li><Link to='/'>Equipment Sale/Purchase</Link></li>
+              <li><Link to='/Equipment Sale'>Equipment Sale/Purchase</Link></li>
               <li><Link to='/Education'>Education</Link></li>
               <li><Link to='/Career'>Career</Link></li>
               <li><Link to='/Contact Us'>Contact Us</Link></li>

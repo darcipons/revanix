@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 import Navbar from './components/Navigation/Navbar'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
+import EquipmentSale from './pages/EquipmentSale/EquipmentSale'
 import Education from './pages/Education/Education'
 import Contact from './pages/Contact/Contact'
 import Career from './pages/Career/Career'
@@ -47,6 +48,7 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen} />
           <Route exact path="/" component={Home} />
           <Route path='/About Us' component={About} />
+          <Route path='/Equipment Sale' component={EquipmentSale} />
           <Route path='/Education' component={Education} />
           <Route path='/Contact Us' component={Contact} /> 
           <Route path='/Career' component={Career} />
