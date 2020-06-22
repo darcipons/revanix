@@ -9,7 +9,7 @@ import './Navbar.css'
 const Navbar = props => {
 
   return (
-    <>
+    <div>
       <header className='toolbar'>
         <nav className='toolbar_nav'>
           <div className='toolbar_toggle_button'>
@@ -38,7 +38,7 @@ const Navbar = props => {
           </div>
         </nav>
       </header>
-    </>
+    </div>
   )
 }
 
