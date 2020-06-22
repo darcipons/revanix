@@ -6,10 +6,10 @@
   white-space: nowrap;
 }
 
-.dropdown_button a:hover,
+/* .dropdown_button a:hover,
 .dropdown_button a:active {
   color: #472a8e;
-}
+} */
 
 button:focus {
   outline: none;
@@ -21,7 +21,7 @@ button:focus {
   align-items: flex-start;
   justify-content: flex-start;
   font-weight: 200;
-  background-color :#472a8e;
+  /* background-color :#472a8e; */
   position: absolute;
   z-index: 999;
   color: white; 
@@ -52,7 +52,7 @@ button:focus {
   padding: 15px !important;
   transition: background-color ease-in-out 300ms, color ease-in-out 300ms !important;
   width: 20rem;
-  background-color: #472a8e;
+  /* background-color: #472a8e; */
   color: white;
   border: transparent;
   text-align: left;
