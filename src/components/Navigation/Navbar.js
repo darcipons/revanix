@@ -40,23 +40,17 @@ const Navbarr = props => {
         </nav>
       </header> */}
 
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" fixed="top" className="nav_bar">
         <Navbar.Brand href="/">
-          <img src={logo} alt='reavanix logo' width='270' height='120' className="d-inline-block align-top"/>
+          <img src={logo} alt='reavanix logo' width='300' height='120' className="d-inline-block align-top"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto nav_bar_items">
             <Nav.Link href="/About Us">About Us</Nav.Link>
-            <Nav.Link href="/Equipment Sale">Equipment Sale/Purchase</Nav.Link>
-            <Nav.Link href="/Education">Education</Nav.Link>
-            <Nav.Link href="/Career">Career</Nav.Link>
-            <Nav.Link href="/Contact Us">Contact Us</Nav.Link>
-            <Nav.Link>
-              <Dropdown />
-            </Nav.Link>
+            <Nav.Link href="/">Locations</Nav.Link>
             <NavDropdown title="Equipment Repairs" id="basic-nav-dropdown">
-              <DropdownButton key="right" id="dropdown-button-drop-right" drop="right" title="Surgical Repairs" as={ButtonGroup} variant="light">
+              <DropdownButton className="dropdown" key="right" id="dropdown-button-drop-right" drop="right" title="Surgical Repairs" as={ButtonGroup} variant="light">
                 <Dropdown.Item href="/Flexible Endoscope">Flexible Endoscope</Dropdown.Item>
                 <Dropdown.Item href="/Rigid Endoscope">Rigid Endoscope</Dropdown.Item>
                 <Dropdown.Item href="/Power Equipment">Power Equipment</Dropdown.Item>
@@ -64,19 +58,22 @@ const Navbarr = props => {
                 <Dropdown.Item href="/Ultrasound Probe">Ultrasound Probe</Dropdown.Item>
               </DropdownButton>
 
-              <DropdownButton key="right" id="dropdown-button-drop-right" drop="right" title="Patient Repairs" as={ButtonGroup} variant="light">
+              <DropdownButton  className="dropdown" key="right" id="dropdown-button-drop-right" drop="right" title="Patient Repairs" as={ButtonGroup} variant="light">
                 <Dropdown.Item href="/Patient Monitoring">Patient Monitoring</Dropdown.Item>
                 <Dropdown.Item href="/Patient Cables">Patient Cables</Dropdown.Item>
                 <Dropdown.Item href="/Parts">Parts</Dropdown.Item>
                 <Dropdown.Item href="/Infusion Pumps">Infusion Pumps</Dropdown.Item>
                 <Dropdown.Item href="/Blenders and Regulators">Blenders and Regulators</Dropdown.Item>
               </DropdownButton>
-{/*            
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
             </NavDropdown>
+            <Nav.Link href="/Equipment Sale">Equipment Sale/Purchase</Nav.Link>
+            <Nav.Link href="/Education">Education</Nav.Link>
+            <Nav.Link href="/Career">Career</Nav.Link>
+            <Nav.Link href="/Contact Us">Contact Us</Nav.Link>
+            <Nav.Link>
+              <Dropdown />
+            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Navbar>
