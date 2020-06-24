@@ -1,5 +1,6 @@
 import React from 'react'
 import Office from './office-group.jpg'
+import Commitment from '../../components/Commitment/Commitment'
 import './About.css'
 
 
@@ -19,8 +20,11 @@ const About = () => {
         <div className='about_us_description_container'>
           <div className='about_us_title'>Who We Are</div>
           <div className='about_us_description'>Revanix Biomedical is a privately held company with over 25 years of combined experience in the medical repair industry and provides services worldwide. As a leading international medical device repair company, Revanix Biomedical is dedicated to provide the highest quality products and services in the most cost-effective manner. The entire Revanix Biomedical team has a strong commitment to excellence.</div>
+          <Commitment />
         </div>
       </div>
+
+      
 
         <div className='our_capabilites'>
           <div className='capabilites_title'>Revanix Advantages</div>
