@@ -20,14 +20,6 @@ function Career () {
             </div>
           </div>
 
-          <div className='position_container2'>
-            <div className='position_title 2'>Outside Sales Territory Manager</div>
-            <div className='position_icon_container 2'>
-              <div className='postion_icon 2'><i className="las la-map-marker la-2x"></i></div>
-              <div className='postion_location 2'>Houston, Texas</div>
-            </div>
-          </div>
-
           <div className='position_container3'>
             <div className='position_title 3'>Inside Sales Representative</div>
             <div className='position_icon_container 3'>

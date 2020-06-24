@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Dropdown, DropdownButton, ButtonGroup }from 'react-bootstrap/'
 // import { Link } from 'react-router-dom'
 // import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-import DropDown from '../NavbarDropDown/NavbarDropDown'
+// import DropDown from '../NavbarDropDown/NavbarDropDown'
 // import Locations from '../../components/LocationsDropDown/LocationsDropDown'
 import logo from './logo.png'
 import './Navbar.css'
@@ -25,9 +25,6 @@ const Navbarr = props => {
             <ul>
               <li><Link to='/About Us'>About Us</Link></li>
               <li>
-                <Locations />
-              </li>
-              <li>
                 <DropDown/>
               </li>
               <li><Link to='/Equipment Sale'>Equipment Sale/Purchase</Link></li>
@@ -48,7 +45,6 @@ const Navbarr = props => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto nav_bar_items">
             <Nav.Link href="/About Us">About Us</Nav.Link>
-            <Nav.Link href="/">Locations</Nav.Link>
             <NavDropdown title="Equipment Repairs" id="basic-nav-dropdown">
               <DropdownButton className="dropdown" key="right" id="dropdown-button-drop-right" drop="right" title="Surgical Repairs" as={ButtonGroup} variant="light">
                 <Dropdown.Item href="/Flexible Endoscope">Flexible Endoscope</Dropdown.Item>

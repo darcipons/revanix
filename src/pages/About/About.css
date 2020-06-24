@@ -58,25 +58,24 @@
   border-width: thin;
   border-color: black;
   width: 85%;
-  margin-left: 6%;
+  margin: 0 0 3% 6%;
 }
 
 .capabilites_num_container {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  margin-left: 6%;
-  margin-top: 3%;
+  grid-template-columns: .5fr 27% 27% 27% 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem 2rem;
 }
 
 .capabilities_experts_container {
-  grid-column: 1;
+  grid-column: 2;
+  grid-row: 1;
   display: grid;
   grid-template-rows: 60% 40%;
   text-align: center;
   background-color: #8974b6;
-  padding-top: 7%;
-  padding-bottom: 8%;
-  margin-right: 5%;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -90,17 +89,17 @@
 .experts_title {
   grid-row: 2;
   font-size: 60px;
+  font-weight: bold;
 }
 
 .capabilities_experience_container {
-  grid-column: 2;
+  grid-column: 3;
+  grid-row: 1;
   display: grid;
   grid-template-rows: 50% 40%;
   text-align: center;
   background-color: darkgray;
-  padding-top: 7%;
-  padding-bottom: 8%;
-  margin-right: 5%;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -114,16 +113,17 @@
 .experience_title {
   grid-row: 2;
   font-size: 60px;
+  font-weight: bold;
 }
 
 .capabilities_clients_container {
-  grid-column: 3;
+  grid-column: 4;
+  grid-row: 1;
   display: grid;
   grid-template-rows: 60% 40%;
-  text-align: center;
   background-color: #5d33bf;
-  padding-top: 7%;
-  padding-bottom: 8%;
+  text-align: center;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -138,5 +138,64 @@
 .clients_title {
   grid-row: 2;
   font-size: 60px;
+  color: #F1F1F1;
+  font-weight: bold;
+}
+
+.capabilities_time_container {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: darkgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_wws_container {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #5d33bf;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_estimates_container {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: #8974b6;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_exceptional_container {
+  grid-area: 3 / 2 / 4 / 4; 
+  background-color: #8974b6;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_shipping_container {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: darkgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.text_ {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text_.white {
   color: #F1F1F1;
 }
