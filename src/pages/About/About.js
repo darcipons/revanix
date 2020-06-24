@@ -49,6 +49,7 @@ const About = () => {
 
           <div className='capabilities_wws_container'>
             <div className='text_ white'>Worldwide Services</div>
+            <div className='capabilities_icon'><i class="las la-globe-americas la-9x" ></i></div>
           </div>
 
           <div className='capabilities_estimates_container'>
@@ -61,6 +62,7 @@ const About = () => {
 
           <div className='capabilities_shipping_container'>
             <div className='text_'>Free Shipping</div>
+            <div><i class="las la-shipping-fast la-9x"></i> </div>
           </div>
         </div>
 

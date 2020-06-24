@@ -162,6 +162,10 @@
   box-shadow: 0 0 7px -1px;
 }
 
+.capabilities_icon {
+  color: white;
+}
+
 .capabilities_estimates_container {
   grid-column: 4;
   grid-row: 2;
