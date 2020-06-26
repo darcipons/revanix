@@ -46,6 +46,26 @@
   font-size: 30px;
 }
 
+.about_commitment_title {
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.about_commitment {
+  font-size: 25px;
+  margin: 1rem;
+}
+
+.bullet_point {
+  width: 2rem;
+  margin-right: 1rem;
+  transition: transform .2s;
+}
+
+.bullet_point:hover {
+  transform: scale(1.5)
+}
+
 .capabilites_title {
   font-size: 50px;
   color: #8974b6;
