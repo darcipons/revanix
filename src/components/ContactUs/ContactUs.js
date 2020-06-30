@@ -1,5 +1,6 @@
 import React from 'react'
 import FormBox from './../Form/Form' 
+import Map from './../Map/Map'
 import './ContactUs.css'
 
 const ContactUs = () => {
@@ -13,6 +14,8 @@ const ContactUs = () => {
             <div className='contact_us_line'></div>
             <div className='address'>10139 NW 31st Street, Suite 102</div>
             <div className='street'>Coral Springs, FL 33065</div>
+            <Map />
+
           </div>
 
           <div className='california_address'>
