@@ -1,19 +1,16 @@
 .contact_us_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 10% 1fr 1fr;
   margin-top: 2%;
-  padding: 3%;
-  padding-bottom: 8%;
-  font-family: 'Yantramanav', sans-serif;
+  padding-bottom: 4rem;
   color: #F1F1F1;
 }
 
 .info_container {
-  grid-column: 1;
+  grid-column: 2;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 40% 40% 20%;
   padding-top: 7%;
-  padding-left: 7%;
 }
 
 .florida_address {
@@ -30,13 +27,6 @@
   border-width: 1%;
   border-color: #F1F1F1;
   width: 40%;
-}
-
-.contact_us_line2 {
-  border-bottom: solid;
-  border-width: 1%;
-  border-color: #F1F1F1;
-  width: 47%;
 }
 
 .state {
@@ -58,4 +48,8 @@
   grid-row: 3;
   font-size: 25px;
   padding-top: 5%;
+}
+
+.contact_form {
+  grid-column: 3;
 }

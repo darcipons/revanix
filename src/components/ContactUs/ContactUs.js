@@ -23,7 +23,7 @@ const ContactUs = () => {
 
           <div className='california_address'>
             <div className='state'>West Coast Zone Office </div>
-            <div className='contact_us_line2'></div>
+            <div className='contact_us_line'></div>
             <div className='address'>15171 Springdale Street</div>
             <div className='street'>Huntington Beach, CA 92649</div>
             <Map latitude={caLat} longitude={caLong}/>
