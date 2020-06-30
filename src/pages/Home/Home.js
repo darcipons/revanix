@@ -2,10 +2,13 @@ import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
 import Iso from '../../images/iso.png'
 import Iso2 from '../../images/iso2.png'
-import Chemist from './chemist.jpg'
-import Seth2 from './steth2.jpg'
-import Doctors from './doctors.jpg'
-import Lab from './lab.jpg'
+// import Logo from '../../images/logo.png'
+// import Chemist from './chemist.jpg'
+// import Seth2 from './steth2.jpg'
+// import Doctors from './doctors.jpg'
+// import Lab from './lab.jpg'
+import Circles from './circles.png'
+// import Long from './long.jpg'
 import Award from './award.png'
 import Touch from './touch.png'
 import Tv from './tv.png'
@@ -70,36 +73,15 @@ const Home = () => {
       </div>
     </div>
 
-    <div className='certified_container'>
-        <div className='certified_mini_container1'>
-          <img src={Doctors} alt='doctors' className='certified_image1'></img>
-          <div className='certified_sub_container1'>
-            <img src={Seth2} alt='medical equipment' className='certified_image2'></img>
-            <div className='certified_description'>
-              <ul>
-                <li>Flexible Endoscopes Repairs</li>
-                <li>Rigid Scope Repairs</li>
-                <li>Patient Monitoring Repairs</li>
-                <li>Ultrasound Equipment Repairs</li>
-                <li>Dental Handpiece Repairs</li>
-                <li>Biomedical Equipment Repairs</li>
-              </ul>
-            </div>
-            
-          </div>
-        </div>
 
-        <div className='certified_mini_container2'>
-          <div className='certified_sub_container2'>
-            <div className='certified_small_square'>
-              <img src={Iso} alt='iso certificate' className='certified_iso1'></img>
-              <img src={Iso2} alt='iso certificate' className='certified_iso2'></img>
-            </div>
-            <img src={Chemist} alt='chemist' className='certified_image2'></img>
-          </div>
-          <img src={Lab} alt='lab' className='certified_image1'></img>
-        </div>
+    <div className='home_about_us'>
+      <div className='home_about_pic'>
+        <img src={Circles} alt='lab' className='description_pic'/>
+      </div>
 
+      <div className='home_about_description'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
     </div>
 
     <div className='testimonial_title'>What Our Clients Are Saying</div>
