@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL, {Marker} from 'react-map-gl';
+import LocationIcon from './icons8-region-48.png'
+import './Map.css'
     
 class Map extends Component {
   constructor(props) {
@@ -45,7 +47,11 @@ class Map extends Component {
         mapStyle='mapbox://styles/darcipons/ckc0tdcxo03qg1ipd2dw7r5af'
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken={MAPBOX_TOKEN}
-      />
+      >
+        <Marker latitude={this.props.latitude} longitude={this.props.longitude}>
+          <img src={LocationIcon} alt='Location Pin' className='location_icon'/>
+        </Marker>
+      </ReactMapGL>
     );
   }
 }
