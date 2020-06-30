@@ -4,7 +4,10 @@ import Map from './../Map/Map'
 import './ContactUs.css'
 
 const ContactUs = () => {
-
+  let flLat = 26.269711
+  let flLong = -80.260872
+  let caLat = 33.740570
+  let caLong = -118.024520
   return (
     <>
       <div className='contact_us_container'>
@@ -14,7 +17,7 @@ const ContactUs = () => {
             <div className='contact_us_line'></div>
             <div className='address'>10139 NW 31st Street, Suite 102</div>
             <div className='street'>Coral Springs, FL 33065</div>
-            <Map />
+            <Map latitude={flLat} longitude={flLong}/>
 
           </div>
 
@@ -23,6 +26,7 @@ const ContactUs = () => {
             <div className='contact_us_line2'></div>
             <div className='address'>15171 Springdale Street</div>
             <div className='street'>Huntington Beach, CA 92649</div>
+            <Map latitude={caLat} longitude={caLong}/>
           </div>
 
           <div className='email_phone_fax'>

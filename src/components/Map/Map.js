@@ -2,16 +2,16 @@ import React, {Component} from 'react';
 import ReactMapGL from 'react-map-gl';
     
 class Map extends Component {
-    
-  state = {
-    viewport: {
-      width: 400,
-      height: 400,
-      latitude: 26.269711,
-      longitude: -80.260872,
-      zoom: 15,
-    }
-  };
+  constructor(props) {
+    super(props)
+    this.state = {
+      viewport: {
+        width: 300,
+        height: 200,
+        zoom: 17,
+      }
+    };
+}
     
   render() {
   
@@ -38,11 +38,11 @@ class Map extends Component {
       <ReactMapGL
         width={viewport.width}
         height={viewport.height}
-        latitude={viewport.latitude}
-        longitude={viewport.longitude}
+        latitude={this.props.latitude}
+        longitude={this.props.longitude}
         zoom={viewport.zoom}
         
-        
+        mapStyle='mapbox://styles/darcipons/ckc0tdcxo03qg1ipd2dw7r5af'
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken={MAPBOX_TOKEN}
       />
