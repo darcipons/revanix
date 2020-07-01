@@ -25,7 +25,7 @@ const Endoeye = () => {
                 <ul>
                   <li>Flat Rate Repair</li>
                   <li>3 Month Warranty</li>
-                  <li>2-4 Dary Turnaround</li>
+                  <li>2-4 Day Turnaround</li>
                   <li>Free Loaners</li>
                 </ul>
               </div>
@@ -59,7 +59,7 @@ const Endoeye = () => {
 
           <div className='davinci_container'>
             <div className='davinci_text_container'>
-              <div className='endoeye_title davinci'>Davinci Endo-Wrist Rest</div>
+              <div className='endoeye_title davinci'>Davinci Endo-Wrist Reset</div>
               <div className='endoeye_list davinci'>
                 <ul>
                   <li>Model S/SI</li>
