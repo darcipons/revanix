@@ -44,12 +44,11 @@ function UltrasoundProbe () {
             </div>
           </div>
 
-          <div className='ultra_advan_container'>
-            <div className='ultra_title'>Revanix Advantages </div>
-            <div className='ultra_list'>
+          <div className='advan_container ultra'>
+            <div className='advan_title ultra'>Revanix Advantages </div>
+            <div className='advan_list ultra'>
               <ul>
-                <li>Ultrasound Machines </li>
-                <li>Ultrasound Probes</li>
+                <li>Free Loaners </li>
               </ul>
             </div>
           </div>

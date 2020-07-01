@@ -77,7 +77,6 @@ function FlexibleEndoscope () {
         </div>
       </div>
 
-
     </div>
   )
 }
