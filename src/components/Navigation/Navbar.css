@@ -1,4 +1,4 @@
-/* .toolbar {
+.toolbar {
   width: 100%;
   position: fixed;
   height: 12%;
@@ -58,8 +58,8 @@
   .toolbar_toggle_button{
     display: none;
   }
-} */
-
+}
+/* 
 .nav_bar {
   z-index: 11;
   box-shadow: 0 0 7px -1px;
@@ -69,7 +69,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
-}
+} */
 
 /* .dropdown {
   font-size: 20px;

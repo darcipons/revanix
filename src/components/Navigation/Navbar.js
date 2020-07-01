@@ -1,8 +1,8 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Dropdown, DropdownButton, ButtonGroup }from 'react-bootstrap/'
-// import { Link } from 'react-router-dom'
-// import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-// import DropDown from '../NavbarDropDown/NavbarDropDown'
+// import { Navbar, Nav, NavDropdown, Dropdown, DropdownButton, ButtonGroup }from 'react-bootstrap/'
+import { Link } from 'react-router-dom'
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import DropDown from '../NavbarDropDown/NavbarDropDown'
 // import Locations from '../../components/LocationsDropDown/LocationsDropDown'
 import logo from './logo.png'
 import './Navbar.css'
@@ -11,7 +11,7 @@ const Navbarr = props => {
 
   return (
     <div>
-      {/* <header className='toolbar'>
+      <header className='toolbar'>
         <nav className='toolbar_nav'>
           <div className='toolbar_toggle_button'>
             <DrawerToggleButton click={props.drawerClickHandler}/>
@@ -35,9 +35,9 @@ const Navbarr = props => {
             
           </div>
         </nav>
-      </header> */}
+      </header>
 
-      <Navbar bg="light" expand="lg" fixed="top" className="nav_bar">
+      {/* <Navbar bg="light" expand="lg" fixed="top" className="nav_bar">
         <Navbar.Brand href="/">
           <img src={logo} alt='reavanix logo' width='300' height='120' className="d-inline-block align-top"/>
         </Navbar.Brand>
@@ -72,7 +72,7 @@ const Navbarr = props => {
             
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> */}
 
     </div>
   )

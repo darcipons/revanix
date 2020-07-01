@@ -1,5 +1,5 @@
 import React from 'react'
-import FedEx from '../../images/fedex.png'
+import Ultrasound from  './ultrasound.jpg'
 import './UltrasoundProbe.css'
 
 function UltrasoundProbe () {
@@ -15,14 +15,13 @@ function UltrasoundProbe () {
           <div className='rigid_repair_services_description'>Revanix Biomedical has developed in-house repair and maintenance departments on both coasts to support our network of sales specialists located throughout the United States and ensure fast turnaround time to all your repair needs. </div>
         </div>
 
-        <div className='rigid_center_container'>
-          <div className='rigid_center1'>
-            {/* <img src={Power} alt='rigid endoscope' className='rigid_image'></img> */}
+        <div className='ultra_middle_container'>
+          <div className='ultra_img_container'>
+            <img src={Ultrasound} alt='Ultrasound Machine' className='ultra_img'/>
           </div>
-
-          <div className='rigid_center_middle'>
-              <div className='rigid_center_title'>Brands We Repair</div>
-              <div className='rigid_center_list'>
+          <div className='ultra_brands_container'>
+              <div className='ultra_title'>Brands We Repair</div>
+              <div className='ultra_list'>
                 <ul>
                   <li>GE</li>
                   <li>Phillips</li>
@@ -34,10 +33,10 @@ function UltrasoundProbe () {
           </div>
         </div>
 
-        <div className='rigid_middle_container'>
-          <div className='rigid_perform_container'>
-            <div className='rigid_perform_title'>Repairs We Perform </div>
-            <div className='rigid_perform_list'>
+        <div className='ultra_middle_container bottom'>
+          <div className='ultra_repairs_container'>
+            <div className='ultra_title'>Repairs We Perform </div>
+            <div className='ultra_list'>
               <ul>
                 <li>Ultrasound Machines </li>
                 <li>Ultrasound Probes</li>
@@ -45,14 +44,16 @@ function UltrasoundProbe () {
             </div>
           </div>
 
-        </div>
-
-        <div className='fedex_container'>
-          <div className='fedex_title'>Steps to Take When Your Equipment Needs Repair</div>
-          <div>
-            <img src={FedEx} alt='fedex logo' className='fedex_logo'></img>
+          <div className='ultra_advan_container'>
+            <div className='ultra_title'>Revanix Advantages </div>
+            <div className='ultra_list'>
+              <ul>
+                <li>Ultrasound Machines </li>
+                <li>Ultrasound Probes</li>
+              </ul>
+            </div>
           </div>
-          <div className='fedex_description'>To get started you must print out a shipping label. You will send the equipment to our closest location.</div>
+
         </div>
 
     </div>
