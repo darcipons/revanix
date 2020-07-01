@@ -120,20 +120,3 @@
   padding-left: 0;
 }
 
-.fedex_container {
-  text-align: center;
-}
-
-.fedex_title {
-  font-size: 50px;
-  font-weight: bolder;
-  color: #8974b6;
-}
-
-.fedex_logo {
-  width: 30%;
-}
-
-.fedex_description {
-  font-size: 20px;
-}

@@ -15,7 +15,7 @@ import PowerEquip from './surgicalEquipment/PowerEquip/PowerEquip'
 import VideoEquip from './surgicalEquipment/VideoEquipment/VideoEquipment'
 import UltrasoundProbe from './surgicalEquipment/UltrasoundProbe/UltrasoundProbe'
 import Instruments from './surgicalEquipment/Instruments/Instruments'
-import Endoeye from './surgicalEquipment/Endoeye/Endoeye'
+import SpecialtySystems from './surgicalEquipment/Endoeye/Endoeye'
 import DentalHand from './surgicalEquipment/DentalHand/DentalHand'
 import PatientMont from './patientEquipment/PatientMonitoring/PatientMonitoring'
 import PatientCables from './patientEquipment/PatientCables/PatientCables'
@@ -60,7 +60,7 @@ class App extends Component {
             <Route path='/Video Equipment' component={VideoEquip} />
             <Route path='/Ultrasound Probe' component={UltrasoundProbe} />
             <Route path='/Instruments' component={Instruments} />
-            <Route path='/Endoeye' component={Endoeye} />
+            <Route path='/Specialty Systems' component={SpecialtySystems} />
             <Route path='/Dental Handpieces' component={DentalHand} />
             <Route path='/Patient Monitoring' component={PatientMont}/>
             <Route path='/Patient Cables' component={PatientCables} />
