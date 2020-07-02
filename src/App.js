@@ -21,7 +21,7 @@ import PatientMont from './patientEquipment/PatientMonitoring/PatientMonitoring'
 import PatientCables from './patientEquipment/PatientCables/PatientCables'
 import Parts from './patientEquipment/Parts/Parts'
 import InfusionPumps from './patientEquipment/InfusionPumps/InfusionPumps'
-import Blenders from './patientEquipment/Blenders/Blenders'
+import RespiratoryEquip from './patientEquipment/Blenders/Blenders'
 import FiberOptic from './patientEquipment/FiberOptic/FiberOptic'
 import Ekg from './patientEquipment/Ekg/Ekg'
 import Footpedal from './patientEquipment/Footpedal/Footpedal'
@@ -66,7 +66,7 @@ class App extends Component {
             <Route path='/Patient Cables' component={PatientCables} />
             <Route path='/Parts' component={Parts} />
             <Route path='/Infusion Pumps' component={InfusionPumps} />
-            <Route path='/Blenders and Regulators'  component={Blenders} />
+            <Route path='/Respiratory Equipment'  component={RespiratoryEquip} />
             <Route path='/Fiber Optic Cable' component={FiberOptic}/>
             <Route path='/EKG' component={Ekg} />
             <Route path='/Footpedal' component={Footpedal} />

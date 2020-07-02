@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {withRouter} from 'react-router-dom'
 import './NavbarDropDown.css'
 
-const patient_column = ['Biomedical Repairs', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Blenders and Regulators', 'Fiber Optic Cable', 'EKG', 'Footpedal']
+const patient_column = ['Biomedical Repairs', 'Patient Monitoring', 'Patient Cables', 'Parts', 'Infusion Pumps', 'Respiratory Equipment', 'Fiber Optic Cable', 'EKG', 'Footpedal']
 const surgical_column = ['Surgical Repairs', 'Flexible Endoscope', 'Rigid Endoscope', 'Power Equipment', 'Video Equipment','Ultrasound Probe','Instruments', 'Specialty Systems', 'Dental Handpieces']
 
 class DropDown extends Component {

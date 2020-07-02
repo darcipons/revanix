@@ -20,7 +20,7 @@ const PatientCables = () => {
           </div>
 
           <div className='cables_description'>
-            <div className='cables_title'>Services</div>
+            <div className='cables_title'>Our Services</div>
             <div className='cables_list'>
               <ul>
                 <li>Compatibility Issues</li>
