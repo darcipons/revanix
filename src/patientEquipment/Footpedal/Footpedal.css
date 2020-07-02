@@ -1,0 +1,27 @@
+.foot_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.foot_img_container {
+  text-align: center;
+}
+
+.foot_img {
+  width: 20%;
+}
+
+.foot_title {
+  font-size: 50px;
+  color: #8974b6;
+  font-weight: bold;
+}
+
+.foot_list ul {
+  list-style: none;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: center;
+}
