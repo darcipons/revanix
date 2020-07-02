@@ -6,8 +6,12 @@ const FiberOptic = () => {
     <div>
        <div className='rigid_header_container'>
           <div className='rigid_title'>Fiber Optic Cable</div>
-          {/* <div className='rigid_repair_description'>Revanix Biomedical will provide a cost-effective means of servicing and repairing your ultrasound systems without the risk of downtime or lost revenue. </div> */}
         </div>
+
+        <div className='rigid_repair_services_container'>
+        <div className='rigid_repair_services_title'>Fiber Optic Cable Repair Services</div>
+        <div className='rigid_repair_services_description'>Revanix Biomedical has the advanced technology to provide the type of fiber optic cables and its glass fibers ready to be shipped your way.</div>
+      </div>
     </div>
    );
 }

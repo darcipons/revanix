@@ -59,7 +59,6 @@ const Blenders = () => {
         </div>
     
         <div className='oxygen_title'>Ventilators</div>
-        {/* <div className='home_title_line'></div> */}
         <div className='ventilator_container'>
           <div className='ventilator_img_container'>
             <img src={Ventilator} alt='Ventilator' className='ventilator_img'/>
