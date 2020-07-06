@@ -54,3 +54,14 @@
   }
 }
 
+@media only screen and (max-width: 1024px) { 
+  .toolbar {
+    font-size: 20px;
+    height: 8%;
+  }
+
+  .toolbar_logo img {
+    width: 60%;
+    padding: 0;
+  }
+}

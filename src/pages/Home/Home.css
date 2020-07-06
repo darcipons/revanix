@@ -236,10 +236,43 @@
   } 
 }
 
-/* ipad  media */
+/* ipad */
 @media only screen and (max-width: 1024px) {
-
   .testimonial_title {
     font-size: 50px;
+  }
+
+  .services_title {
+    font-size: 25px;
+  }
+
+  .services_description {
+    font-size: 20px;
+  }
+
+  .services_description21 {
+    font-size: 20px;
+  }
+
+  .services_icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .services_description ul {
+    margin-right: 2rem;
+  }
+
+  .home_about_us {
+    display: flex;
+    padding: 2rem;
+  }
+
+  .description_pic {
+    width: 100%;
+  }
+
+  .home_about_description {
+    font-size: 20px;
   }
 }
