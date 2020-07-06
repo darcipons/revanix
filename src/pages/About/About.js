@@ -62,8 +62,8 @@ const About = () => {
           </div>
 
           <div className='capabilities_clients_container'>
-            <div className='clients_num'>3000</div>
-            <div className='clients_title'>Satisfied Clients</div>
+            <div className='clients_num'>2</div>
+            <div className='clients_title'>Locations</div>
           </div>
 
           <div className='capabilities_time_container'>
