@@ -39,9 +39,48 @@ form {
   border-color: #5d33bf !important;
 }
 
+@media only screen and (max-width: 414px) { 
+  form {
+    margin: 2rem 0;
+  } 
 
+  .contact_us_title {
+    font-size: 30px;
+  }
 
+  .btn-primary {
+    width: 35%;
+  }
 
+  .form_inputs {
+    margin: 2rem 0;
+  }
 
+  #name {
+    width: 60% !important;
+  }
 
+  #textarea {
+    width: 70%;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  form {
+    margin: 2rem 0;
+  } 
+
+  .form_inputs {
+    margin: 2rem 0;
+  }
+
+  #name {
+    width: 60% !important;
+  }
+
+  #textarea {
+    width: 70%;
+  }
+}
 

@@ -92,7 +92,7 @@
   border-radius: 5%;
 }
 
-.services_title1 {
+.services_title {
   grid-row: 1;
   justify-self: center;
   font-size: 40px;
@@ -100,11 +100,15 @@
   font-weight: bold;
 }
 
-.services_description1 {
+.services_description {
   grid-row: 2;
   font-size: 25px;
   text-align: center;
   font-weight: 100;
+}
+
+.services_description ul {
+  list-style: none;
 }
 
 .services_sub_container2 {
@@ -118,54 +122,9 @@
   border-radius: 5%;
 }
 
-.services_title2 {
-  grid-row: 1;
-  justify-self: center;
-  font-size: 40px;
-  color: #8974b6;
-  font-weight: bold;
-}
-
-.services_description2 {
-  font-weight: 100;
-  grid-row: 2;
-}
-
 .services_description21 {
   font-size: 25px;
   text-align: center;
-}
-
-.services_description22 {
-  font-size: 25px;
-  text-align: center;
-  padding-top: 3%;
-}
-
-.services_sub_container3 {
-  display: grid;
-  grid-template-rows: 20% 50%;
-  row-gap: 3%;
-  padding: 15%;
-  border-radius: 2%;
-  border-style: solid;
-  border-color: #8974b6;
-  border-radius: 5%;
-}
-
-.services_title3 {
-  grid-row: 1;
-  justify-self: center;
-  font-size: 40px;
-  color: #8974b6;
-  font-weight: bold;
-}
-
-.services_description3 {
-  grid-row: 2;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 100;
 }
 
 .home_about_us {
@@ -215,3 +174,105 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23f1f1f1' fill-opacity='0.1'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
+/* iphone 5-6 and pluses */
+@media only screen and (max-width: 414px) {
+  .icon_container {
+    display: none;
+  }
+
+  .services_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .services_title {
+    font-size: 20px;
+  }
+
+  .services_description {
+    font-size: 15px;
+  }
+
+  .services_description21 {
+    font-size: 15px;
+  }
+
+  .services_sub_container1 {
+    margin-bottom: 2rem;
+  }
+
+  .services_sub_container2 {
+    margin-bottom: 2rem;
+  }
+
+  .home_about_us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description_pic {
+    width: 100%;
+  }
+
+  .home_about_description {
+    font-size: 20px;
+  }
+
+  .testimonial_title {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .testimonial_actual {
+    font-size: 20px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .testimonial_title {
+    font-size: 25px;
+  } 
+}
+
+/* ipad */
+@media only screen and (max-width: 1024px) {
+  .testimonial_title {
+    font-size: 50px;
+  }
+
+  .services_title {
+    font-size: 25px;
+  }
+
+  .services_description {
+    font-size: 20px;
+  }
+
+  .services_description21 {
+    font-size: 20px;
+  }
+
+  .services_icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .services_description ul {
+    margin-right: 2rem;
+  }
+
+  .home_about_us {
+    display: flex;
+    padding: 2rem;
+  }
+
+  .description_pic {
+    width: 100%;
+  }
+
+  .home_about_description {
+    font-size: 20px;
+  }
+}
