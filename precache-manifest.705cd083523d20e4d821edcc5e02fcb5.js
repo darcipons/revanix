@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09cf26790d53b0c97638419e6221b5be",
+    "revision": "5148b865e487730e27dc1296fd82732a",
     "url": "/revanix/index.html"
   },
   {
-    "revision": "8a5bf71399bf018ac203",
+    "revision": "b7dab600ff4962667f0b",
     "url": "/revanix/static/css/2.dab1318e.chunk.css"
   },
   {
-    "revision": "fa5edc20a854d00b9f9a",
-    "url": "/revanix/static/css/main.32b42d32.chunk.css"
+    "revision": "5cc25fb3b448094c35e4",
+    "url": "/revanix/static/css/main.fedecf36.chunk.css"
   },
   {
-    "revision": "8a5bf71399bf018ac203",
-    "url": "/revanix/static/js/2.409b16f1.chunk.js"
+    "revision": "b7dab600ff4962667f0b",
+    "url": "/revanix/static/js/2.3e47596e.chunk.js"
   },
   {
     "revision": "decce99726dd73611a86550065ac1ed7",
-    "url": "/revanix/static/js/2.409b16f1.chunk.js.LICENSE.txt"
+    "url": "/revanix/static/js/2.3e47596e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa5edc20a854d00b9f9a",
-    "url": "/revanix/static/js/main.eecbf416.chunk.js"
+    "revision": "5cc25fb3b448094c35e4",
+    "url": "/revanix/static/js/main.16181aa4.chunk.js"
   },
   {
     "revision": "5bec5e2e4c5612a65d51",
     "url": "/revanix/static/js/runtime-main.21e8e058.js"
+  },
+  {
+    "revision": "d54614d4cac92fb0707b649e6e0e54ba",
+    "url": "/revanix/static/media/AdobeStock_208124828_Preview.d54614d4.jpeg"
+  },
+  {
+    "revision": "06c58c84c23ea3492b2a54668df77782",
+    "url": "/revanix/static/media/AdobeStock_216414046_Preview.06c58c84.jpeg"
+  },
+  {
+    "revision": "fe2cd9e8cc6ef5103ac0c2e58c0f3680",
+    "url": "/revanix/static/media/AdobeStock_297494717_Preview.fe2cd9e8.jpeg"
   },
   {
     "revision": "d1ad886d28d24987d3998ac7fa016952",
@@ -126,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "de6b0416604e63a365755c432dbe3072",
     "url": "/revanix/static/media/rigid-endoscope.de6b0416.png"
+  },
+  {
+    "revision": "6ef6acf8a4465dd2bb32c603d558154a",
+    "url": "/revanix/static/media/stock.6ef6acf8.png"
   },
   {
     "revision": "ec46d0c520479f1054855390c997d515",

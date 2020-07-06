@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/revanix/static/css/main.32b42d32.chunk.css",
-    "main.js": "/revanix/static/js/main.eecbf416.chunk.js",
-    "main.js.map": "/revanix/static/js/main.eecbf416.chunk.js.map",
+    "main.css": "/revanix/static/css/main.fedecf36.chunk.css",
+    "main.js": "/revanix/static/js/main.16181aa4.chunk.js",
+    "main.js.map": "/revanix/static/js/main.16181aa4.chunk.js.map",
     "runtime-main.js": "/revanix/static/js/runtime-main.21e8e058.js",
     "runtime-main.js.map": "/revanix/static/js/runtime-main.21e8e058.js.map",
     "static/css/2.dab1318e.chunk.css": "/revanix/static/css/2.dab1318e.chunk.css",
-    "static/js/2.409b16f1.chunk.js": "/revanix/static/js/2.409b16f1.chunk.js",
-    "static/js/2.409b16f1.chunk.js.map": "/revanix/static/js/2.409b16f1.chunk.js.map",
+    "static/js/2.3e47596e.chunk.js": "/revanix/static/js/2.3e47596e.chunk.js",
+    "static/js/2.3e47596e.chunk.js.map": "/revanix/static/js/2.3e47596e.chunk.js.map",
     "index.html": "/revanix/index.html",
-    "precache-manifest.bc357d4a421e0fedec7f433f7e484c53.js": "/revanix/precache-manifest.bc357d4a421e0fedec7f433f7e484c53.js",
+    "precache-manifest.705cd083523d20e4d821edcc5e02fcb5.js": "/revanix/precache-manifest.705cd083523d20e4d821edcc5e02fcb5.js",
     "service-worker.js": "/revanix/service-worker.js",
     "static/css/2.dab1318e.chunk.css.map": "/revanix/static/css/2.dab1318e.chunk.css.map",
-    "static/css/main.32b42d32.chunk.css.map": "/revanix/static/css/main.32b42d32.chunk.css.map",
-    "static/js/2.409b16f1.chunk.js.LICENSE.txt": "/revanix/static/js/2.409b16f1.chunk.js.LICENSE.txt",
+    "static/css/main.fedecf36.chunk.css.map": "/revanix/static/css/main.fedecf36.chunk.css.map",
+    "static/js/2.3e47596e.chunk.js.LICENSE.txt": "/revanix/static/js/2.3e47596e.chunk.js.LICENSE.txt",
+    "static/media/AdobeStock_208124828_Preview.jpeg": "/revanix/static/media/AdobeStock_208124828_Preview.d54614d4.jpeg",
+    "static/media/AdobeStock_216414046_Preview.jpeg": "/revanix/static/media/AdobeStock_216414046_Preview.06c58c84.jpeg",
+    "static/media/AdobeStock_297494717_Preview.jpeg": "/revanix/static/media/AdobeStock_297494717_Preview.fe2cd9e8.jpeg",
     "static/media/cables.png": "/revanix/static/media/cables.d1ad886d.png",
     "static/media/circles.png": "/revanix/static/media/circles.9cfc282c.png",
     "static/media/davinci.png": "/revanix/static/media/davinci.c98f43e9.png",
@@ -39,6 +42,7 @@
     "static/media/pumps1.png": "/revanix/static/media/pumps1.e2b78ed7.png",
     "static/media/pumps2.png": "/revanix/static/media/pumps2.acbfa5ff.png",
     "static/media/rigid-endoscope.png": "/revanix/static/media/rigid-endoscope.de6b0416.png",
+    "static/media/stock.png": "/revanix/static/media/stock.6ef6acf8.png",
     "static/media/teaching.jpg": "/revanix/static/media/teaching.ec46d0c5.jpg",
     "static/media/tv.png": "/revanix/static/media/tv.be7371e7.png",
     "static/media/ultrasound.jpg": "/revanix/static/media/ultrasound.aa98f06a.jpg",
@@ -53,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.21e8e058.js",
     "static/css/2.dab1318e.chunk.css",
-    "static/js/2.409b16f1.chunk.js",
-    "static/css/main.32b42d32.chunk.css",
-    "static/js/main.eecbf416.chunk.js"
+    "static/js/2.3e47596e.chunk.js",
+    "static/css/main.fedecf36.chunk.css",
+    "static/js/main.16181aa4.chunk.js"
   ]
 }
