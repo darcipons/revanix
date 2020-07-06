@@ -34,17 +34,11 @@
 .toolbar_nav_items li {
   padding: 0 1rem;
   list-style: none;
-  display: flex;
 }
 
 .toolbar_nav_items ul li a {
   color: black;
   text-decoration: none;
-}
-
-.toolbar_nav_items a:hover,
-.toolbar_nav_items a:active {
-  color: #472a8e;
 }
 
 
@@ -59,18 +53,4 @@
     display: none;
   }
 }
-/* 
-.nav_bar {
-  z-index: 11;
-  box-shadow: 0 0 7px -1px;
-}
 
-.nav_bar_items {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
-} */
-
-/* .dropdown {
-  font-size: 20px;
-} */
