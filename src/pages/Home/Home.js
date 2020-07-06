@@ -13,13 +13,15 @@ import Award from './award.png'
 import Touch from './touch.png'
 import Tv from './tv.png'
 import Testimonial from './../../components/Testimonial/Testimonial'
+import Header from './../../components/Header/Header'
 import './Home.css'
 
 const Home = () => {
   return (
     <>
     <div className='home_main_image'>
-      <div className='home_intro_text'>
+      <Header />
+      {/* <div className='home_intro_text'>
         <div className='home_intro_title'>Certified Medical Equipment Repairs</div>
         <div className='home_intro_location'>Located in California and Florida</div>
         <div className='home_intro_description'>The World Leader in Biomedical and Surgical    Repairs 
@@ -28,7 +30,7 @@ const Home = () => {
           <img src={Iso} alt='iso certificate' className='intro_iso'></img>
           <img src={Iso2} alt='iso certificate' className='intro_iso'></img>
         </div>
-      </div>
+      </div> */}
     </div>
 
     <div className='icon_services_container'>
