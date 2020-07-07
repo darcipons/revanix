@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {withRouter} from 'react-router-dom'
 import './Services.css'
 
-const services = ['Service Agreement/Contact', 'Education', 'Referbished Equipment Sale', 'Easy Track', 'Career']
+const services = ['Service Agreement and Contract', 'Education', 'Refurbished Equipment Sale', 'Easy Track', 'Career']
 
 class Service extends Component {
   constructor() {
