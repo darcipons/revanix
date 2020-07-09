@@ -4,8 +4,8 @@ import Teaching from './teaching.jpg'
 function Education () {
   return (
     <div>
-      <div className='career_header_container'>
-        <div className='career_title'>Education</div>
+      <div className='top_title_container'>
+        <div className='top_title'>Education</div>
       </div>
 
       <div className='contact_help_container'>

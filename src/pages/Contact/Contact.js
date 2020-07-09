@@ -8,9 +8,9 @@ const Contact = () => {
   return (
     <div>
     
-      <div className='contact_title_container'>
-        <div className='contact_title'>Contact Us</div>
-        <div className='contact_description'>Our goal is to provide the highest level of quality</div>
+      <div className='top_title_container'>
+        <div className='top_title'>Contact Us</div>
+        <div className='top_description'>Our goal is to provide the highest level of quality</div>
         <div className='contact_iso_container'>
           <img src={Iso} alt='iso certificate' className='contact_iso'></img>
           <img src={Iso2} alt='iso certificate' className='contact_iso'></img>

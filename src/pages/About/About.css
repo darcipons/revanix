@@ -1,4 +1,4 @@
-.about_title_container {
+.top_title_container {
   background: linear-gradient(0deg, #8974b6,rgb(2, 28, 51));
   padding-top: 13%;
   padding-bottom: 9%;
@@ -6,11 +6,12 @@
   color: white;
 }
 
-.about_title {
+.top_title {
   font-size: 70px;
+  font-weight: bold;
 }
 
-.about_description {
+.top_description {
   font-size: 50px;
 }
 
@@ -223,3 +224,79 @@
 .text_.white {
   color: #F1F1F1;
 }
+
+/* iphone x */
+@media only screen and (min-width: 375px) {
+  .about_title_container {
+    padding-top: 8rem;
+  }
+  .about_title {
+    font-size: 25px;
+  }
+
+  .about_description {
+    font-size: 20px;
+  }
+
+  .about_us_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_us_img_container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .about_us_title {
+    font-size: 30px;
+  }
+
+  .about_us_description {
+    font-size: 20px;
+  }
+
+  .about_commitment_title {
+    font-size: 23px;
+  }
+
+  .about_commitment {
+    font-size: 20px;
+  }
+
+  .capabilites_title {
+    font-size: 25px;
+  }
+
+  .capabilites_num_container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .cc {
+    margin-bottom: 2rem;
+  } 
+
+  .text_ {
+    font-size: 23px;
+  }
+}
+
+/* iphone 5-6 and pluses */
+@media only screen and (min-width: 414px) { 
+  
+} 
+
+/* ipad */ 
+@media only screen and (min-width: 768px) { 
+
+}
+   
+
+/* ipad pro */
+@media only screen and (min-width: 1024px) {
+  
+} 
+
+

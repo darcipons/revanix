@@ -7,9 +7,9 @@ import './About.css'
 const About = () => {
   return (
     <div>
-      <div className='about_title_container'>
-        <div className='about_title'>About Us</div>
-        <div className='about_description'>The World Leader in Biomedical and Surgical Repairs</div>
+      <div className='top_title_container'>
+        <div className='top_title'>About Us</div>
+        <div className='top_description'>The World Leader in Biomedical and Surgical Repairs</div>
       </div>
 
       <div className='about_us_container'>
@@ -51,41 +51,41 @@ const About = () => {
         </div>
 
         <div className='capabilites_num_container'>
-          <div className='capabilities_experts_container'>
-            <div className='experts_num'>15</div>
-            <div className='experts_title'>Repair Experts</div>
+          <div className='capabilities_experts_container cc'>
+            <div className='experts_num text_'>15</div>
+            <div className='experts_title text_'>Repair Experts</div>
           </div>
 
-          <div className='capabilities_experience_container'>
-            <div className='experience_num'>25</div>
-            <div className='experience_title'>Years of Experience</div>
+          <div className='capabilities_experience_container cc'>
+            <div className='experience_num text_'>25</div>
+            <div className='experience_title text_'>Years of Experience</div>
           </div>
 
-          <div className='capabilities_clients_container'>
-            <div className='clients_num'>2</div>
-            <div className='clients_title'>Locations</div>
+          <div className='capabilities_clients_container cc'>
+            <div className='clients_num text_'>2</div>
+            <div className='clients_title text_' >Locations</div>
           </div>
 
-          <div className='capabilities_time_container'>
+          <div className='capabilities_time_container cc' >
             <div className='text_'>Fastest Turnaround Times</div>
           </div>
 
-          <div className='capabilities_wws_container'>
+          <div className='capabilities_wws_container cc'>
             <div className='text_ white'>Worldwide Services</div>
-            <div className='capabilities_icon'><i class="las la-globe-americas la-9x" ></i></div>
+            <div className='capabilities_icon'><i class="las la-globe-americas la-9x cc_icon" ></i></div>
           </div>
 
-          <div className='capabilities_estimates_container'>
+          <div className='capabilities_estimates_container cc'>
             <div className='text_'>Free Inspections & Estimates</div>
           </div>
 
-          <div className='capabilities_exceptional_container'>
+          <div className='capabilities_exceptional_container cc'>
             <div className='text_'>Exceptional Customer Service</div>
           </div>
 
-          <div className='capabilities_shipping_container'>
+          <div className='capabilities_shipping_container cc'>
             <div className='text_'>Free Shipping</div>
-            <div><i class="las la-shipping-fast la-9x"></i> </div>
+            <div><i class="las la-shipping-fast la-9x cc_icon"></i> </div>
           </div>
         </div>
 

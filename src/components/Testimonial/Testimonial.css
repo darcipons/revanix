@@ -23,8 +23,24 @@
   font-weight: bold;
 }
 
+/* iphone x */
+@media only screen and (min-width: 375px) {
+  .testimonial_description {
+    font-size: 18px;
+    padding: 1rem;
+  }
+
+  .testimonial_name {
+    font-size: 18px;
+  }
+
+  .testimonial_location {
+    font-size: 15px;
+  }
+}
+
 /* iphone 5-6 and pluses */
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 414px) {
   .testimonial_description {
     font-size: 18px;
     padding: 1rem;
@@ -40,7 +56,7 @@
 }
 
 /* ipad  */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .testimonial_description {
     font-size: 25px;
   }

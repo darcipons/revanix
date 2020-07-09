@@ -5,8 +5,8 @@ import './Career.css'
 function Career () {
   return (
     <div>
-      <div className='career_header_container'>
-        <div className='career_title'>Careers at Revanix Biomedical</div>
+      <div className='top_title_container'>
+        <div className='top_title'>Careers at Revanix Biomedical</div>
       </div>
 
         <div className='career_positions'>Open Positions</div>
