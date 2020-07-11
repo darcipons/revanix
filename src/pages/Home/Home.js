@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
-import Iso from '../../images/iso.png'
-import Iso2 from '../../images/iso2.png'
+// import Iso from '../../images/iso.png'
+// import Iso2 from '../../images/iso2.png'
 // import Logo from '../../images/logo.png'
 // import Chemist from './chemist.jpg'
 // import Seth2 from './steth2.jpg'
@@ -14,6 +14,9 @@ import Touch from './touch.png'
 import Tv from './tv.png'
 import Testimonial from './../../components/Testimonial/Testimonial'
 import Header from './../../components/Header/Header'
+// import Animista, {AnimistaTypes} from "react-animista";
+// import { bounce } from 'react-animations'
+// import {ScrollAnimation} from 'react-animate-on-scroll';
 import './Home.css'
 
 const Home = () => {
@@ -49,10 +52,10 @@ const Home = () => {
 
       <div className='services_container'>
         <div className='services_sub_container1'>
-          <div className='services_title'>WHY CHOOSE US</div>
+          <div className='services_title'>WHY CHOOSE US</div> 
           <div className='services_description'>
               <ul>
-                <li>Worldwide superior repair services</li>
+                <li className="animate__animated animate__bounce">Worldwide superior repair services</li>
                 <li>Professionally trained technicians</li>
                 <li>Free loaners</li>
                 <li>Free shipping</li>

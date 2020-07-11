@@ -11,13 +11,11 @@ button:focus {
 }
 
 .service_dropdown_container {
-  width: 45rem;
+  width: 20rem;
   font-weight: 200;
-  background-color :#472a8e;
   position: absolute;
   z-index: 999;
   color: white; 
-  border-radius: 6px;
   margin-top: 10px;
 }
 
@@ -37,7 +35,7 @@ button:focus {
   padding: 15px !important;
   transition: background-color ease-in-out 300ms, color ease-in-out 300ms !important;
   width: 20rem;
-  background-color: #472a8e;
+  background-color: #625a8f;
   color: white;
   border: transparent;
   text-align: left;

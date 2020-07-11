@@ -41,7 +41,6 @@ class Service extends Component {
     const titles = JSON.parse(JSON.stringify(section_titles))
 
     return (
-
       <div className='service_container'>
         {titles.map((title) => this.renderListItem(title) )}
       </div>

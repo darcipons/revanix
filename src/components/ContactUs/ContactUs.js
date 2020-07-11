@@ -40,8 +40,7 @@ const ContactUs = () => {
         <div className='contact_form'>
           <FormBox />
         </div>
-
-    </div>
+      </div>
     </>
   )
 }

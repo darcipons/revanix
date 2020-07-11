@@ -20,7 +20,7 @@ const Easy = () => {
       </div>
 
       <div className='easy_title'>
-        Easy-Tack Allows You To:
+        Easy-Track Allows You To:
       </div>
 
       <div className='easy_middle_container'>

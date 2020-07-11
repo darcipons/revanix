@@ -1,6 +1,10 @@
 import React from 'react'
 import Office from './office-group.jpg'
 import Bullet from './bullet.png'
+import Customer from './customerService.png'
+import Time from './clock.png'
+import Estimates from './estimates.png'
+import Animista, {AnimistaTypes} from "react-animista";
 import './About.css'
 
 
@@ -46,28 +50,32 @@ const About = () => {
       
 
         <div className='our_capabilites'>
+        <Animista type={AnimistaTypes.SCALE_UP_HOR_CENTER} delay='0.3s'>
           <div className='capabilites_title'>Revanix Advantages</div>
+        </Animista>
           <div className='capabilites_line'></div>
         </div>
 
         <div className='capabilites_num_container'>
           <div className='capabilities_experts_container cc'>
-            <div className='experts_num text_'>15</div>
+            <div className='experts_num'>15</div>
             <div className='experts_title text_'>Repair Experts</div>
           </div>
 
           <div className='capabilities_experience_container cc'>
-            <div className='experience_num text_'>25</div>
+            <div className='experience_num'>25</div>
             <div className='experience_title text_'>Years of Experience</div>
           </div>
 
           <div className='capabilities_clients_container cc'>
-            <div className='clients_num text_'>2</div>
+            <div className='clients_num'>2</div>
             <div className='clients_title text_' >Locations</div>
           </div>
 
           <div className='capabilities_time_container cc' >
             <div className='text_'>Fastest Turnaround Times</div>
+            <div className='capabilities_icon'><img src={Time} alt='Estimates Icon' className='iconn_'/></div>
+
           </div>
 
           <div className='capabilities_wws_container cc'>
@@ -77,15 +85,17 @@ const About = () => {
 
           <div className='capabilities_estimates_container cc'>
             <div className='text_'>Free Inspections & Estimates</div>
+            <div className='capabilities_icon'><img src={Estimates} alt='Estimates Icon' className='iconn_'/></div>
           </div>
 
           <div className='capabilities_exceptional_container cc'>
             <div className='text_'>Exceptional Customer Service</div>
+            <div className='capabilities_icon'><img src={Customer} alt='Estimates Icon' className='iconn_2'/></div>
           </div>
 
           <div className='capabilities_shipping_container cc'>
             <div className='text_'>Free Shipping</div>
-            <div><i class="las la-shipping-fast la-9x cc_icon"></i> </div>
+            <div className='capabilities_icon ship'><i class="las la-shipping-fast la-9x cc_icon"></i> </div>
           </div>
         </div>
 

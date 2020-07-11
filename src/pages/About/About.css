@@ -185,6 +185,11 @@
 
 .capabilities_icon {
   color: white;
+  margin-top: 2rem;
+}
+
+.capabilities_icon.ship {
+  color: black;
 }
 
 .capabilities_estimates_container {
@@ -193,7 +198,7 @@
   background-color: #8974b6;
   border-radius: 3px;
   text-align: center;
-  padding: 7% 0 8% 0;
+  padding: 7% 2rem 8% 2rem;
   box-shadow: 0 0 7px -1px;
 }
 
@@ -225,8 +230,15 @@
   color: #F1F1F1;
 }
 
+.iconn_ {
+  width: 20%;
+}
+
+.iconn_2 {
+  width: 10%;
+}
 /* iphone x */
-@media only screen and (min-width: 375px) {
+/* @media only screen and (min-width: 375px) {
   .about_title_container {
     padding-top: 8rem;
   }
@@ -281,22 +293,22 @@
   .text_ {
     font-size: 23px;
   }
-}
+} */
 
 /* iphone 5-6 and pluses */
-@media only screen and (min-width: 414px) { 
+/* @media only screen and (min-width: 414px) { 
   
-} 
+}  */
 
 /* ipad */ 
-@media only screen and (min-width: 768px) { 
+/* @media only screen and (min-width: 768px) { 
 
-}
+} */
    
 
 /* ipad pro */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   
-} 
+}  */
 
 

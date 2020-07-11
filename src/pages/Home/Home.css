@@ -175,7 +175,7 @@
 }
 
 /* iphone x */
-@media only screen and (min-width: 375px) {
+/* @media only screen and (min-width: 375px) {
   .icon_container {
     display: none;
   }
@@ -222,10 +222,10 @@
   .testimonial_title {
     font-size: 20px;
   } 
-}
+} */
 
 /* iphone 5-6 and pluses */
-@media only screen and (min-width: 414px) { 
+/* @media only screen and (min-width: 414px) { 
   .icon_container {
     display: none;
   }
@@ -277,10 +277,10 @@
   .testimonial_actual {
     font-size: 20px;
   }
-} 
+}  */
 
 /* ipad */ 
-@media only screen and (min-width: 768px) { 
+/* @media only screen and (min-width: 768px) { 
   .services_title {
     font-size: 40px;
   }
@@ -296,11 +296,11 @@
   .home_about_description {
     font-size: 18px;
   }
-}
+} */
    
 
 /* ipad pro */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .testimonial_title {
     font-size: 50px;
   }
@@ -338,5 +338,5 @@
   .home_about_description {
     font-size: 20px;
   }
-} 
+}  */
 

@@ -1,3 +1,10 @@
+.contact_us_top_container {
+  padding-top: 13%;
+  padding-bottom: 9%;
+  text-align: center;
+  color: white;
+}
+
 .contact_iso_container {
   display: flex;
   justify-content: center;
@@ -38,4 +45,17 @@
 
 .contact_text_description {
   font-size: 25px;
+}
+
+.contact_us_container_page {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr;
+  padding-bottom: 4rem;
+}
+
+.contact_us_line_page {
+  border-bottom: solid;
+  border-width: 1%;
+  border-color: black;
+  width: 40%;
 }
