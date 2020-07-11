@@ -11,7 +11,7 @@ const DentalHand = () => {
       </div>
 
       <div className='rigid_repair_services_container'>
-        <div className='rigid_repair_services_title'>Dental Handpieces Services</div>
+        <div className='rigid_repair_services_title'>Dental Handpieces Repair Services</div>
         <div className='rigid_repair_services_description'>Revanix Biomedical's wide selection of dental handpiece repairs are designed to meet all your dental practice needs. </div>
       </div>
 

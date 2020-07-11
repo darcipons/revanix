@@ -10,11 +10,10 @@ const Endoeye = () => {
     <div>
        <div className='rigid_header_container'>
           <div className='rigid_title'>Specialty Systems</div>
-          {/* <div className='rigid_repair_description'>Revanix Biomedical will provide a cost-effective means of servicing and repairing your ultrasound systems without the risk of downtime or lost revenue. </div> */}
         </div>
 
         <div className='rigid_repair_services_container'>
-          <div className='rigid_repair_services_title'>Specialty Systems Services</div>
+          <div className='rigid_repair_services_title'>Specialty Systems Repair Services</div>
           <div className='rigid_repair_services_description'> Revanix Biomedical includes a rapid response on our specialty repairs for all types of special use equipment such as phaco handpieces, diamond knives, bovie cords and divinci scopes that minimize your equipment down time with our high standard repairs and our  customer service.  </div>
         </div>
 

@@ -11,7 +11,7 @@ const VideoEquipment = () => {
         </div>
        
       <div className='rigid_repair_services_container'>
-        <div className='rigid_repair_services_title'>Video Equipment Services</div>
+        <div className='rigid_repair_services_title'>Video Equipment Repair Services</div>
         <div className='rigid_repair_services_description'>Revanix  Biomedical recognizes the importance of video equipment in a surgical environment, our services serve a wide range of surgical cameras, couplers and related equipment. Almost 99% of all power equipment repairs are due to fluid invasion our exceptional level of quality repair demonstrates only the best maintenance for your needs </div>
       </div>
 
@@ -42,7 +42,10 @@ const VideoEquipment = () => {
             <div className='advan_title video'>Revanix Advantages </div>
             <div className='advan_list video'>
               <ul>
-                <li>Free Loaners </li>
+                <li>Free Loaners</li>
+                <li>Free Evaluations</li>
+                <li>Free Estimates</li>
+                <li>Quick Turnaround Time</li>
               </ul>
             </div>
           </div>

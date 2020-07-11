@@ -40,6 +40,8 @@ const InfusionPumps = () => {
                 <li>Flat Rate Prices</li>
                 <li>Free Evaluations And Repair Quotes</li>
                 <li>PM's</li>
+                <li>Free Loaners</li>
+                <li>Quick Turnaround Time</li>
               </ul>
             </div>
           </div>

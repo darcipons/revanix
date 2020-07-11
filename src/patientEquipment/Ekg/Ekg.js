@@ -58,7 +58,8 @@ const Ekg = () => {
               <ul>
                 <li>Free Evaluations</li>
                 <li>Free Estimates</li>
-                <li>Quality of Repairs Guaranteed</li>
+                <li>Free Loaners</li>
+                <li>Quick Turnaround Times</li>
               </ul>
             </div>
           </div>

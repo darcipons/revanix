@@ -33,6 +33,8 @@ const Footpedal = () => {
               <ul>
                 <li>Free Evaluations</li>
                 <li>Free Estimates</li>
+                <li>Free Loaners</li>
+                <li>Quick Turnaround Time</li>
                 <li>Flat Rate Price: $495</li>
               </ul>
             </div>

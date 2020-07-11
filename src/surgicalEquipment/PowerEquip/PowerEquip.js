@@ -7,11 +7,10 @@ function PowerEquip () {
     <div>
       <div className='rigid_header_container'>
         <div className='rigid_title'>Power Equipment</div>
-        {/* <div className='rigid_repair_description'>Revanix Biomedical repair all rigid types of endoscopes and Specialty Scopes. And to the OEM specifications when needed.</div> */}
       </div>
 
       <div className='rigid_repair_services_container'>
-        <div className='rigid_repair_services_title'>Power Equipment Services</div>
+        <div className='rigid_repair_services_title'>Power Equipment Repair Services</div>
         <div className='rigid_repair_services_description'> Revanix Biomedical has the capability to repair all types of surgical drills, saws, console shavers, ESU’s  and more. Our in-house repair derives from collaboration from the highly supportive technical team and customers for exceptional repairs with quick turnaround time </div>
       </div>
 

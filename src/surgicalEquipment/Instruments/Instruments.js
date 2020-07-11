@@ -10,7 +10,7 @@ function Instruments () {
       </div>
 
       <div className='rigid_repair_services_container'>
-        <div className='rigid_repair_services_title'>Instrument Services</div>
+        <div className='rigid_repair_services_title'>Instrument Repair Services</div>
         <div className='rigid_repair_services_description'>Revanix Biomedical understands surgical instruments have a wide vary of manufacturers, many makes and models, and many parts for many purposes. Our services will demonstrate quick turnaround time and pricing that will leave the quality of repair exceptional. </div>
       </div>
 
@@ -37,6 +37,7 @@ function Instruments () {
         <div className='advan_title instrument'>Revanix Advantages </div>
         <div className='advan_list instrument'>
           <ul>
+            <li>Free Loaners</li>
             <li>Free Evaluations</li>
             <li>Free Estimates</li>
             <li>Quick Turnaround Time</li>
