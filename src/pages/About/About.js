@@ -1,9 +1,11 @@
 import React from 'react'
 import Office from './office-group.jpg'
 import Bullet from './bullet.png'
-import Customer from './customerService.png'
+import Customer from './customer.png'
 import Time from './clock.png'
 import Estimates from './estimates.png'
+import World from './world.png'
+import Shipping from './shipping.png'
 import Animista, {AnimistaTypes} from "react-animista";
 import './About.css'
 
@@ -80,7 +82,7 @@ const About = () => {
 
           <div className='capabilities_wws_container cc'>
             <div className='text_ white'>Worldwide Services</div>
-            <div className='capabilities_icon'><i class="las la-globe-americas la-9x cc_icon" ></i></div>
+            <div className='capabilities_icon'><img src={World} alt='Estimates Icon' className='iconn_'/></div>
           </div>
 
           <div className='capabilities_estimates_container cc'>
@@ -95,7 +97,7 @@ const About = () => {
 
           <div className='capabilities_shipping_container cc'>
             <div className='text_'>Free Shipping</div>
-            <div className='capabilities_icon ship'><i class="las la-shipping-fast la-9x cc_icon"></i> </div>
+            <div className='capabilities_icon'><img src={Shipping} alt='Estimates Icon' className='iconn_'/></div>
           </div>
         </div>
 
