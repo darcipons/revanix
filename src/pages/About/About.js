@@ -7,8 +7,8 @@ import Estimates from './estimates.png'
 import World from './world.png'
 import Shipping from './shipping.png'
 import Animista, {AnimistaTypes} from "react-animista";
+import { Spring } from 'react-spring/renderprops'
 import './About.css'
-
 
 const About = () => {
   return (
@@ -24,11 +24,23 @@ const About = () => {
         </div>
 
         <div className='about_us_description_container'>
-          <div className='about_us_title'>Who We Are</div>
+        <Spring
+            from={{ opacity: 0 }}
+            to={{ opacity: 1 }}
+            config={{ delay: 1000, duration: 1000 }}
+          >
+            { props => ( <div style={props} className='about_us_title'>Who We Are</div> )}
+          </Spring>
           <div className='about_us_description'>Revanix Biomedical is a privately held company with over 25 years of combined experience in the medical repair industry and provides services worldwide. As a leading international medical device repair company, Revanix Biomedical is dedicated to provide the highest quality products and services in the most cost-effective manner. The entire Revanix Biomedical team has a strong commitment to excellence.</div>
 
           <div className='about_us_commitment'>
-            <div className='about_commitment_title'>Our commitment to you: </div>
+          <Spring
+            from={{ opacity: 0 }}
+            to={{ opacity: 1 }}
+            config={{ delay: 2000, duration: 1000 }}
+          >
+            { props => ( <div style={props} className='about_commitment_title'>Our commitment to you:</div> )}
+          </Spring>
             <div className='about_commitment'>
               <img src={Bullet} alt='bullet point' className='bullet_point'/>
               <strong>Honesty </strong>- Always telling the truth during the service and repair process, never mislead. Always make recommendations by order of priority of customers so they can plan for future service needs.
@@ -49,12 +61,10 @@ const About = () => {
         </div>
       </div>
 
-      
-
         <div className='our_capabilites'>
-        <Animista type={AnimistaTypes.SCALE_UP_HOR_CENTER} delay='0.3s'>
-          <div className='capabilites_title'>Revanix Advantages</div>
-        </Animista>
+          <Animista type={AnimistaTypes.SCALE_UP_HOR_CENTER} delay='0.3s'>
+            <div className='capabilites_title'>Revanix Advantages</div>
+          </Animista>
           <div className='capabilites_line'></div>
         </div>
 

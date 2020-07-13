@@ -6,6 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "animate.css/animate.min.css";
 
+
 ReactDOM.render(
 <BrowserRouter>
   <App />
