@@ -1,14 +1,32 @@
 import React from 'react'
 import Office from './office-group.jpg'
+import Bullet from './bullet.png'
+import Customer from './customer.png'
+import Time from './clock.png'
+import Estimates from './estimates.png'
+import World from './world.png'
+import Shipping from './shipping.png'
+import Animista, {AnimistaTypes} from "react-animista";
+import { Spring } from 'react-spring/renderprops'
 import './About.css'
 
-
 const About = () => {
+
+  function animation(title) {
+    return <Spring
+    from={{ opacity: 0 }}
+    to={{ opacity: 1 }}
+    config={{ delay: 1000, duration: 1000 }}
+    >
+    { props => ( <div style={props} >{title}</div> )}
+    </Spring>
+  }
+
   return (
     <div>
-      <div className='about_title_container'>
-        <div className='about_title'>About Us</div>
-        <div className='about_description'>The World Leader in Biomedical and Surgical Repairs</div>
+      <div className='top_title_container'>
+        <div className='top_title'>About Us</div>
+        <div className='top_description'>The World Leader in Biomedical and Surgical Repairs</div>
       </div>
 
       <div className='about_us_container'>
@@ -17,30 +35,78 @@ const About = () => {
         </div>
 
         <div className='about_us_description_container'>
-          <div className='about_us_title'>Who We Are</div>
+          <div className='about_us_title'>{animation('Who We Are')}</div>
           <div className='about_us_description'>Revanix Biomedical is a privately held company with over 25 years of combined experience in the medical repair industry and provides services worldwide. As a leading international medical device repair company, Revanix Biomedical is dedicated to provide the highest quality products and services in the most cost-effective manner. The entire Revanix Biomedical team has a strong commitment to excellence.</div>
+
+          <div className='about_us_commitment'>
+            <div className='about_commitment_title'>{animation('Our commitment to you:')}</div>
+            <div className='about_commitment'>
+              <img src={Bullet} alt='bullet point' className='bullet_point'/>
+              <strong>Honesty </strong>- Always telling the truth during the service and repair process, never mislead. Always make recommendations by order of priority of customers so they can plan for future service needs.
+            </div>
+            <div className='about_commitment'>
+              <img src={Bullet} alt='bullet point' className='bullet_point'/>
+              <strong>Integrity</strong> - Always doing the right thing, even when no one is watching. We build trust in our relationships through honest and ethical behavior.
+            </div>
+            <div className='about_commitment'>
+              <img src={Bullet} alt='bullet point' className='bullet_point'/>
+              <strong>Quality and Excellence</strong> - Set and achieve the highest standards in everything we do by using the best possible equipment, parts and personnel.
+            </div>
+            <div className='about_commitment'>
+              <img src={Bullet} alt='bullet point' className='bullet_point'/>
+              <strong>Team Work</strong> - We work together with you to make a difference.
+            </div>
+          </div>
         </div>
       </div>
 
         <div className='our_capabilites'>
-          <div className='capabilites_title'>Our Capabilities</div>
+          <Animista type={AnimistaTypes.SCALE_UP_HOR_CENTER} delay='0.3s'>
+            <div className='capabilites_title'>Revanix Advantages</div>
+          </Animista>
           <div className='capabilites_line'></div>
         </div>
 
         <div className='capabilites_num_container'>
-          <div className='capabilities_experts_container'>
-            <div className='experts_num'>12</div>
-            <div className='experts_title'>Repair Experts</div>
+          <div className='capabilities_experts_container cc'>
+            <div className='experts_num'>15</div>
+            <div className='experts_title text_'>Repair Experts</div>
           </div>
 
-          <div className='capabilities_experience_container'>
-            <div className='experience_num'>20</div>
-            <div className='experience_title'>Years of Experience</div>
+          <div className='capabilities_experience_container cc'>
+            <div className='experience_num'>25</div>
+            <div className='experience_title text_'>Years of Experience</div>
           </div>
 
-          <div className='capabilities_clients_container'>
-            <div className='clients_num'>3000</div>
-            <div className='clients_title'>Satisfied Clients</div>
+          <div className='capabilities_clients_container cc'>
+            <div className='clients_num'>2</div>
+            <div className='clients_title text_' >Locations</div>
+          </div>
+
+          <div className='capabilities_time_container cc' >
+            <div className='text_'>Fastest Turnaround Times</div>
+            <div className='capabilities_icon'><img src={Time} alt='Estimates Icon' className='iconn_'/></div>
+
+          </div>
+
+          <div className='capabilities_wws_container cc'>
+            <div className='text_ white'>Worldwide Services</div>
+            <div className='capabilities_icon'><img src={World} alt='Estimates Icon' className='iconn_'/></div>
+          </div>
+
+          <div className='capabilities_estimates_container cc'>
+            <div className='text_'>Free Inspections & Estimates</div>
+            <div className='capabilities_icon'><img src={Estimates} alt='Estimates Icon' className='iconn_'/></div>
+          </div>
+
+          <div className='capabilities_exceptional_container cc'>
+            <div className='text_'>Exceptional Customer Service</div>
+            <div className='capabilities_icon'><img src={Customer} alt='Estimates Icon' className='iconn_2'/></div>
+          </div>
+
+          <div className='capabilities_shipping_container cc'>
+            <div className='text_'>Free Shipping</div>
+            <div className='capabilities_icon'><img src={Shipping} alt='Estimates Icon' className='iconn_'/></div>
           </div>
         </div>
 

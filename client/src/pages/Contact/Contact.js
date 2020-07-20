@@ -1,36 +1,59 @@
 import React from 'react'
-import ContactUs from '../../components/ContactUs/ContactUs'
-import CustomerSupport from './customer-service.jpg'
+import Map from '../../components/Map/Map'
+import FormBox from '../../components/Form/Form'
 import Iso from '../../images/iso.png'
 import Iso2 from '../../images/iso2.png'
 import './Contact.css'
 
 const Contact = () => {
+  let flLat = 26.269711
+  let flLong = -80.260872
+  let caLat = 33.740570
+  let caLong = -118.024520
   return (
     <div>
     
-      <div className='contact_title_container'>
-        <div className='contact_title'>Contact Us</div>
-        <div className='contact_description'>Our goal is to provide the highest level of quality</div>
+      <div className='contact_us_top_container'>
+        <div className='top_title'>Contact Us</div>
+        <div className='top_description'>Our goal is to provide the highest level of quality service</div>
         <div className='contact_iso_container'>
           <img src={Iso} alt='iso certificate' className='contact_iso'></img>
           <img src={Iso2} alt='iso certificate' className='contact_iso'></img>
         </div>
       </div>
+    
+      <div className='contact_us'>
+      <div className='contact_us_container_page'>
+        <div className='info_container'>
+          <div className='florida_address'>
+            <div className='state'>World Headquarters</div>
+            <div className='contact_us_line_page'></div>
+            <div className='address'>10139 NW 31st Street, Suite 102</div>
+            <div className='street'>Coral Springs, FL 33065</div>
+            <Map latitude={flLat} longitude={flLong}/>
 
-      <div className='contact_help_container'>
-        <div className='contact_help_img_container'> 
-          <img src={CustomerSupport} alt='woman on phone' className='contact_help_img'></img>
+          </div>
+
+          <div className='california_address'>
+            <div className='state'>West Coast Zone Office </div>
+            <div className='contact_us_line_page'></div>
+            <div className='address'>15171 Springdale Street</div>
+            <div className='street'>Huntington Beach, CA 92649</div>
+            <Map latitude={caLat} longitude={caLong}/>
+          </div>
+
+          <div className='email_phone_fax'>
+            <div>info@revanixbiomedical.com </div>
+            <div>Toll Free: 1 (844) 308-2550</div>
+            <div>Phone: (754) 529-8383</div>
+            <div>Fax: (754) 529-8384</div>
+          </div>
         </div>
 
-        <div className='contact_text_container'>
-          <div className='contact_text_title'>We're Here to Help!</div>
-          <div className='contact_text_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Quisque non tellus orci ac auctor augue. Aliquam etiam erat velit scelerisque.</div>
+        <div className='contact_form'>
+          <FormBox />
         </div>
       </div>
-    
-      <div className='contactus'>
-       <ContactUs />
       </div>
     </div>
   )

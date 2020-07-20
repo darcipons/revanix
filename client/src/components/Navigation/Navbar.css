@@ -34,17 +34,11 @@
 .toolbar_nav_items li {
   padding: 0 1rem;
   list-style: none;
-  display: flex;
 }
 
 .toolbar_nav_items ul li a {
   color: black;
   text-decoration: none;
-}
-
-.toolbar_nav_items a:hover,
-.toolbar_nav_items a:active {
-  color: #472a8e;
 }
 
 
@@ -57,5 +51,17 @@
 @media (min-width: 769px) {
   .toolbar_toggle_button{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) { 
+  .toolbar {
+    font-size: 20px;
+    height: 8%;
+  }
+
+  .toolbar_logo img {
+    width: 60%;
+    padding: 0;
   }
 }

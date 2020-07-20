@@ -1,4 +1,4 @@
-.about_title_container {
+.top_title_container {
   background: linear-gradient(0deg, #8974b6,rgb(2, 28, 51));
   padding-top: 13%;
   padding-bottom: 9%;
@@ -6,11 +6,12 @@
   color: white;
 }
 
-.about_title {
+.top_title {
   font-size: 70px;
+  font-weight: bold;
 }
 
-.about_description {
+.top_description {
   font-size: 50px;
 }
 
@@ -46,6 +47,26 @@
   font-size: 30px;
 }
 
+.about_commitment_title {
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.about_commitment {
+  font-size: 25px;
+  margin: 1rem;
+}
+
+.bullet_point {
+  width: 2rem;
+  margin-right: 1rem;
+  transition: transform .2s;
+}
+
+.bullet_point:hover {
+  transform: scale(1.5)
+}
+
 .capabilites_title {
   font-size: 50px;
   color: #8974b6;
@@ -58,25 +79,24 @@
   border-width: thin;
   border-color: black;
   width: 85%;
-  margin-left: 6%;
+  margin: 0 0 3% 6%;
 }
 
 .capabilites_num_container {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  margin-left: 6%;
-  margin-top: 3%;
+  grid-template-columns: .5fr 27% 27% 27% 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem 2rem;
 }
 
 .capabilities_experts_container {
-  grid-column: 1;
+  grid-column: 2;
+  grid-row: 1;
   display: grid;
-  grid-template-rows: 60% 40%;
+  grid-template-rows: 50% 40%;
   text-align: center;
   background-color: #8974b6;
-  padding-top: 7%;
-  padding-bottom: 8%;
-  margin-right: 5%;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -90,17 +110,17 @@
 .experts_title {
   grid-row: 2;
   font-size: 60px;
+  font-weight: bold;
 }
 
 .capabilities_experience_container {
-  grid-column: 2;
+  grid-column: 3;
+  grid-row: 1;
   display: grid;
   grid-template-rows: 50% 40%;
   text-align: center;
   background-color: darkgray;
-  padding-top: 7%;
-  padding-bottom: 8%;
-  margin-right: 5%;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -114,16 +134,17 @@
 .experience_title {
   grid-row: 2;
   font-size: 60px;
+  font-weight: bold;
 }
 
 .capabilities_clients_container {
-  grid-column: 3;
+  grid-column: 4;
+  grid-row: 1;
   display: grid;
-  grid-template-rows: 60% 40%;
-  text-align: center;
+  grid-template-rows: 50% 40%;
   background-color: #5d33bf;
-  padding-top: 7%;
-  padding-bottom: 8%;
+  text-align: center;
+  padding: 7% 0 8% 0;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
@@ -139,4 +160,155 @@
   grid-row: 2;
   font-size: 60px;
   color: #F1F1F1;
+  font-weight: bold;
 }
+
+.capabilities_time_container {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: darkgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_wws_container {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #5d33bf;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_icon {
+  color: white;
+  margin-top: 2rem;
+}
+
+.capabilities_icon.ship {
+  color: black;
+}
+
+.capabilities_estimates_container {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: #8974b6;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 2rem 8% 2rem;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_exceptional_container {
+  grid-area: 3 / 2 / 4 / 4; 
+  background-color: #8974b6;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.capabilities_shipping_container {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: darkgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7% 0 8% 0;
+  box-shadow: 0 0 7px -1px;
+}
+
+.text_ {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text_.white {
+  color: #F1F1F1;
+}
+
+.iconn_ {
+  width: 20%;
+}
+
+.iconn_2 {
+  width: 10%;
+}
+/* iphone x */
+/* @media only screen and (min-width: 375px) {
+  .about_title_container {
+    padding-top: 8rem;
+  }
+  .about_title {
+    font-size: 25px;
+  }
+
+  .about_description {
+    font-size: 20px;
+  }
+
+  .about_us_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_us_img_container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .about_us_title {
+    font-size: 30px;
+  }
+
+  .about_us_description {
+    font-size: 20px;
+  }
+
+  .about_commitment_title {
+    font-size: 23px;
+  }
+
+  .about_commitment {
+    font-size: 20px;
+  }
+
+  .capabilites_title {
+    font-size: 25px;
+  }
+
+  .capabilites_num_container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .cc {
+    margin-bottom: 2rem;
+  } 
+
+  .text_ {
+    font-size: 23px;
+  }
+} */
+
+/* iphone 5-6 and pluses */
+/* @media only screen and (min-width: 414px) { 
+  
+}  */
+
+/* ipad */ 
+/* @media only screen and (min-width: 768px) { 
+
+} */
+   
+
+/* ipad pro */
+/* @media only screen and (min-width: 1024px) {
+  
+}  */
+
+
