@@ -28,7 +28,7 @@ class FormBox extends Component {
 
     const { name, email, phone, subject, message } = this.state
 
-    const form = await axios.post('/api/form', {
+    await axios.post('/api/form', {
       name,
       email,
       phone,
@@ -64,7 +64,7 @@ class FormBox extends Component {
           </Form.Group>
 
           <ButtonToolbar>
-            <Button variant="primary" size="lg"> Submit </Button>
+            <Button variant="primary" size="lg" type="submit"> Submit </Button>
           </ButtonToolbar>
 
         </Form>
