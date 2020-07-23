@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactMapGL, {Marker} from 'react-map-gl';
 import LocationIcon from './icons8-region-48.png'
 import './Map.css'
+import 'mapbox-gl/src/css/mapbox-gl.css';
     
 class Map extends Component {
   constructor(props) {

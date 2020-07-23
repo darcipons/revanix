@@ -9,6 +9,11 @@
   justify-self: center;
 }
 
+.cables_img {
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+}
+
 .cables_description {
   grid-area: 1 / 3 / 2 / 4; 
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Phaco from './phaco.png'
-import DiamondKnives from './diamondKnives.png'
+import DiamondKnives from './diamonKnives.png'
 import Micro from './microInstruments.png'
 import Davinci from './davinci.png'
 import './Endoeye.css'

@@ -1,5 +1,5 @@
 import React from 'react';
-import Cables from './cables.png'
+import Cables from './cables1.png'
 import './PatientCables.css'
 
 const PatientCables = () => {
@@ -16,7 +16,7 @@ const PatientCables = () => {
 
         <div className='cables_container'>
           <div className='cables_img_container'>
-            <img src={Cables} alt='Patient Cables' />
+            <img src={Cables} alt='Patient Cables' className='cables_img' />
           </div>
 
           <div className='cables_description'>

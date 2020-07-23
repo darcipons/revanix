@@ -1,7 +1,11 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
-const XOAuth2 = require('nodemailer/lib/xoauth2')
+const { google } = require("googleapis");
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+const OAuth2 = google.auth.OAuth2;
 const app = express()
 
 app.use(bodyParser.json())
@@ -21,18 +25,24 @@ app.post('/api/form', (req, res) => {
       <p>${req.body.message}</p>
     `
 
+    const oauth2Client = new OAuth2(
+      process.env.GMAIL_CLIENTID,
+      process.env.GMAIL_CLIENTSECRET,
+      "https://developers.google.com/oauthplayground", // oauth playground url goes here. 
+    );
+    oauth2Client.setCredentials({
+      refresh_token: process.env.GMAIL_REFRESH_TOKEN,
+    });
+    const accessToken = oauth2Client.getAccessToken();
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
+      service: 'gmail',
       auth: {
           type:'OAuth2',
           user: "revanix.online.form@gmail.com",
-          pass: process.env.EMAIL_PASSWORD,
           clientId: process.env.GMAIL_CLIENTID,
           clientSecret: process.env.GMAIL_CLIENTSECRET,
           refreshToken: process.env.GMAIL_REFRESH_TOKEN,
-          accessToken: process.env.GMAIL_ACCESS_TOKEN,
+          accessToken: accessToken,
       }
     })
 
