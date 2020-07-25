@@ -1,11 +1,10 @@
 import React from 'react'
 import Carousel  from 'react-bootstrap/Carousel'
 import img1 from './header_img.png'
-import img2 from './locations.png'
-import img3 from './surgicalHeader.png'
-import img4 from './biomedicalHeader.png'
-import img5 from './locations3.png'
-import img6 from './locations2.png'
+import img2 from './locations2.png'
+import img3 from './scopeHeader.png'
+import img4 from './monitorHeader.png'
+
 
 const Header = () => {
   return(
@@ -22,7 +21,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={img6}
+            src={img2}
             alt="Third slide"
             height={900}
           />

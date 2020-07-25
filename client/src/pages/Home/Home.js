@@ -1,14 +1,6 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
-// import Iso from '../../images/iso.png'
-// import Iso2 from '../../images/iso2.png'
-// import Logo from '../../images/logo.png'
-// import Chemist from './chemist.jpg'
-// import Seth2 from './steth2.jpg'
-// import Doctors from './doctors.jpg'
-// import Lab from './lab.jpg'
-import Circles from './circles.png'
-// import Long from './long.jpg'
+import Purple from './purplePic.jpg'
 import Award from './award.png'
 import Touch from './touch.png'
 import Tv from './tv.png'
@@ -82,11 +74,21 @@ const Home = () => {
 
       <div className='home_about_us'>
         <div className='home_about_pic'>
-          <img src={Circles} alt='lab' className='description_pic'/>
+          <img src={Purple} alt='lab' className='description_pic'/>
         </div>
 
-        <div className='home_about_description'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div className='home_about_container'>
+          <div className='home_about_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <h3 className='signature_title'>Revanix Signature Repairs</h3>
+          <div className='signature_list'>
+            <ul>
+              <li>Flexible Endoscope</li>
+              <li>Rigid Endoscope</li>
+              <li>Patient Monitors</li>
+              <li>Fiber Optic Cable</li>
+            </ul>
+          </div>
         </div>
       </div>
 

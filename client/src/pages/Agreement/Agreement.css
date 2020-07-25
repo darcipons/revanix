@@ -27,6 +27,10 @@
   width: 100%;
 }
 
+.total_care_title.two {
+  margin-bottom: 2rem;
+}
+
 .benefits_container {
   display: grid;
   grid-template-columns: 10% 1fr 1fr 10%;
@@ -34,30 +38,16 @@
 }
 
 .benefits_description {
-  grid-column: 2;
   font-size: 30px;
   text-align: center;
-  padding: 0 3rem;
+  margin: 2rem 7rem;
 }
 
-.fees_container {
-  grid-column: 3;
-  justify-content: center;
-  align-self: center;
-}
-
-.fees_text {
-  font-size: 30px;
+.money_img_container {
   text-align: center;
 }
 
-.money_icon_container {
-  text-align: center;
-  margin-top: 2rem;
+.money_img {
+  width: 40%;
 }
-
-.money_icon {
-  width: 25%;
-}
-
 

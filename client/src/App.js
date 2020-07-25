@@ -6,6 +6,7 @@ import About from './pages/About/About'
 import Agreement from './pages/Agreement/Agreement'
 import EasyTrack from './pages/EasyTrack/EasyTrack'
 import Education from './pages/Education/Education'
+import RefurbishedEquipment from './pages/EquipmentSale/EquipmentSale'
 import Contact from './pages/Contact/Contact'
 import Career from './pages/Career/Career'
 import Footer from './components/Footer/Footer'
@@ -54,6 +55,7 @@ class App extends Component {
             <Route path='/Service Agreement and Contract' component={Agreement}/>
             <Route path='/Easy Track' component={EasyTrack} />
             <Route path='/Education' component={Education} />
+            <Route path='/Refurbished Equipment Sale' component={RefurbishedEquipment} />
             <Route path='/Contact Us' component={Contact} /> 
             <Route path='/Career' component={Career} />
             <Route path='/Flexible Endoscope' component={FlexibleEndoscope} />

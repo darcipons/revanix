@@ -1,55 +1,3 @@
-.home_main_image {
-  background-position: center;
-  background-size: cover;
-  /* background-color: #5d33bf;  */
-  /* width: 100%; */
-  /* height: 100vh; */
-}
-
-.home_intro_text {
-  font-family: 'Work Sans', sans-serif;
-}
-
-.home_intro_title {
-  font-size: 100px;
-  padding-top: 15%;
-  color:  #8974b6;
-  text-shadow: 2px 2px white;
-  font-weight: bold;
-  text-align: center;
-
-}
-
-.home_intro_location {
-  font-size: 70px;
-  padding-top: 1%;
-  color:  #8974b6;
-  text-shadow: 2px 2px white;
-  font-weight: bold;
-  text-align: center;
-}
-
-.home_intro_description {
-  padding-top: 3%;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 45px;
-  color:  #8974b6;
-  text-shadow: 2px 2px white;
-  font-weight: bold;
-  font-weight: bold;
-}
-
-.home_intro_iso {
-  padding-top: 2%;
-  text-align: center;
-}
-
-.intro_iso {
-  height: 170px;
-}
-
 .icon_services_container {
   width: 100%;
   height: 100%;
@@ -127,27 +75,45 @@
   text-align: center;
 }
 
+/* about us section */
 .home_about_us {
   display: grid;
-  grid-template-columns: 10% 1fr 1fr;
-  background-color: #8974b6;
+  grid-template-columns: 1fr 1fr;
 }
 
 .home_about_pic {
-  grid-area: 1 / 2 / 2 / 3;
+ grid-column: 1;
 }
 
-.home_about_description {
-  grid-area: 1 / 3 / 2 / 4;
-  color: white;
-  font-size: 30px;
-  margin: 2rem;
+.home_about_container {
+  grid-column: 2;
+  margin: 2rem 5rem 2rem 0;
 }
 
 .description_pic {
   width: 50rem;
 }
 
+.home_about_description {
+  font-size: 30px;
+}
+
+.signature_title {
+  margin: 3rem 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.signature_list ul {
+  list-style: none;
+  font-size: 25px;
+}
+
+.signature_list ul li{
+  margin: 2rem 0;
+}
+
+/* testimonital section */
 .testimonial_title{
   display: flex;
   justify-content: center;
