@@ -1,0 +1,63 @@
+.total_care_title {
+  margin-top: 3rem;
+  font-size: 50px;
+  text-align: center;
+  color: #8974b6;
+  font-weight: bold;
+}
+
+.agreement_middle {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+}
+
+.agreement_description1 {
+  grid-column: 2;
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  padding: 0 2rem;
+}
+
+.agreement_img_container {
+  grid-column: 3;
+}
+
+.agreement_img {
+  width: 100%;
+}
+
+.benefits_container {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  margin: 3rem 0;
+}
+
+.benefits_description {
+  grid-column: 2;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.fees_container {
+  grid-column: 3;
+  justify-content: center;
+  align-self: center;
+}
+
+.fees_text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.money_icon_container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.money_icon {
+  width: 25%;
+}
+
+

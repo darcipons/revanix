@@ -16,11 +16,9 @@ app.post('/api/form', (req, res) => {
     const htmlEmail = `
       <h2>Contact Form</h2>
       <h3>Subject: ${req.body.subject}</h3>
-      <ul>
-        <li>Name: ${req.body.name}</li>
-        <li>Email: ${req.body.email}</li>
-        <li>Phone: ${req.body.phone}</li>
-      </ul>
+      <h3>Name: ${req.body.name}</h3>
+      <h3>Email: ${req.body.email}</h3>
+      <h3>Phone: ${req.body.phone}</h3>
       <h3>Message:</h3>
       <p>${req.body.message}</p>
     `
@@ -30,9 +28,11 @@ app.post('/api/form', (req, res) => {
       process.env.GMAIL_CLIENTSECRET,
       "https://developers.google.com/oauthplayground", // oauth playground url goes here. 
     );
+    
     oauth2Client.setCredentials({
       refresh_token: process.env.GMAIL_REFRESH_TOKEN,
     });
+
     const accessToken = oauth2Client.getAccessToken();
     let transporter = nodemailer.createTransport({
       service: 'gmail',

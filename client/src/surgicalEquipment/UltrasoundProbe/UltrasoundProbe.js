@@ -49,6 +49,9 @@ function UltrasoundProbe () {
             <div className='advan_list ultra'>
               <ul>
                 <li>Free Loaners </li>
+                <li>Free Evaluations</li>
+                <li>Free Estimates</li>
+                <li>Quick Turnaround Times</li>
               </ul>
             </div>
           </div>
