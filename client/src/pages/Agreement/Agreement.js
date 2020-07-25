@@ -22,7 +22,7 @@ const Agreement = () => {
 
       <h2 className='total_care_title two'>Benefits of our Total Care Contract</h2>
 
-      <div className='benefits_description'>With our Total Care Contract if we cannot repair one of your equipments on the contract, we will send it to the original manufacturer and we will cover the price. Your contract pricing will not change because of this. You can also add/remove equipment at no additional charges. This will help you run the budget easier as you will know exactly what you are paying for your repairs each month. 
+      <div className='benefits_description'>With our Total Care Contract if we cannot repair one of your equipments on the contract, we will send it to the original manufacturer and we will cover the price. Your contract pricing will not change because of this. You can also add/remove equipment at no additional charge. This will help you run the budget easier as you will know exactly what you are paying for your repairs each month. 
       </div>
 
       <div className='money_img_container'>

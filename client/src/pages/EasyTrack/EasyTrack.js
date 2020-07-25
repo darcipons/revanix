@@ -1,6 +1,6 @@
 import React from 'react';
-import Track from './track.png'
 import Comp from './comp.jpeg'
+import Circle from './circleIcon.png'
 import './EasyTrack.css'
 
 const Easy = () => {
@@ -25,22 +25,22 @@ const Easy = () => {
 
       <div className='easy_middle_container'>
         <div className='easy_middle first'>
-          <img src={Track} alt='Tracking Circle' className='track_icon'/>
+          <img src={Circle} alt='Tracking Circle' className='track_icon'/>
           Track the status of your equipment repairs.
         </div>
 
         <div className='easy_middle second'>
-          <img src={Track} alt='Tracking Circle' className='track_icon'/>
+          <img src={Circle} alt='Tracking Circle' className='track_icon'/>
           Review cost savings report.
         </div>
 
         <div className='easy_middle third'>
-          <img src={Track} alt='Tracking Circle' className='track_icon'/>
+          <img src={Circle} alt='Tracking Circle' className='track_icon'/>
           View item history.
         </div>
 
         <div className='easy_middle fourth'>
-          <img src={Track} alt='Tracking Circle' className='track_icon'/>
+          <img src={Circle} alt='Tracking Circle' className='track_icon'/>
           Request labels. 
         </div>
       </div>

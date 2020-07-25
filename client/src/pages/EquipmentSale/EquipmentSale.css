@@ -11,3 +11,25 @@
   color: #8974b6;
   font-weight: bold;
 }
+
+.refurbished_container {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+}
+
+.refurbished_description.one {
+  grid-column: 2;
+  margin: 4rem 2rem;
+}
+
+.monitor_img_container {
+  grid-column: 3;
+  text-align: center;
+}
+
+.monitor_img {
+  width: 70%;
+  margin-top: 4rem;
+   box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+}
