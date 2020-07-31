@@ -8,3 +8,25 @@
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .power_center_container {
+    margin: 4rem 0 5rem 0;
+  }
+
+  ._power {
+    font-size: 45px;
+  }
+
+  ._power_descrip {
+    font-size: 30px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .power_center_container {
+    margin: 1rem 0;
+  }
+}

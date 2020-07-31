@@ -111,3 +111,207 @@
   padding-bottom: -5%;
   padding-left: 0;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .rigid_title {
+    margin-top: 3rem;
+    font-size: 40px;
+  }
+
+  .rigid_repair_description {
+    font-size: 35px;
+    padding: 0 1rem;
+  }
+
+  .rigid_repair_services_title {
+    font-size: 30px;
+  }
+
+  .rigid_repair_services_description {
+    font-size: 25px;
+  }
+
+  .rigid_center_title {
+    font-size: 25px;
+  }
+
+  .rigid_center_list ul {
+    font-size: 20px;
+  }
+
+  .rigid_perform_title {
+    font-size: 25px;
+  }
+
+  .rigid_perform_list ul {
+    font-size: 20px;
+  }
+
+  .rigid_services_title {
+    font-size: 25px;
+  }
+
+  .rigid_services_list ul {
+    font-size: 20px;
+  }
+}
+
+/* pixel */ 
+@media only screen and (max-device-width: 411px) {
+  .rigid_title {
+    margin-top: 3rem;
+    font-size: 30px;
+  }
+
+  .rigid_repair_description {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .rigid_repair_services_title {
+    font-size: 25px;
+  }
+
+  .rigid_repair_services_description {
+    font-size: 20px;
+  }
+
+  .rigid_center_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .rigid_image {
+    margin-left: 1.5rem;
+  }
+
+  .rigid_center_middle {
+    margin-top: 2rem;
+  }
+
+  .rigid_center_title {
+    font-size: 20px;
+  }
+
+  .rigid_center_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_middle_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rigid_perform_title {
+    font-size: 20px;
+  }
+
+  .rigid_perform_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_center_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_services_title {
+    font-size: 20px;
+  }
+
+  .rigid_services_list ul {
+    font-size: 15px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .rigid_title {
+    margin-top: 3rem;
+    font-size: 30px;
+  }
+
+  .rigid_repair_description {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .rigid_repair_services_title {
+    font-size: 25px;
+  }
+
+  .rigid_repair_services_description {
+    font-size: 20px;
+  }
+
+  .rigid_center_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .rigid_image {
+    margin-left: 1.5rem;
+  }
+
+  .rigid_center_middle {
+    margin-top: 2rem;
+  }
+
+  .rigid_center_title {
+    font-size: 20px;
+  }
+
+  .rigid_center_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_middle_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rigid_perform_title {
+    font-size: 20px;
+  }
+
+  .rigid_perform_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_center_list ul {
+    font-size: 15px;
+  }
+
+  .rigid_services_title {
+    font-size: 20px;
+  }
+
+  .rigid_services_list ul {
+    font-size: 15px;
+  }
+}
+
+/* iphone 5 */
+@media only screen and (max-width: 320px) {
+  .rigid_title {
+    margin-top: 2rem;
+    font-size: 25px;
+  }
+
+  .rigid_repair_description {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .rigid_repair_services_title {
+    font-size: 20px;
+  }
+
+  .rigid_repair_services_description {
+    font-size: 15px;
+  }
+}
