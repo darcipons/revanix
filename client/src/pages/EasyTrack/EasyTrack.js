@@ -1,5 +1,5 @@
 import React from 'react';
-import Comp from './comp.jpeg'
+import Comp from './compWorld.jpeg'
 import Circle from './circleIcon.png'
 import './EasyTrack.css'
 

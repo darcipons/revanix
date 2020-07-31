@@ -237,17 +237,16 @@
 .iconn_2 {
   width: 10%;
 }
+
 /* iphone x */
-/* @media only screen and (min-width: 375px) {
-  .about_title_container {
-    padding-top: 8rem;
-  }
-  .about_title {
-    font-size: 25px;
+@media only screen and (min-width: 375px) {  
+  .top_title {
+    margin-top: 3rem;
+    font-size: 30px;
   }
 
-  .about_description {
-    font-size: 20px;
+  .top_description {
+    font-size: 25px;
   }
 
   .about_us_container {
@@ -293,7 +292,15 @@
   .text_ {
     font-size: 23px;
   }
-} */
+
+  .num {
+    font-size: 35px;
+  }
+
+  .iconn_2 {
+    width: 18%;
+  }
+}
 
 /* iphone 5-6 and pluses */
 /* @media only screen and (min-width: 414px) { 
@@ -301,14 +308,64 @@
 }  */
 
 /* ipad */ 
-/* @media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) { 
+  .capabilites_num_container {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    padding: 0;
+    gap: 0 1rem;
+  }
 
-} */
+  .capabilities_experience_container {
+    grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_clients_container {
+    grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_experts_container {
+    grid-template-rows: 40% 20%;
+  }
+
+  .text_.white {
+    margin: 0 1rem;
+  }
+
+  .about_us_img {
+    width: 50%;
+  }
+
+  .iconn_2 {
+    width: 12%;
+  }
+}
    
 
 /* ipad pro */
-/* @media only screen and (min-width: 1024px) {
-  
-}  */
+@media only screen and (min-width: 1024px) {
+  .top_title {
+    margin-top: 2rem;
+    font-size: 50px;
+  }
+
+  .top_description {
+    font-size: 40px;
+  }
+
+  .about_us_img {
+    width: 50%;
+  }
+
+  .capabilites_num_container {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    padding: 0;
+  }
+
+  .num {
+    font-size: 50px;
+  }
+} 
 
 

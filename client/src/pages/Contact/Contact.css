@@ -60,3 +60,52 @@
   border-color: black;
   width: 40%;
 }
+
+/* ipad pro */
+/* @media only screen and (min-width: 1024px) {} */
+
+/* ipad */ 
+@media only screen and (min-width: 768px) {
+  .contact_iso {
+   height: 110px;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
+
+ }
+
+/* iphone 5-6 and pluses */
+/* @media only screen and (min-width: 414px) { 
+  
+}  */
+
+/* iphone x */
+@media only screen and (min-width: 375px) {  
+  .contact_iso {
+    height: 80px;
+  }
+
+  .contact_us_container_page {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .state {
+    margin-top: 2rem;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
+
+  .street {
+    margin-bottom: 2rem;
+  }
+
+  .email_phone_fax {
+    margin-top: 2rem;
+  }
+}

@@ -69,17 +69,17 @@ const About = () => {
 
         <div className='capabilites_num_container'>
           <div className='capabilities_experts_container cc'>
-            <div className='experts_num'>15</div>
+            <div className='experts_num num'>15</div>
             <div className='experts_title text_'>Repair Experts</div>
           </div>
 
           <div className='capabilities_experience_container cc'>
-            <div className='experience_num'>25</div>
+            <div className='experience_num num'>25</div>
             <div className='experience_title text_'>Years of Experience</div>
           </div>
 
           <div className='capabilities_clients_container cc'>
-            <div className='clients_num'>2</div>
+            <div className='clients_num num'>2</div>
             <div className='clients_title text_' >Locations</div>
           </div>
 

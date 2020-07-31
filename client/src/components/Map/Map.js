@@ -20,22 +20,6 @@ class Map extends Component {
   
      const { viewport } = this.state;
      const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
-    //  let geojson = [
-    //   {
-    //     type: 'Feature',
-    //     geometry: {
-    //       type: 'Point',
-    //       coordinates: [this.state.latitude, this.state.longitude]
-    //     }
-    //   }
-    // ]
-
-    // var mapGeo = L.mapbox.map('map_geo')
-    //   .setView([37.8, -96], 4)
-    //   .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/light-v10'));
-
-    // var myLayer = L.mapbox.featureLayer().setGeoJSON(geojson).addTo(mapGeo);
-    // mapGeo.scrollWheelZoom.disable();
      
     return (
       <ReactMapGL

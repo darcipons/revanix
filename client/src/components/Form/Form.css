@@ -84,3 +84,31 @@ form {
   }
 }
 
+/* ipad */
+@media only screen and (max-width: 768px) { 
+  form {
+    margin: 2rem 0 0 1rem;
+  } 
+
+  .contact_us_title {
+    font-size: 30px;
+  }
+
+  .form_inputs {
+    margin: 2rem 0;
+  }
+
+  #name {
+    width: 60% !important;
+  }
+
+  #textarea {
+    width: 70%;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+}
+

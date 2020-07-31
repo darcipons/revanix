@@ -1,9 +1,10 @@
 import React from 'react'
 import ContactUs from './../../components/ContactUs/ContactUs'
-import Purple from './purplePic.jpg'
 import Award from './award.png'
 import Touch from './touch.png'
 import Tv from './tv.png'
+import BulletPoint from './bullet.png'
+import PurplePic from './purplePic.png'
 import Testimonial from './../../components/Testimonial/Testimonial'
 import Header from './../../components/Header/Header'
 import { Spring } from 'react-spring/renderprops'
@@ -74,19 +75,31 @@ const Home = () => {
 
       <div className='home_about_us'>
         <div className='home_about_pic'>
-          <img src={Purple} alt='lab' className='description_pic'/>
+          <img src={PurplePic} alt='lab' className='description_pic'/>
         </div>
 
         <div className='home_about_container'>
-          <div className='home_about_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div className='home_about_description'>Revanix Biomedical is an ISO certified surgical and biomedical repair company, working with hospitals and surgery centers nationwide. Our expert technicians are professionally trained and have an average of 25+ years of experience in the industry, utilizing a multi-functional inspection process, advanced repair technology, certified parts and components and the highest level of attention to both major and minor repairs on all types of equipment. With our advanced repair expertise, knowledge and resources, we will offer services only offered by the OEM to exceed the expectation.
           </div>
           <h3 className='signature_title'>Revanix Signature Repairs</h3>
           <div className='signature_list'>
             <ul>
-              <li>Flexible Endoscope</li>
-              <li>Rigid Endoscope</li>
-              <li>Patient Monitors</li>
-              <li>Fiber Optic Cable</li>
+              <li>
+                <img src={BulletPoint} alt='Bullet Point' className='bullet_point'/>
+                Flexible Endoscope
+              </li>
+              <li>
+                <img src={BulletPoint} alt='Bullet Point' className='bullet_point'/>
+                Rigid Endoscope
+              </li>
+              <li>
+                <img src={BulletPoint} alt='Bullet Point' className='bullet_point'/>
+                Patient Monitors
+              </li>
+              <li>
+                <img src={BulletPoint} alt='Bullet Point' className='bullet_point'/>
+                Fiber Optic Cable
+              </li>
             </ul>
           </div>
         </div>

@@ -120,3 +120,166 @@
   padding-left: 0;
 }
 
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .flex_title {
+    margin-top: 3rem;
+    font-size: 40px;
+  }
+
+  .flex_repair_description {
+    font-size: 35px;
+    padding: 0 1rem;
+  }
+
+  .flex_repair_services_title {
+    font-size: 30px;
+  }
+
+  .flex_repair_services_description {
+    font-size: 25px;
+  }
+
+  .flex_brand_middle {
+    margin: 0 1rem;
+  }
+  .flex_brand_title {
+    font-size: 25px;
+  }
+
+  .flex_brand_list ul {
+    font-size: 20px;
+  }
+
+  .flex_perform_title {
+    font-size: 25px;
+  }
+
+  .flex_perform_list {
+    font-size: 20px;
+  }
+
+  .flex_services_title {
+    font-size: 25px;
+  }
+
+  .flex_services_list {
+    font-size: 20px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-device-width: 768px) {
+  .flex_title {
+    margin-top: 3rem;
+    font-size: 40px;
+  }
+
+  .flex_repair_description {
+    font-size: 35px;
+    padding: 0 1rem;
+  }
+
+  .flex_repair_services_title {
+    font-size: 30px;
+  }
+
+  .flex_repair_services_description {
+    font-size: 25px;
+  }
+
+  .flex_brand_middle {
+    margin: 0 1rem;
+  }
+  .flex_brand_title {
+    font-size: 25px;
+  }
+
+  .flex_brand_list ul {
+    font-size: 20px;
+  }
+
+  .flex_perform_title {
+    font-size: 25px;
+  }
+
+  .flex_perform_list {
+    font-size: 20px;
+  }
+
+  .flex_services_title {
+    font-size: 25px;
+  }
+
+  .flex_services_list {
+    font-size: 20px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .flex_title {
+    margin-top: 3rem;
+    font-size: 30px;
+  }
+
+  .flex_repair_description {
+    font-size: 25px;
+    padding: 0 1rem;
+  }
+
+  .flex_repair_services_title {
+    font-size: 25px;
+  }
+
+  .flex_repair_services_description {
+    font-size: 20px;
+  }
+
+  .flex_brand_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_brand_title {
+    font-size: 25px;
+  }
+
+  .flex_brand_list ul {
+    font-size: 20px;
+  }
+
+  .flex_image1 {
+    width: 70%;
+    justify-content: center;
+  }
+
+  .flex_image2 {
+    width: 70%;
+  }
+
+  .flex_middle_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex_perform_title {
+    font-size: 25px;
+  }
+
+  .flex_perform_list {
+    font-size: 20px;
+  }
+
+  .flex_services_container {
+    margin: 0 .5rem;
+  }
+  .flex_services_title {
+    font-size: 25px;
+  }
+
+  .flex_services_list {
+    font-size: 20px;
+  }
+}
