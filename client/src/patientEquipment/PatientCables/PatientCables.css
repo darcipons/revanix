@@ -31,3 +31,76 @@
   padding-left: 0;
   text-align: center;
 }
+
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .cables_container { 
+    margin-bottom: 26rem;
+  }
+  .cables_img {
+    width: 70%;
+  }
+
+  .cables_title {
+    font-size: 35px;
+  }
+
+  .cables_list ul {
+    font-size: 28px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .cables_container { 
+    margin-bottom: 11rem;
+  }
+  .cables_img {
+    width: 70%;
+  }
+
+  .cables_title {
+    font-size: 32px;
+  }
+
+  .cables_list ul {
+    font-size: 25px;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .cables_container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+  }
+
+  .cables_description {
+    margin-top: 2rem;
+  }
+
+  .cables_img {
+    width: 70%;
+  }
+
+  .cables_title {
+    font-size: 30px;
+  }
+
+  .cables_list ul {
+    font-size: 20px;
+  }
+} 
+
+/* iphone 5 */
+@media only screen and (max-width: 320px) {
+  .cables_title {
+    font-size: 25px;
+  }
+
+  .cables_list ul {
+    font-size: 18px;
+  }
+}

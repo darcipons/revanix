@@ -70,3 +70,95 @@
 .endoeye_img_container {
   justify-items: center;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .endoeye_title {
+    font-size: 32px;
+  }
+
+  .endoeye_list ul {
+    font-size: 25px;
+  }
+
+  .diamond_container {
+    margin: 0 0 3rem 0;
+    grid-template-columns: 10% 1fr 2.5fr 1fr 10%;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .endoeye_title {
+    font-size: 32px;
+  }
+
+  .endoeye_list ul {
+    font-size: 25px;
+  }
+
+  .phaco_container {
+    margin-top: 2rem;
+  }
+
+  .diamond_container {
+    margin: 0 0 3rem 0;
+    grid-template-columns: 10% 1fr 2.5fr 1fr 10%;
+  }
+
+  .davinci_container {
+    margin: 0 0 4rem 0;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .phaco_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .endoeye_title {
+    font-size: 30px;
+  }
+
+  .endoeye_list ul {
+    font-size: 20px;
+  }
+
+  .endo_img {
+    width: 70%;
+  }
+
+  .diamond_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .diamond_text_container {
+    margin: 2rem 0;
+  }
+
+  .davinci_container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 3rem 0;
+  }
+
+  .davinci_text_container {
+    margin: 2rem 0;
+  }
+
+}
+
+/* ipad */ 
+@media only screen and (max-width: 320px) {
+  .endoeye_title {
+    font-size: 25px;
+  }
+
+  .endoeye_list ul {
+    font-size: 18px;
+  }
+}
