@@ -25,6 +25,22 @@
 }
 
 /* iphone x */
+@media only screen and (max-width: 414px) {
+  .rigid_repair_services_title._power {
+    font-size: 30px;
+  }
+
+  .rigid_repair_services_description._power_descrip {
+    font-size: 20px;
+  }
+
+
+  .power_center_container {
+    margin: 1rem 0;
+  }
+}
+
+/* iphone x */
 @media only screen and (max-width: 375px) {
   .power_center_container {
     margin: 1rem 0;

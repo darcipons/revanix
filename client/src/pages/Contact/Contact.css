@@ -65,7 +65,7 @@
 /* @media only screen and (min-width: 1024px) {} */
 
 /* ipad */ 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .contact_iso {
    height: 110px;
   }
@@ -82,7 +82,7 @@
 }  */
 
 /* iphone x */
-@media only screen and (min-width: 375px) {  
+@media only screen and (max-width: 375px) {  
   .contact_iso {
     height: 80px;
   }

@@ -239,7 +239,7 @@
 }
 
 /* iphone x */
-@media only screen and (min-width: 375px) {  
+@media only screen and (max-width: 375px) {  
   .top_title {
     margin-top: 3rem;
     font-size: 30px;
@@ -308,7 +308,7 @@
 }  */
 
 /* ipad */ 
-@media only screen and (min-width: 768px) { 
+@media only screen and (max-width: 768px) { 
   .capabilites_num_container {
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 5%;
@@ -343,7 +343,7 @@
    
 
 /* ipad pro */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .top_title {
     margin-top: 2rem;
     font-size: 50px;
