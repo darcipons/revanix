@@ -45,3 +45,49 @@
   padding-left: 0;
   text-align: center;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .ekg_container {
+    gap: 1rem 1rem;
+  }
+
+  .ekg_title {
+    font-size: 32px;
+  }
+
+  .ekg_list ul {
+    font-size: 25px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .ekg_container {
+    gap: 1rem 1rem;
+  }
+
+  .ekg_title {
+    font-size: 32px;
+  }
+
+  .ekg_list ul {
+    font-size: 25px;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .ekg_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ekg_title {
+    font-size: 30px;
+  }
+
+  .ekg_list ul {
+    font-size: 20px;
+  }
+}

@@ -81,3 +81,124 @@
   font-weight: bold;
   text-align: center;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .ventilator_img {
+    margin: 0;
+  }
+
+  .oxygen_sub_container1 ul {
+    font-size: 25px;
+  }
+
+  .oxygen_sub_container2 ul {
+    font-size: 25px;
+  }
+
+  .oxygen_title {
+    font-size: 32px;
+  }
+
+  .ventilator_title {
+    font-size: 32px;
+  }
+
+  .ventilator_sub_container.first ul {
+    font-size: 25px;
+  }
+
+  .ventilator_sub_container.second ul {
+    font-size: 25px;
+  }
+
+  .ventilator_sub_container ul {
+    font-size: 25px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .ventilator_img {
+    margin: 0;
+  }
+
+  .oxygen_sub_container1 ul {
+    font-size: 25px;
+  }
+
+  .oxygen_sub_container2 ul {
+    font-size: 25px;
+  }
+
+  .oxygen_title {
+    font-size: 32px;
+  }
+
+  .ventilator_title {
+    font-size: 32px;
+  }
+
+  .ventilator_sub_container.first ul {
+    font-size: 25px;
+  }
+
+  .ventilator_sub_container.second ul {
+    font-size: 25px;
+  }
+
+  .ventilator_sub_container ul {
+    font-size: 25px;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .oxygen_container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .oxygen_sub_container1 ul {
+    font-size: 20px;
+  }
+
+  .oxygen_sub_container2 ul {
+    font-size: 20px;
+  }
+
+  .ventilator_container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  .ventilator_img {
+    margin: 0;
+  }
+
+  .oxygen_title {
+    font-size: 30px;
+  }
+
+  .ventilator_title {
+    font-size: 30px;
+  }
+
+  .ventilator_sub_container.first ul {
+    font-size: 20px;
+  }
+
+  .ventilator_sub_container.second ul {
+    font-size: 20px;
+  }
+
+  .ventilator_sub_container ul {
+    font-size: 20px;
+  }
+
+  .vacuum_img_container {
+    margin-bottom: 2rem;
+  }
+}

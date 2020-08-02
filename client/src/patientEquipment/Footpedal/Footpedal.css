@@ -25,3 +25,48 @@
   padding-left: 0;
   text-align: center;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .foot_title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .foot_list ul {
+    font-size: 25px;
+  }
+
+  .foot_img_container {
+    margin-bottom: 11rem;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .foot_title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .foot_list ul {
+    font-size: 25px;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .foot_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot_title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .foot_list ul {
+    font-size: 20px;
+  }
+}

@@ -52,10 +52,6 @@ const FiberOptic = () => {
           </div>
 
         </div>
-
-     
-
-
     </div>
    );
 }

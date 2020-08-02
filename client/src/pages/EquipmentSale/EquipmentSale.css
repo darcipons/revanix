@@ -33,3 +33,58 @@
    box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .refurbished_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .monitor_img {
+    width: 40%;
+    margin: 0;
+  }
+
+  .refurbished_description.one {
+    font-size: 25px;
+  }
+
+  .rental_title {
+    font-size: 32px;
+  }
+
+  .refurbished_description {
+    font-size: 25px;
+    margin: 2rem 1rem 3rem 1rem;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .refurbished_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .refurbished_description.one {
+    font-size: 20px;
+  }
+
+  .monitor_img {
+    margin: 0;
+  }
+
+  .rental_title {
+    font-size: 30px;
+  }
+
+  .refurbished_description {
+    font-size: 20px;
+    margin: 2rem 1rem 3rem 1rem;
+  }
+
+}

@@ -44,3 +44,76 @@
   box-shadow: 0 0 7px -1px;
   padding: 2% 3%;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .career_positions {
+    font-size: 40px;
+    margin: 1rem;
+  }
+  .career_available {
+    margin: 5rem 0;
+  }
+
+  .position_title {
+    font-size: 25px;
+  }
+
+  .postion_location {
+    font-size: 20px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .career_positions {
+    font-size: 35px;
+    margin: 1rem;
+  }
+
+  .position_title {
+    font-size: 25px;
+  }
+
+  .postion_location {
+    font-size: 20px;
+  }
+
+  .position_container1 {
+    margin: 2rem;
+  }
+
+  .position_container3 {
+    margin: 2rem;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .career_positions {
+    font-size: 30px;
+    margin: 1rem;
+  }
+
+  .career_available {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .position_container1 {
+    margin: 2rem;
+  }
+
+  .position_container3 {
+    margin: 2rem;
+  }
+
+  .position_title {
+    font-size: 20px;
+  }
+
+  .postion_location {
+    font-size: 18px;
+  }
+
+}

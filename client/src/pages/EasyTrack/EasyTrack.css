@@ -58,3 +58,77 @@
 .easy_middle.fourth {
   grid-area: 2 / 3 / 3 / 4;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .easy_description {
+    font-size: 25px;
+    padding: 0;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .easy_title {
+    font-size: 30px;
+  }
+
+  .easy_middle {
+    font-size: 20px;
+    padding: 1rem;
+  }
+  .easy_middle_container {
+    margin-bottom: 5rem;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .easy_computer {
+    width: 40%;
+  }
+
+  .easy_description {
+    font-size: 25px;
+    padding: 0;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .easy_title {
+    font-size: 30px;
+  }
+
+  .easy_middle {
+    font-size: 20px;
+    padding: 1rem;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .top_description {
+    font-size: 20px;
+  }
+
+  .easy_computer {
+    width: 60%;
+  }
+
+  .easy_description {
+    font-size: 20px;
+    padding: 0;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .easy_title {
+    font-size: 30px;
+  }
+
+  .easy_middle {
+    font-size: 20px;
+    padding: 1rem;
+  }
+
+  .easy_middle_container {
+    display: flex;
+    flex-direction: column;
+  }
+}

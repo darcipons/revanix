@@ -51,3 +51,91 @@
   width: 40%;
 }
 
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .top_title {
+    font-size: 35px;
+  }
+
+  .agreement_description1 {
+    font-size: 23px;
+    padding: 0;
+  }
+
+  .total_care_title {
+    font-size: 32px;
+  }
+
+  .benefits_description {
+    font-size: 23px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .top_title {
+    font-size: 35px;
+  }
+
+  .agreement_description1 {
+    font-size: 23px;
+    padding: 0;
+  }
+
+  .total_care_title {
+    font-size: 32px;
+  }
+
+  .benefits_description {
+    font-size: 23px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .top_title {
+    font-size: 30px;
+  }
+  .agreement_middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .agreement_description1 {
+    font-size: 20px;
+  }
+
+  .total_care_title {
+    font-size: 30px;
+  }
+
+  .total_care_title.two {
+    margin-top: 0;
+  }
+
+  .benefits_description {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+}
+
+/* iphone 6/7/8 Plus */
+@media only screen and (max-width: 450px) {
+  .agreement_description1 {
+    margin: 0 1rem;
+  }
+}
