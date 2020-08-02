@@ -55,9 +55,7 @@ function UltrasoundProbe () {
               </ul>
             </div>
           </div>
-
         </div>
-
     </div>
   )
 }

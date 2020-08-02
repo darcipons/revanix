@@ -47,3 +47,101 @@
 .advan_container.instrument {
   margin: 5rem;
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .instrument_title {
+    font-size: 35px;
+  }
+
+  .instrumnet_list ul {
+    font-size: 25px;
+  }
+
+ .advan_container.instrument {
+   margin: 4rem 0 13rem 0;
+ }
+
+ .advan_title.instrument {
+   font-size: 35px;
+ }
+
+ .advan_list.instrument ul {
+   font-size: 25px;
+ }
+}
+
+/* ipad */ 
+@media only screen and (max-device-width: 768px)  {
+  .instrument_title {
+    font-size: 32px;
+  }
+
+  .instrumnet_list ul {
+    font-size: 25px;
+  }
+
+ .advan_container.instrument {
+   margin: 2rem 0;
+ }
+
+ .advan_title.instrument {
+   font-size: 32px;
+ }
+
+ .advan_list.instrument ul {
+   font-size: 25px;
+ }
+}
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .instrument_center_container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instrument_middle_container {
+    margin-top: 2rem;
+  }
+
+  .instrument_title {
+    font-size: 30px;
+  }
+
+  .instrumnet_list ul {
+    font-size: 20px;
+  }
+
+ .advan_container.instrument {
+   margin: 0;
+ }
+
+ .advan_title.instrument {
+   font-size: 30px;
+ }
+
+ .advan_list.instrument ul {
+   font-size: 20px;
+ }
+}
+
+/* iphone x */
+@media only screen and (max-width: 320px) {
+  .instrument_title {
+    font-size: 25px;
+  }
+
+  .instrumnet_list ul {
+    font-size: 18px;
+  }
+
+ .advan_title.instrument {
+   font-size: 25px;
+ }
+
+ .advan_list.instrument ul {
+   font-size: 18px;
+ }
+}
