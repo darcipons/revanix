@@ -1,0 +1,35 @@
+/* large desktop */
+/* @media only screen and (max-device-width: 2800px) {
+  .d-block.w-100 {
+    height: 1100px;
+  }
+} */
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .d-block.w-100 {
+    height: 600px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .d-block.w-100 {
+    height: 600px;
+  }
+} 
+
+
+/* iphone 6/7/8 plus*/
+@media only screen and (max-width: 414px) {
+  .d-block.w-100 {
+    height: 300px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .d-block.w-100 {
+    height: 300px;
+  }
+}

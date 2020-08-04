@@ -4,6 +4,7 @@ import img1 from './header_img.png'
 import img2 from './locations2.png'
 import img3 from './scopeHeader.png'
 import img4 from './monitorHeader.png'
+import './Header.css'
 
 
 const Header = () => {

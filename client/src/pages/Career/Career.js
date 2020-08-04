@@ -1,15 +1,27 @@
 import React from 'react'
 import ContactUs from '../../components/ContactUs/ContactUs'
+import { Spring } from 'react-spring/renderprops'
 import './Career.css'
 
 function Career () {
+
+  function animation(title) {
+    return <Spring
+    from={{ opacity: 0 }}
+    to={{ opacity: 1 }}
+    config={{ delay: 1000, duration: 1000 }}
+    >
+    { props => ( <div style={props} >{title}</div> )}
+    </Spring>
+  }
+
   return (
     <div>
       <div className='top_title_container'>
         <div className='top_title'>Careers at Revanix Biomedical</div>
       </div>
 
-        <div className='career_positions'>Open Positions</div>
+        <div className='career_positions'>{animation('Open Positions')}</div>
        
         <div className='career_available'>
           <div className='position_container1'>

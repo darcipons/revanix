@@ -36,7 +36,32 @@
 
 .side_drawer a:hover,
 .side_drawer a:active {
-  color: #2773a9
+  color: black;
+}
+
+.dropdown-menu.show {
+  background-color: #625a8f !important;
+  border: none;
+
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.sideDrawer-btn- {
+  background-color: #F1F1F1 !important;
+  color: black !important;
+  border: none !important;
+  font-size: 1.2rem !important;
+}
+
+.sideDrawer-btn-:focus {
+  outline: 0 !important;
+}
+
+.dropdown {
+  margin-left: -6% !important;
 }
 
 @media (min-width: 796px) {

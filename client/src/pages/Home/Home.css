@@ -144,6 +144,10 @@
 
 /* ipad pro */
  @media only screen and (max-width: 1024px) {
+  .icon_container {
+    margin-bottom: -8%;
+  }
+
   .testimonial_title {
     font-size: 50px;
   }
@@ -192,8 +196,12 @@
 
 /* ipad */ 
 @media only screen and (max-device-width: 768px) { 
+  .icon_container {
+    padding-bottom: 1rem;
+    gap: 5%;
+  }
   .services_title {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .services_container {

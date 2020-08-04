@@ -1,8 +1,20 @@
 import React from 'react'
 import Teaching from './teaching.jpg'
+import { Spring } from 'react-spring/renderprops'
 import './Education.css'
 
 function Education () {
+
+  function animation(title) {
+    return <Spring
+    from={{ opacity: 0 }}
+    to={{ opacity: 1 }}
+    config={{ delay: 1000, duration: 1000 }}
+    >
+    { props => ( <div style={props} >{title}</div> )}
+    </Spring>
+  }
+
   return (
     <div>
       <div className='top_title_container'>
@@ -15,7 +27,7 @@ function Education () {
         </div>
 
         <div className='contact_text_container'>
-          <div className='contact_text_title'>Education Matters</div>
+          <div className='contact_text_title'>{animation('Education Matters')}</div>
           <div className='contact_text_description'>Revanix Biomedical offers CE Credits -  Educate care and handling of surgical equipment included with Preventive Maintenance Services.</div>
         </div>
       </div>

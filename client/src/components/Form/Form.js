@@ -14,6 +14,7 @@ class FormBox extends Component {
       subject: '',
       message: ''
     }
+    // this.baseState = this.state
 
     this.handleChange = this.handleChange.bind(this) 
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -22,6 +23,10 @@ class FormBox extends Component {
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value })
   }
+
+  // resetForm = () => {
+  //   this.setState(this.baseState)
+  // }
 
   async handleSubmit(e) {
     e.preventDefault()
@@ -44,31 +49,29 @@ class FormBox extends Component {
           <div className='contact_us_title'>Contact Us</div>
           
           <Form.Group controlId="name" className='form_inputs'>
-            <Form.Control type="text" placeholder="Name" name="name" onChange={this.handleChange}/>
+            <Form.Control required type="text" placeholder="Name" name="name" onChange={this.handleChange}/>
           </Form.Group>
 
           <Form.Group controlId="name" className='form_inputs'>
-            <Form.Control type="email" placeholder="Email" name="email" onChange={this.handleChange}/>
+            <Form.Control required type="email" placeholder="Email" name="email" onChange={this.handleChange}/>
           </Form.Group>
 
           <Form.Group controlId="name" className='form_inputs'>
-            <Form.Control type="text" placeholder="Phone" name="phone" onChange={this.handleChange} />
+            <Form.Control required type="text" placeholder="Phone" name="phone" onChange={this.handleChange} />
           </Form.Group>
 
           <Form.Group controlId="name" className='form_inputs'>
-            <Form.Control type="text" placeholder="Subject"  name="subject" onChange={this.handleChange}/>
+            <Form.Control required type="text" placeholder="Subject"  name="subject" onChange={this.handleChange}/>
           </Form.Group>
           
           <Form.Group controlId="textarea" className='form_inputs'>
-            <Form.Control as="textarea" rows="3"  placeholder="Message" name="message" onChange={this.handleChange}/>
+            <Form.Control required as="textarea" rows="3"  placeholder="Message" name="message" onChange={this.handleChange}/>
           </Form.Group>
 
           <ButtonToolbar>
             <Button variant="primary" size="lg" type="submit"> Submit </Button>
           </ButtonToolbar>
-
         </Form>
-        
       </>
     )
   }

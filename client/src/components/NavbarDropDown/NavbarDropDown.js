@@ -16,6 +16,7 @@ class DropDown extends Component {
 
   handleRedirect = (path) => {
     this.props.history.push(path)
+    
   }
 
   showDropDown = (event) => {
