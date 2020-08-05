@@ -19,3 +19,8 @@
   height: 1px;
   background: black;
 }
+
+.mobile_logo {
+  width: 40%;
+  margin-right: 1rem;
+}

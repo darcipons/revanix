@@ -19,7 +19,7 @@ const Endoeye = () => {
 
           <div className='phaco_container'>
             <div className='phaco_text_container'>
-              <div className='endoeye_title phaco'>Phanco Handpiece</div>
+              <div className='endoeye_title phaco'>Phaco Handpiece</div>
               <div className='endoeye_list phaco'>
                 <ul>
                   <li>Flat Rate Repair</li>

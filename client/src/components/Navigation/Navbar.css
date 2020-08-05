@@ -41,6 +41,11 @@
   text-decoration: none;
 }
 
+.toolbar_toggle_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 @media (max-width: 768px) {
   .toolbar_nav_items{

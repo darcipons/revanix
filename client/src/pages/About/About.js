@@ -1,5 +1,4 @@
 import React from 'react'
-import Office from './office-group.jpg'
 import Bullet from './bullet.png'
 import Customer from './customer.png'
 import Time from './clock.png'
@@ -30,10 +29,6 @@ const About = () => {
       </div>
 
       <div className='about_us_container'>
-        <div className='about_us_img_container'>
-          <img src={Office} alt='group of workers' className='about_us_img'></img>
-        </div>
-
         <div className='about_us_description_container'>
           <div className='about_us_title'>{animation('Who We Are')}</div>
           <div className='about_us_description'>Revanix Biomedical is a privately held company with over 25 years of combined experience in the medical repair industry and provides services worldwide. As a leading international medical device repair company, Revanix Biomedical is dedicated to provide the highest quality products and services in the most cost-effective manner. The entire Revanix Biomedical team has a strong commitment to excellence.</div>
