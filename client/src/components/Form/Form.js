@@ -40,22 +40,21 @@ class FormBox extends Component {
       subject,
       message
     })
+    
   }
-
-
 
   render() {
     const popover = (
       <Popover id="popover-basic">
-        <Popover.Title as="h3">Submitted!</Popover.Title>
         <Popover.Content>
           Thank you for your submission.
         </Popover.Content>
       </Popover>
-    );    
+    );   
+
     return (
       <>
-        <Form onSubmit={this.handleSubmit} >
+        <Form onSubmit={this.handleSubmit} onReset={this.resetForm}>
           <div className='contact_us_title'>Contact Us</div>
           
           <Form.Group controlId="name" className='form_inputs'>
@@ -79,9 +78,9 @@ class FormBox extends Component {
           </Form.Group>
 
           <ButtonToolbar>
-          <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-            <Button variant="primary" size="lg" type="submit"> Submit </Button>
-          </OverlayTrigger>
+            <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+              <Button variant="primary" size="lg" type="submit"> Submit </Button>
+            </OverlayTrigger>
           </ButtonToolbar>
         </Form>
       </>

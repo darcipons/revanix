@@ -1,5 +1,5 @@
 import React from 'react'
-import Rigid from './rigid-endoscope.png'
+import Rigid from './rigid.jpg'
 import './RigidEndoscope.css'
 
 function RigidEndoscope () {

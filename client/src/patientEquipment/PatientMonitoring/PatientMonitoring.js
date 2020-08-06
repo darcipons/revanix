@@ -1,7 +1,5 @@
 import React from 'react';
-import Patient1 from './patient1.png'
-import Patient2 from './patient2.png'
-import Patient3 from './patient3.png'
+import Patient2 from './monitor.jpg'
 import './PatientMonitoring.css' 
 
 const PatientMonitoring = () => {
@@ -17,9 +15,6 @@ const PatientMonitoring = () => {
       </div>
 
       <div className='patient_container'>
-        <div className='patient_img1'>
-          <img src={Patient1} alt='Patient Monitoring'/>
-        </div>
 
         <div className='patient_description1'>
           <div className='patient_title'>Brands We Repair </div>
@@ -35,7 +30,7 @@ const PatientMonitoring = () => {
         </div>
 
         <div className='patient_img2'>
-          <img src={Patient2} alt='Patient Monitoring'/>
+          <img src={Patient2} alt='Patient Monitoring' className='patient_pic'/>
         </div>
 
         <div className='patient_description2'>
@@ -49,10 +44,6 @@ const PatientMonitoring = () => {
               <li>Printer and Writers</li>
             </ul>
           </div>
-        </div>
-
-        <div className='patient_img3'>
-          <img src={Patient3} alt='Patient Monitoring' className='patient_img'/>
         </div>
 
         <div className='patient_description3'>

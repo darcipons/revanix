@@ -1,6 +1,5 @@
 import React from 'react'
-import Flex1 from './flexible-endoscope.png'
-import Flex2 from './flexible-endoscope-2.png'
+import Flex1 from './flexible.jpg'
 import './FlexibleEndoscope.css'
 
 function FlexibleEndoscope () {
@@ -32,10 +31,6 @@ function FlexibleEndoscope () {
                 <li>Richard Wolf</li>
               </ul>
             </div>
-        </div>
-
-        <div className='flex_brand_flex2'>
-          <img src={Flex2} alt='flexible endoscope' className='flex_image2'></img>
         </div>
 
       </div>

@@ -12,18 +12,24 @@
 
 .pumps_img_container1 {
   grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
 }
 
 .pumps_description2  {
   grid-area: 2 / 2 / 3 / 3; 
+  margin-top: 2rem;
 }
 
 .pumps_img_container2 {
   grid-area: 2 / 3 / 3 / 4; 
+  text-align: center;
 }
 
 .pumps_img {
-  width: 40%;
+  width: 70%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+  margin: 2rem 0;
 }
 
 .pumps_title {

@@ -1,28 +1,17 @@
 .dental_img_container {
-  display: grid;
-  grid-template-columns: 10% 1fr 1fr 10%;
-  justify-items: center;
+  text-align: center;
 }
 
 .dental_img {
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
-}
-
-.dental_img.first {
-  grid-area: 1 / 2 / 2 / 3;
-  width: 50%;
-}
-
-.dental_img.second {
-  grid-area: 1 / 3 / 2 / 4;
-  width: 60%;
+  width: 30%;
 }
 
 .dental_middle_container {
   display: grid;
   grid-template-columns: 10% 1fr 1fr 1fr 10%;
-  margin: 7rem 5rem;
+  margin: 5rem 5rem;
 }
 
 .dental1_container {

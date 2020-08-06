@@ -1,6 +1,6 @@
 import React from 'react';
-import Pumps1 from './pumps1.png'
-import Pumps2 from './pumps2.png'
+import Pumps1 from './infusionPumps1.jpg'
+import Pumps2 from './infusionPumps2.jpg'
 import './InfusionPumps.css'
 
 const InfusionPumps = () => {

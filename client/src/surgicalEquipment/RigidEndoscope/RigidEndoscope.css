@@ -40,10 +40,11 @@
 
 .rigid_center1 {
   grid-column: 1;
+  text-align: center;
 }
 
 .rigid_image {
-  width: 90%;
+  width: 60%;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }

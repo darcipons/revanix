@@ -1,9 +1,9 @@
 .ekg_container {
   display: grid;
   grid-template-columns: 10% 1fr 1fr 10%;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
   gap: 5rem 3rem;
-  margin: 3rem 0;
+  margin: 3rem 0 0 0;
 }
 
 .ekg_brand_container1 {
@@ -16,7 +16,7 @@
 
 .ekg_brand_container3 {
   grid-area: 2 / 2 / 3 / 3;
-  justify-self: center;
+  text-align: center;
 }
 
 .ekg_brand_container4 {
@@ -27,10 +27,6 @@
   grid-area: 3 / 2 / 4 / 3;
 }
 
-.ekg_brand_container6 {
-  grid-area: 3 / 3 / 4 / 4;
-  justify-self: center;
-}
 
 .ekg_title {
   font-size: 50px;
@@ -44,6 +40,12 @@
   font-size: 30px;
   padding-left: 0;
   text-align: center;
+}
+
+.ekg_img {
+  width: 80%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 /* ipad pro */

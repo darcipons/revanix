@@ -13,7 +13,6 @@ const sideDrawer = props => {
       <ul>
         <li><a href='/'>Home</a></li>
         <li><a href='/About Us'>About Us</a></li>
-        <li>
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic" className='sideDrawer-btn-'>
               Surgical Repairs
@@ -28,8 +27,7 @@ const sideDrawer = props => {
               <Dropdown.Item href="/Dental Handpieces">Dental Handpieces</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-        </li>
-        <li>
+        
           <Dropdown>
           <Dropdown.Toggle id="dropdown-basic" className='sideDrawer-btn-'>
               Biomedical Repairs
@@ -45,8 +43,7 @@ const sideDrawer = props => {
               <Dropdown.Item href="/Footpedal">Footpedal</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-        </li>
-        <li>
+  
         <Dropdown>
           <Dropdown.Toggle id="dropdown-basic" className='sideDrawer-btn-'>
               Services
@@ -59,7 +56,7 @@ const sideDrawer = props => {
               <Dropdown.Item href="/Career">Careers</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-        </li>
+
         <li><a href='/Contact Us'>Contact Us</a></li>
       </ul>
     </nav>

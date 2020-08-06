@@ -1,6 +1,5 @@
 import React from 'react';
-import Dental1 from './dental.png'
-import Dental2 from './dental2.png'
+import Dental from './dental.jpg'
 import './DentalHand.css'
 
 const DentalHand = () => {
@@ -16,8 +15,7 @@ const DentalHand = () => {
       </div>
 
       <div className='dental_img_container'>
-        <img src={Dental1} alt='Dental Handpiece' className='dental_img first'/>
-        <img src={Dental2} alt='Dental Handpiece' className='dental_img second'/>
+        <img src={Dental} alt='Dental Handpiece' className='dental_img'/>
       </div>
 
       <div className='dental_middle_container'>

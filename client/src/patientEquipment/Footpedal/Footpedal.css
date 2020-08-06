@@ -10,7 +10,9 @@
 }
 
 .foot_img {
-  width: 20%;
+  width: 30%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .foot_title {

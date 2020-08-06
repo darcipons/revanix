@@ -1,5 +1,5 @@
 import React from 'react'
-import InstrumentPic from './instrument.png'
+import InstrumentPic from './instruments.jpg'
 import './Instruments.css'
 
 function Instruments () {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Foot from './foot.png'
+import Foot from './footpedal.jpg'
 import './Footpedal.css'
 
 const Footpedal = () => {

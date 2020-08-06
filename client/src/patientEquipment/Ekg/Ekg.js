@@ -1,6 +1,5 @@
 import React from 'react';
-import Ekg1 from './ekg1.png'
-import Ekg2 from './ekg2.png'
+import Ekg1 from './ekg.png'
 import './Ekg.css'
 
 const Ekg = () => {
@@ -38,7 +37,7 @@ const Ekg = () => {
           </div>
 
           <div className='ekg_brand_container3'>
-            <img src={Ekg1} alt='EKG'/>
+            <img src={Ekg1} alt='EKG' className='ekg_img'/>
           </div>
 
           <div className='ekg_brand_container4'>
@@ -64,9 +63,6 @@ const Ekg = () => {
             </div>
           </div>
 
-          <div className='ekg_brand_container6'>
-            <img src={Ekg2} alt='EKG'/>
-          </div>
         </div>
     </div>
    );

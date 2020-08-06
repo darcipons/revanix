@@ -39,8 +39,10 @@
 }
 
 .vacuum_img {
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .ventilator_container {
@@ -49,14 +51,20 @@
   grid-template-rows: 1fr 1fr;
 }
 
+.oxygen_title.vent {
+  margin-top: 2rem;
+}
+
 .ventilator_img_container {
   grid-area: 1 / 2 / 3 / 3;
- 
+  text-align: center;
+  margin-top: 6rem;
 }
 
 .ventilator_img {
-  width: 30%;
-  margin: 10rem 20rem;
+  width: 50%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .ventilator_sub_container ul {

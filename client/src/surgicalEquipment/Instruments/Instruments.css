@@ -6,10 +6,13 @@
 
 .instrument_img_container {
   grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
 }
 
 .instrument_img {
   width: 70%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
 }
 
 .instrument_middle_container {

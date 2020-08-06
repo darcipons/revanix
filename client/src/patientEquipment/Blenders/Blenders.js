@@ -1,9 +1,6 @@
 import React from 'react';
-import Vacuum1 from './vacuum1.png'
-import Vacuum2 from './vacuum2.png'
-import Vacuum3 from './vacuum3.png'
-import Vacuum4 from './vacuum4.png'
-import Ventilator from './ventilator.png'
+import Vacuum3 from './blenders.jpg'
+import Ventilator from './ventilators.jpg'
 import './Blenders.css'
 
 const Blenders = () => {
@@ -52,13 +49,10 @@ const Blenders = () => {
         </div>
 
         <div className='vacuum_img_container'>
-          <img src={Vacuum1} alt='Vacuum Regulators' className='vacuum_img'/>
-          <img src={Vacuum2} alt='Vacuum Regulators' className='vacuum_img'/>
           <img src={Vacuum3} alt='Vacuum Regulators' className='vacuum_img'/>
-          <img src={Vacuum4} alt='Vacuum Regulators' className='vacuum_img'/>
         </div>
     
-        <div className='oxygen_title'>Ventilators</div>
+        <div className='oxygen_title vent'>Ventilators</div>
         <div className='ventilator_container'>
           <div className='ventilator_img_container'>
             <img src={Ventilator} alt='Ventilator' className='ventilator_img'/>

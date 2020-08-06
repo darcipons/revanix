@@ -1,4 +1,5 @@
 import React from 'react';
+import FiberOpticCable from './fiberOptic.jpg'
 import './FiberOptic.css'
 
 const FiberOptic = () => {
@@ -14,6 +15,10 @@ const FiberOptic = () => {
         </div>
 
         <div className='fiber_midde_container'>
+          <div className='fiber_img_container'>
+            <img src={FiberOpticCable} alt='Fiber Optic Cable' className='fiber_img'/>
+          </div>
+          
           <div className='fiber_container1'>
             <div className='fiber_title'>Brands We Repair</div>
             <div className='fiber_list'>
