@@ -11,16 +11,17 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.post('/api/form', (req, res) => {
+app.post('/api/form', (request, response) => {
+  const { headers, method, url } = request;
   nodemailer.createTestAccount((err, account) => {
     const htmlEmail = `
       <h2>Contact Form</h2>
-      <h3>Subject: ${req.body.subject}</h3>
-      <h3>Name: ${req.body.name}</h3>
-      <h3>Email: ${req.body.email}</h3>
-      <h3>Phone: ${req.body.phone}</h3>
+      <h3>Subject: ${request.body.subject}</h3>
+      <h3>Name: ${request.body.name}</h3>
+      <h3>Email: ${request.body.email}</h3>
+      <h3>Phone: ${request.body.phone}</h3>
       <h3>Message:</h3>
-      <p>${req.body.message}</p>
+      <p>${request.body.message}</p>
     `
 
     const oauth2Client = new OAuth2(
@@ -55,8 +56,18 @@ app.post('/api/form', (req, res) => {
 
     transporter.sendMail(mailOptions, (err, info) => {
       if (err) {
-        return console.log(err)
+        console.log(err)
+        response.statusCode = 500;
+        response.setHeader('Content-Type', 'application/json')
+        const responseBody = { headers, method, url, body: 'Internal Server Error' };
+        response.write(JSON.stringify(responseBody));
+        response.end();
       }
+      response.statusCode = 200;
+      response.setHeader('Content-Type', 'application/json')
+      const responseBody = { headers, method, url, body: 'Success!' };
+      response.write(JSON.stringify(responseBody));
+      response.end();
     })
   })
 })
