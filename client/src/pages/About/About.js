@@ -24,7 +24,7 @@ const About = () => {
   return (
     <div>
       <div className='top_title_container'>
-        <div className='top_title'>About Us</div>
+        <div className='top_title_about'>About Us</div>
         <div className='top_description'>The World Leader in Biomedical and Surgical Repairs</div>
       </div>
 

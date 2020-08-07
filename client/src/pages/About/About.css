@@ -6,6 +6,11 @@
   color: white;
 }
 
+.top_title_about {
+  font-size: 70px;
+  font-weight: bold;
+} 
+
 .top_title {
   font-size: 70px;
   font-weight: bold;
@@ -228,18 +233,81 @@
     font-size: 50px;
   }
 
+  .top_title_about {
+    margin-top: 2rem;
+    font-size: 50px;
+  }
+
   .top_description {
     font-size: 40px;
   }
 
   .capabilites_num_container {
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 5%;
-    padding: 0;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-rows: repeat(4, 25%);
+    gap: 1rem 1rem;
+    margin-bottom: 7rem;
+  }
+
+
+  .capabilities_experience_container {
+    grid-row: 2;
+    grid-column: 2;
+    grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_clients_container {
+    grid-column: 3;
+    grid-row: 1;
+    grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_experts_container {
+    grid-column: 2;
+    grid-row: 1;
+    grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_time_container {
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  .capabilities_wws_container {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .capabilities_estimates_container {
+    grid-row: 3;
+    grid-column: 3;
+  }
+
+  .capabilities_shipping_container {
+    grid-row: 4;
+    grid-column: 2;
+  }
+
+  .capabilities_exceptional_container {
+    grid-row: 4;
+    grid-column: 3;
   }
 
   .num {
-    font-size: 50px;
+    font-size: 35px;
+  }
+
+  .text_ {
+    font-size: 30px;
+  }
+
+  .text_.white {
+    margin: 0 1rem;
+  }
+
+  .iconn_2 {
+    width: 12%;
   }
 } 
 
@@ -248,21 +316,61 @@
 @media only screen and (max-width: 768px) { 
   .capabilites_num_container {
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 5%;
-    padding: 0;
-    gap: 0 1rem;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-rows: repeat(4, 25%);
+    gap: 1rem 1rem;
+    margin-bottom: 7rem;
   }
 
   .capabilities_experience_container {
+    grid-row: 2;
+    grid-column: 2;
     grid-template-rows: 40% 20%;
   }
 
   .capabilities_clients_container {
+    grid-column: 3;
+    grid-row: 1;
     grid-template-rows: 40% 20%;
   }
 
   .capabilities_experts_container {
+    grid-column: 2;
+    grid-row: 1;
     grid-template-rows: 40% 20%;
+  }
+
+  .capabilities_time_container {
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  .capabilities_wws_container {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .capabilities_estimates_container {
+    grid-row: 3;
+    grid-column: 3;
+  }
+
+  .capabilities_shipping_container {
+    grid-row: 4;
+    grid-column: 2;
+  }
+
+  .capabilities_exceptional_container {
+    grid-row: 4;
+    grid-column: 3;
+  }
+
+  .num {
+    font-size: 35px;
+  }
+
+  .text_ {
+    font-size: 25px;
   }
 
   .text_.white {
@@ -273,7 +381,61 @@
     width: 12%;
   }
 }
-   
+  
+
+/* iphone 6/7/8 plus */
+@media only screen and (max-width: 414px) {  
+  .top_title {
+    margin-top: 3rem;
+    font-size: 30px;
+  }
+
+  .top_description {
+    font-size: 25px;
+  }
+
+  .about_us_title {
+    font-size: 30px;
+  }
+
+  .about_us_description {
+    font-size: 20px;
+  }
+
+  .about_commitment_title {
+    font-size: 23px;
+  }
+
+  .about_commitment {
+    font-size: 20px;
+  }
+
+  .capabilites_title {
+    font-size: 25px;
+  }
+
+  .capabilites_num_container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .cc {
+    margin-bottom: 2rem;
+  } 
+
+  .text_ {
+    font-size: 27px;
+  }
+
+  .num {
+    font-size: 35px;
+  }
+
+  .iconn_2 {
+    width: 18%;
+  }
+}
 
 /* iphone x */
 @media only screen and (max-width: 375px) {  

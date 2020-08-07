@@ -49,7 +49,7 @@ const sideDrawer = props => {
               Services
             </Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item href="/Service Agreement and Contact">Service Agreement and Contact</Dropdown.Item>
+              <Dropdown.Item href="/Service Agreement and Contract">Service Agreement and Contact</Dropdown.Item>
               <Dropdown.Item href="/Education">Education</Dropdown.Item>
               <Dropdown.Item href="/Refurbished Equipment Sale">Refurbished Equipment Sale</Dropdown.Item>
               <Dropdown.Item href="/Easy Track">Easy Track</Dropdown.Item>

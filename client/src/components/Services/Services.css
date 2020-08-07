@@ -47,3 +47,12 @@ button:focus {
   background-color: white;
   color: #8974b6; 
 }
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .service_dropdown_container {
+    display: block !important;
+    width: 20rem;
+  }
+
+}

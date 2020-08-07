@@ -1,5 +1,5 @@
 import React from 'react'
-import Power from './power-equip.png'
+import Power from './power.jpeg'
 import './PowerEquip.css'
 
 function PowerEquip () {

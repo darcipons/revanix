@@ -6,11 +6,6 @@
   white-space: nowrap;
 }
 
-/* .dropdown_button a:hover,
-.dropdown_button a:active {
-  color: #472a8e;
-} */
-
 button:focus {
   outline: none;
 }
@@ -64,3 +59,14 @@ button:focus {
   color: #8974b6; 
 }
 
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .dropdown_container {
+    display: block !important;
+    width: 20rem;
+  }
+
+  .list_item {
+    padding: 0 1rem !important;
+  }
+}

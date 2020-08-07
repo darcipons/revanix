@@ -50,6 +50,23 @@
   .contact_us_line_page {
     width: 80%;
   }
+ }
+
+ /* iphone 6/7/8 plus*/ 
+@media only screen and (max-width: 414px) {
+  .contact_us_container_page {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .contact_iso {
+   height: 110px;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
 
  }
 

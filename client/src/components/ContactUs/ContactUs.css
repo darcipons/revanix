@@ -54,34 +54,7 @@
   grid-column: 3;
 }
 
-/* iphone 5-6 and pluses */
-@media only screen and (max-width: 414px) { 
-  .contact_us_container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-  }
 
-  .state {
-    font-size: 25px;
-  }
-
-  .contact_us_line {
-    width: 63%;
-  }
-
-  .address {
-    font-size: 20px;
-  }
-
-  .street {
-    font-size: 20px;
-  }
-
-  .email_phone_fax {
-    font-size: 20px;
-  }
-}
 
 /* ipad pro*/
 @media only screen and (max-width: 1024px) { 
@@ -98,6 +71,35 @@
 
   .state {
     font-size: 30px;
+  }
+
+  .address {
+    font-size: 20px;
+  }
+
+  .street {
+    font-size: 20px;
+  }
+
+  .email_phone_fax {
+    font-size: 20px;
+  }
+}
+
+/* iphone 5-6 and pluses */
+@media only screen and (max-width: 414px) { 
+  .contact_us_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .state {
+    font-size: 25px;
+  }
+
+  .contact_us_line {
+    width: 63%;
   }
 
   .address {

@@ -42,7 +42,6 @@
 .dropdown-menu.show {
   background-color: #625a8f !important;
   border: none;
-
 }
 
 .dropdown-item {
@@ -62,6 +61,10 @@
 
 .dropdown {
   margin-left: -6% !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
 }
 
 @media (min-width: 796px) {

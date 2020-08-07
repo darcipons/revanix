@@ -27,8 +27,9 @@ function Education () {
         </div>
 
         <div className='contact_text_container'>
-          <div className='contact_text_title'>{animation('Education Matters')}</div>
-          <div className='contact_text_description'>Revanix Biomedical offers CE Credits -  Educate care and handling of surgical equipment included with Preventive Maintenance Services.</div>
+          <div className='contact_text_title'>{animation('On-Site Preventative Maintenance Training Program')}</div>
+          <div className='contact_text_description'>Flexible and Rigid Endoscope training.</div>
+          <div className='contact_text_description'>Training includes a complete explanation and demonstration of internal scope components, their most common repair problems, what causes them and what can be done to minimize the possibility of problems occurring. Our training expert also provides a detail review of suggested handling and processing techniques to minimize the possibility of incidental damage.</div>
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@
   }
 
   .foot_img_container {
-    margin-bottom: 11rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -70,5 +70,9 @@
 
   .foot_list ul {
     font-size: 20px;
+  }
+
+  .foot_img {
+    width: 70%;
   }
 }
