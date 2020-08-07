@@ -1,5 +1,5 @@
 import React from 'react';
-import Cables from './cables1.png'
+import Cables from './cables.jpg'
 import './PatientCables.css'
 
 const PatientCables = () => {

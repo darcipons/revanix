@@ -1,6 +1,6 @@
 import React from 'react';
-import Video1 from './video1.png'
-import Video2 from './video2.png'
+import Video1 from './video1.jpeg'
+import Video2 from './video2.jpeg'
 import './VideoEquipment.css'
 
 const VideoEquipment = () => {
@@ -17,11 +17,11 @@ const VideoEquipment = () => {
 
       <div className='video_img_container'>
         <div className='video_sub_container 1'>
-          <img src={Video1} alt='Video Equipment' className='video_img 1'></img>
+          <img src={Video1} alt='Video Equipment' className='video_img one'></img>
         </div>
 
         <div className='video_sub_container 2'>
-          <img src={Video2} alt='Video Equipment' className='video_img 2'></img>
+          <img src={Video2} alt='Video Equipment' className='video_img two'></img>
         </div>
       </div>
 

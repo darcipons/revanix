@@ -6,10 +6,11 @@
 
 .cables_img_container {
   grid-area: 1 / 2 / 2 / 3;
-  justify-self: center;
+  text-align: center;
 }
 
 .cables_img {
+  width: 60%;
   box-shadow: 0 0 7px -1px;
   border-radius: 3px;
 }
