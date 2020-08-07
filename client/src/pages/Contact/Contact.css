@@ -1,0 +1,101 @@
+.contact_us_top_container {
+  background: linear-gradient(0deg, #8974b6,rgb(2, 28, 51));
+  padding-top: 12%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: white;
+}
+
+.contact_iso_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.contact_iso {
+  height: 150px;
+}
+
+
+.contact_us_container_page {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr;
+  padding-bottom: 4rem;
+}
+
+.contact_us_line_page {
+  border-bottom: solid;
+  border-width: 1%;
+  border-color: black;
+  width: 40%;
+}
+
+/* ipad pro */
+ @media only screen and (max-width: 1024px) {
+  .contact_us_line_page {
+    width: 80%;
+  }
+
+  .contact_iso {
+    height: 110px;
+   }
+ } 
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .contact_iso {
+   height: 110px;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
+ }
+
+ /* iphone 6/7/8 plus*/ 
+@media only screen and (max-width: 414px) {
+  .contact_us_container_page {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .contact_iso {
+   height: 110px;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
+
+ }
+
+
+/* iphone x */
+@media only screen and (max-width: 375px) {  
+  .contact_iso {
+    height: 80px;
+  }
+
+  .contact_us_container_page {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .state {
+    margin-top: 2rem;
+  }
+
+  .contact_us_line_page {
+    width: 80%;
+  }
+
+  .street {
+    margin-bottom: 2rem;
+  }
+
+  .email_phone_fax {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,48 @@
+.power_center_container {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.power_img {
+  width: 30%;
+  box-shadow: 0 0 7px -1px;
+  border-radius: 3px;
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .power_center_container {
+    margin: 4rem 0 5rem 0;
+  }
+
+  ._power {
+    font-size: 45px;
+  }
+
+  ._power_descrip {
+    font-size: 30px;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 414px) {
+  .rigid_repair_services_title._power {
+    font-size: 30px;
+  }
+
+  .rigid_repair_services_description._power_descrip {
+    font-size: 20px;
+  }
+
+
+  .power_center_container {
+    margin: 1rem 0;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .power_center_container {
+    margin: 1rem 0;
+  }
+}

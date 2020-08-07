@@ -1,0 +1,116 @@
+.contact_us_container {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr;
+  margin-top: 2%;
+  padding-bottom: 4rem;
+  color: #F1F1F1;
+}
+
+.info_container {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 40% 40% 20%;
+  padding-top: 7%;
+}
+
+.florida_address {
+  grid-row: 1; 
+}
+
+.california_address {
+  grid-row: 2;
+  padding-top: 3%;
+}
+
+.contact_us_line {
+  border-bottom: solid;
+  border-width: 1%;
+  border-color: #F1F1F1;
+  width: 40%;
+}
+
+.state {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.street {
+  font-size: 25px;
+}
+
+.email_phone_fax {
+  grid-row: 3;
+  font-size: 25px;
+  padding-top: 5%;
+}
+
+.contact_form {
+  grid-column: 3;
+}
+
+
+
+/* ipad pro*/
+@media only screen and (max-width: 1024px) { 
+  .contact_us_line {
+    width: 80%;
+  }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px) { 
+  .contact_us_line {
+    width: 80%;
+  }
+
+  .state {
+    font-size: 30px;
+  }
+
+  .address {
+    font-size: 20px;
+  }
+
+  .street {
+    font-size: 20px;
+  }
+
+  .email_phone_fax {
+    font-size: 20px;
+  }
+}
+
+/* iphone 5-6 and pluses */
+@media only screen and (max-width: 414px) { 
+  .contact_us_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .state {
+    font-size: 25px;
+  }
+
+  .contact_us_line {
+    width: 63%;
+  }
+
+  .address {
+    font-size: 20px;
+  }
+
+  .street {
+    font-size: 20px;
+  }
+
+  .email_phone_fax {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.parts_container ul {
+  list-style: none;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .parts_container {
+    margin: 3rem 0 31rem 0;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .parts_container {
+    margin: 3rem 0 13rem 0;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .parts_container {
+    margin: 3rem 0 7rem 0;
+  }
+  .parts_container ul {
+    font-size: 25px;
+  }
+}

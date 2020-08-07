@@ -1,0 +1,119 @@
+.career_positions {
+  text-align: center;
+  font-size: 60px;
+  color: #8974b6;
+  font-weight: bold;
+  margin: 3rem;
+}
+
+.career_available {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.position_container1 {
+  background-color: darkgray;
+  box-shadow: 0 0 7px -1px;
+  padding: 2%;
+}
+
+.position_icon_container {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 10% 60%;
+}
+
+.position_title {
+  font-size: 30px;
+  grid-row: 1;
+  font-weight: bold;
+}
+
+.position_icon {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.postion_location {
+  font-size: 25px;
+  grid-column: 2;
+}
+
+.position_container3 {
+  background-color: darkgray;
+  box-shadow: 0 0 7px -1px;
+  padding: 2% 3%;
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .career_positions {
+    font-size: 40px;
+    margin: 1rem;
+  }
+  .career_available {
+    margin: 5rem 0;
+  }
+
+  .position_title {
+    font-size: 25px;
+  }
+
+  .postion_location {
+    font-size: 20px;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .career_positions {
+    font-size: 35px;
+    margin: 1rem;
+  }
+
+  .position_title {
+    font-size: 25px;
+  }
+
+  .postion_location {
+    font-size: 20px;
+  }
+
+  .position_container1 {
+    margin: 2rem;
+  }
+
+  .position_container3 {
+    margin: 2rem;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .career_positions {
+    font-size: 30px;
+    margin: 1rem;
+  }
+
+  .career_available {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .position_container1 {
+    margin: 2rem;
+  }
+
+  .position_container3 {
+    margin: 2rem;
+  }
+
+  .position_title {
+    font-size: 20px;
+  }
+
+  .postion_location {
+    font-size: 18px;
+  }
+
+}

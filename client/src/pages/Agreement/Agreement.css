@@ -1,0 +1,141 @@
+.total_care_title {
+  margin-top: 3rem;
+  font-size: 50px;
+  text-align: center;
+  color: #8974b6;
+  font-weight: bold;
+}
+
+.agreement_middle {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+}
+
+.agreement_description1 {
+  grid-column: 2;
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  padding: 0 2rem;
+}
+
+.agreement_img_container {
+  grid-column: 3;
+}
+
+.agreement_img {
+  width: 100%;
+}
+
+.total_care_title.two {
+  margin-bottom: 2rem;
+}
+
+.benefits_container {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  margin: 3rem 0;
+}
+
+.benefits_description {
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem 7rem;
+}
+
+.money_img_container {
+  text-align: center;
+}
+
+.money_img {
+  width: 40%;
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .top_title {
+    font-size: 35px;
+  }
+
+  .agreement_description1 {
+    font-size: 23px;
+    padding: 0;
+  }
+
+  .total_care_title {
+    font-size: 32px;
+  }
+
+  .benefits_description {
+    font-size: 23px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+}
+
+/* ipad */ 
+@media only screen and (max-width: 768px) {
+  .top_title {
+    font-size: 35px;
+  }
+
+  .agreement_description1 {
+    font-size: 23px;
+    padding: 0;
+  }
+
+  .total_care_title {
+    font-size: 32px;
+  }
+
+  .benefits_description {
+    font-size: 23px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+} 
+
+/* iphone x */
+@media only screen and (max-width: 450px) {
+  .top_title {
+    font-size: 30px;
+  }
+  .agreement_middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .agreement_description1 {
+    font-size: 20px;
+  }
+
+  .total_care_title {
+    font-size: 30px;
+  }
+
+  .total_care_title.two {
+    margin-top: 0;
+  }
+
+  .benefits_description {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+
+  .money_img_container {
+    margin: 3rem 0;
+  }
+}
+
+/* iphone 6/7/8 Plus */
+@media only screen and (max-width: 450px) {
+  .agreement_description1 {
+    margin: 0 1rem;
+  }
+}
