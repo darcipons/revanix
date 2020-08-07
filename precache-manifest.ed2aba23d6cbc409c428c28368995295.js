@@ -1,51 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5148b865e487730e27dc1296fd82732a",
+    "revision": "426ddef7e582ad7a22bf7c8f2fb71cb3",
     "url": "/revanix/index.html"
   },
   {
-    "revision": "b7dab600ff4962667f0b",
-    "url": "/revanix/static/css/2.dab1318e.chunk.css"
+    "revision": "af417de9df7b15ddb160",
+    "url": "/revanix/static/css/2.2277c7b0.chunk.css"
   },
   {
-    "revision": "5cc25fb3b448094c35e4",
-    "url": "/revanix/static/css/main.fedecf36.chunk.css"
+    "revision": "ed86d2109c634f4e3c53",
+    "url": "/revanix/static/css/main.f2cd14da.chunk.css"
   },
   {
-    "revision": "b7dab600ff4962667f0b",
-    "url": "/revanix/static/js/2.3e47596e.chunk.js"
+    "revision": "af417de9df7b15ddb160",
+    "url": "/revanix/static/js/2.ca2a3bcc.chunk.js"
   },
   {
     "revision": "decce99726dd73611a86550065ac1ed7",
-    "url": "/revanix/static/js/2.3e47596e.chunk.js.LICENSE.txt"
+    "url": "/revanix/static/js/2.ca2a3bcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5cc25fb3b448094c35e4",
-    "url": "/revanix/static/js/main.16181aa4.chunk.js"
+    "revision": "ed86d2109c634f4e3c53",
+    "url": "/revanix/static/js/main.f990a3d2.chunk.js"
   },
   {
     "revision": "5bec5e2e4c5612a65d51",
     "url": "/revanix/static/js/runtime-main.21e8e058.js"
   },
   {
-    "revision": "d54614d4cac92fb0707b649e6e0e54ba",
-    "url": "/revanix/static/media/AdobeStock_208124828_Preview.d54614d4.jpeg"
+    "revision": "0f94648a26911afda665bfa37c59152c",
+    "url": "/revanix/static/media/biomedicalHeader.0f94648a.png"
   },
   {
-    "revision": "06c58c84c23ea3492b2a54668df77782",
-    "url": "/revanix/static/media/AdobeStock_216414046_Preview.06c58c84.jpeg"
-  },
-  {
-    "revision": "fe2cd9e8cc6ef5103ac0c2e58c0f3680",
-    "url": "/revanix/static/media/AdobeStock_297494717_Preview.fe2cd9e8.jpeg"
-  },
-  {
-    "revision": "d1ad886d28d24987d3998ac7fa016952",
-    "url": "/revanix/static/media/cables.d1ad886d.png"
+    "revision": "74a42426457507e8b32d58bc16f9db49",
+    "url": "/revanix/static/media/cables1.74a42426.png"
   },
   {
     "revision": "9cfc282cf2069a4e00c78a2473fb747b",
     "url": "/revanix/static/media/circles.9cfc282c.png"
+  },
+  {
+    "revision": "4a19a6a28d2a57fbe05fa8fc28d0d0f2",
+    "url": "/revanix/static/media/comp.4a19a6a2.jpeg"
   },
   {
     "revision": "c98f43e9cffbd56276720c31438b90bc",
@@ -60,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revanix/static/media/dental2.28ddd2ae.png"
   },
   {
-    "revision": "8a26ab4b920518a68ff6839b02cf46dd",
-    "url": "/revanix/static/media/diamondKnives.8a26ab4b.png"
+    "revision": "b4e8645c35ac2217c09cdd60ad3eff68",
+    "url": "/revanix/static/media/diamonKnives.b4e8645c.png"
   },
   {
     "revision": "f9bd992d162a5c7984d0fe1bd863f4fc",
@@ -84,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revanix/static/media/foot.20638cdd.png"
   },
   {
+    "revision": "6a5c9b319aea41390ccf2f565d11b113",
+    "url": "/revanix/static/media/header_img.6a5c9b31.png"
+  },
+  {
     "revision": "6d9aa17d966ab3dfd7997840cd5179a9",
     "url": "/revanix/static/media/instrument.6d9aa17d.png"
   },
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc667164c07323a19e1b8da3f27b6ace",
     "url": "/revanix/static/media/iso2.dc667164.png"
+  },
+  {
+    "revision": "cb60039019551b36d82ffc75fdba1870",
+    "url": "/revanix/static/media/locations.cb600390.png"
   },
   {
     "revision": "e9209d05e1afe55d5c084e46318418bb",
@@ -116,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revanix/static/media/patient2.1ebb4997.png"
   },
   {
-    "revision": "5e7ad313710a46b3a0324af86eea4da2",
-    "url": "/revanix/static/media/patient3.5e7ad313.png"
+    "revision": "9ecf80d54cfe33342cf5a572f1ce6164",
+    "url": "/revanix/static/media/patient3.9ecf80d5.png"
   },
   {
     "revision": "95024addfe4d5a00ddf4ff6f272bf9da",
@@ -140,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revanix/static/media/rigid-endoscope.de6b0416.png"
   },
   {
-    "revision": "6ef6acf8a4465dd2bb32c603d558154a",
-    "url": "/revanix/static/media/stock.6ef6acf8.png"
+    "revision": "5fc84f6b4eebd50c2f10b2caf451fccf",
+    "url": "/revanix/static/media/surgicalHeader.5fc84f6b.png"
   },
   {
     "revision": "ec46d0c520479f1054855390c997d515",
