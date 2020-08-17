@@ -1,12 +1,12 @@
 .refurbished_description {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 3rem 6rem;
 }
 
 .rental_title {
   margin-top: 3rem;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   color: #8974b6;
   font-weight: bold;
@@ -30,15 +30,15 @@
 @media only screen and (max-width: 768px) {
 
   .refurbished_description.one {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rental_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .refurbished_description {
-    font-size: 25px;
+    font-size: 15px;
     margin: 2rem 1rem 3rem 1rem;
   }
 } 
@@ -47,15 +47,15 @@
 @media only screen and (max-width: 450px) {
 
   .refurbished_description.one {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rental_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .refurbished_description {
-    font-size: 20px;
+    font-size: 12px;
     margin: 2rem 1rem 3rem 1rem;
   }
 

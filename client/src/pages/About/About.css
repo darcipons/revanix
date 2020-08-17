@@ -7,17 +7,17 @@
 }
 
 .top_title_about {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
 } 
 
 .top_title {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .top_description {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .about_us_container {
@@ -25,22 +25,22 @@
 }
 
 .about_us_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
 }
 
 .about_us_description {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .about_commitment_title {
   margin-top: 2rem;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .about_commitment {
-  font-size: 25px;
+  font-size: 15px;
   margin: 1rem;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .capabilites_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
   padding-left: 6%;
@@ -90,13 +90,13 @@
 
 .experts_num {
   grid-row: 1;
-  font-size: 110px;
+  font-size: 90px;
   font-weight: bolder;
 }
 
 .experts_title {
   grid-row: 2;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -114,13 +114,13 @@
 
 .experience_num {
   grid-row: 1;
-  font-size: 110px;
+  font-size: 90px;
   font-weight: bolder;
 }
 
 .experience_title {
   grid-row: 2;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -138,14 +138,14 @@
 
 .clients_num {
   grid-row: 1;
-  font-size: 110px;
+  font-size: 90px;
   font-weight: bolder;
   color: #F1F1F1;
 }
 
 .clients_title {
   grid-row: 2;
-  font-size: 60px;
+  font-size: 50px;
   color: #F1F1F1;
   font-weight: bold;
 }
@@ -209,7 +209,7 @@
 }
 
 .text_ {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -230,16 +230,16 @@
 @media only screen and (max-width: 1024px) {
   .top_title {
     margin-top: 2rem;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .top_title_about {
     margin-top: 2rem;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .top_description {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .capabilites_num_container {
@@ -295,11 +295,11 @@
   }
 
   .num {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .text_ {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .text_.white {
@@ -366,11 +366,11 @@
   }
 
   .num {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .text_ {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .text_.white {
@@ -387,31 +387,31 @@
 @media only screen and (max-width: 414px) {  
   .top_title {
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .top_description {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .about_us_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .about_us_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .about_commitment_title {
-    font-size: 23px;
+    font-size: 13px;
   }
 
   .about_commitment {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .capabilites_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .capabilites_num_container {
@@ -425,11 +425,11 @@
   } 
 
   .text_ {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   .num {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .iconn_2 {
@@ -441,31 +441,31 @@
 @media only screen and (max-width: 375px) {  
   .top_title {
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .top_description {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .about_us_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .about_us_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .about_commitment_title {
-    font-size: 23px;
+    font-size: 13px;
   }
 
   .about_commitment {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .capabilites_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .capabilites_num_container {
@@ -479,11 +479,11 @@
   } 
 
   .text_ {
-    font-size: 27px;
+    font-size: 17px;
   }
 
   .num {
-    font-size: 35px;
+    font-size: 15px;
   }
 
   .iconn_2 {

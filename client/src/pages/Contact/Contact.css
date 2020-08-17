@@ -13,9 +13,8 @@
 }
 
 .contact_iso {
-  height: 150px;
+  height: 115px;
 }
-
 
 .contact_us_container_page {
   display: grid;
@@ -37,14 +36,14 @@
   }
 
   .contact_iso {
-    height: 110px;
+    height: 100px;
    }
  } 
 
 /* ipad */ 
 @media only screen and (max-width: 768px) {
   .contact_iso {
-   height: 110px;
+   height: 100px;
   }
 
   .contact_us_line_page {
@@ -61,20 +60,19 @@
   }
 
   .contact_iso {
-   height: 110px;
+   height: 100px;
   }
 
   .contact_us_line_page {
     width: 80%;
   }
-
- }
+}
 
 
 /* iphone x */
 @media only screen and (max-width: 375px) {  
   .contact_iso {
-    height: 80px;
+    height: 60px;
   }
 
   .contact_us_container_page {

@@ -20,8 +20,8 @@
   border-radius: 50%;
   z-index: 10;
   position: relative;
-  height: 8rem;
-  width: 8rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 .services_container {
@@ -43,14 +43,14 @@
 .services_title {
   grid-row: 1;
   justify-self: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
 }
 
 .services_description {
   grid-row: 2;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   font-weight: 100;
 }
@@ -71,7 +71,7 @@
 }
 
 .services_description21 {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -91,22 +91,22 @@
 }
 
 .description_pic {
-  width: 40rem;
+  width: 30rem;
 }
 
 .home_about_description {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .signature_title {
   margin: 1rem 0;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .signature_list ul {
   list-style: none;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .signature_list ul li{
@@ -118,7 +118,7 @@
   display: flex;
   justify-content: center;
   margin-top: 3%;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: medium;
 }
 
@@ -132,7 +132,7 @@
 
 .testimonial_actual {
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .contactus {
@@ -149,19 +149,19 @@
   }
 
   .testimonial_title {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .services_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .services_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .services_description21 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .services_icon {
@@ -190,7 +190,7 @@
   }
 
   .signature_list ul li {
-    font-size: 18px;
+    font-size: 15px;
   }
 } 
 
@@ -201,7 +201,7 @@
     gap: 5%;
   }
   .services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .services_container {
@@ -209,15 +209,15 @@
   }
 
   .services_description {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .services_description21 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .home_about_description {
-    font-size: 15px;
+    font-size: 12px;
   }
 
 }
@@ -238,15 +238,15 @@
   }
 
   .services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .services_description {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .services_description21 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .services_sub_container1 {
@@ -271,26 +271,26 @@
   }
 
   .home_about_description {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .signature_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .signature_list ul li {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .testimonial_title {
-    font-size: 20px;
+    font-size: 12px;
   } 
 }
 
 /* iphone 5-6 and pluses */
 @media only screen and (max-width: 375px) { 
   .testimonial_title {
-    font-size: 20px;
+    font-size: 12px;
   } 
 }
 /* @media only screen and (max-width: 414px) { 

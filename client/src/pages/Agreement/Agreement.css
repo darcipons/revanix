@@ -1,6 +1,6 @@
 .total_care_title {
   margin-top: 3rem;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   color: #8974b6;
   font-weight: bold;
@@ -13,7 +13,7 @@
 
 .agreement_description1 {
   grid-column: 2;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   align-self: center;
   padding: 0 2rem;
@@ -38,7 +38,7 @@
 }
 
 .benefits_description {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 2rem 7rem;
 }
@@ -54,20 +54,20 @@
 /* ipad pro */
 @media only screen and (max-width: 1024px) {
   .top_title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .agreement_description1 {
-    font-size: 23px;
+    font-size: 13px;
     padding: 0;
   }
 
   .total_care_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .benefits_description {
-    font-size: 23px;
+    font-size: 13px;
     margin: 0 1rem;
   }
 
@@ -79,20 +79,20 @@
 /* ipad */ 
 @media only screen and (max-width: 768px) {
   .top_title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .agreement_description1 {
-    font-size: 23px;
+    font-size: 13px;
     padding: 0;
   }
 
   .total_care_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .benefits_description {
-    font-size: 23px;
+    font-size: 13px;
     margin: 0 1rem;
   }
 
@@ -104,7 +104,7 @@
 /* iphone x */
 @media only screen and (max-width: 450px) {
   .top_title {
-    font-size: 30px;
+    font-size: 20px;
   }
   .agreement_middle {
     display: flex;
@@ -112,11 +112,11 @@
   }
 
   .agreement_description1 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .total_care_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .total_care_title.two {
@@ -124,7 +124,7 @@
   }
 
   .benefits_description {
-    font-size: 20px;
+    font-size: 12px;
     margin: 0 1rem;
   }
 

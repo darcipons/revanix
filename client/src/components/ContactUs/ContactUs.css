@@ -30,23 +30,23 @@
 }
 
 .state {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .address {
-  font-size: 25px;
+  font-size: 15px;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
 .street {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .email_phone_fax {
   grid-row: 3;
-  font-size: 25px;
+  font-size: 15px;
   padding-top: 5%;
 }
 

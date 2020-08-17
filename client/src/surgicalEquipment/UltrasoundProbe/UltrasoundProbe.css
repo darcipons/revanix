@@ -21,14 +21,14 @@
 }
 
 .ultra_title {
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
 }
 
 .advan_title.ultra {
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -38,14 +38,14 @@
   list-style: none;
   text-align: center;
   padding-left: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .advan_list.ultra ul {
   list-style: none;
   text-align: center;
   padding-left: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .ultra_middle_container.bottom {
@@ -67,19 +67,19 @@
   }
 
   .ultra_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .ultra_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .advan_title.ultra {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .advan_list.ultra ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .ultra_middle_container.bottom {
@@ -94,19 +94,19 @@
   }
 
   .ultra_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .ultra_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .advan_title.ultra {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .advan_list.ultra ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 
@@ -123,11 +123,11 @@
   }
 
   .ultra_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .ultra_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .ultra_middle_container.bottom {
@@ -137,11 +137,11 @@
   }
 
   .advan_title.ultra {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .advan_list.ultra ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
 }

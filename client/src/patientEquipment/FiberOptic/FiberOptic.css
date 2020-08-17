@@ -29,7 +29,7 @@
 }
 
 .fiber_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -37,7 +37,7 @@
 
 .fiber_list ul {
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 0;
   text-align: center;
 }
@@ -49,22 +49,22 @@
     margin-bottom: 7rem;
   }
   .fiber_title {
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .fiber_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 
 /* ipad */ 
 @media only screen and (max-width: 768px) {
   .fiber_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .fiber_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 } 
 
@@ -76,11 +76,11 @@
   }
 
   .fiber_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .fiber_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 
@@ -88,10 +88,10 @@
 @media only screen and (max-width: 320px) {
 
   .fiber_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .fiber_list ul {
-    font-size: 18px;
+    font-size: 12px;
   }
 }

@@ -16,22 +16,22 @@
   }
 
   ._power {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   ._power_descrip {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
 /* iphone x */
 @media only screen and (max-width: 414px) {
   .rigid_repair_services_title._power {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigid_repair_services_description._power_descrip {
-    font-size: 20px;
+    font-size: 12px;
   }
 
 

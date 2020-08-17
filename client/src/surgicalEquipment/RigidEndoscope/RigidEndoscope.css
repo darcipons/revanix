@@ -7,12 +7,12 @@
 }
 
 .rigid_title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .rigid_repair_description {
-  font-size: 35px;
+  font-size: 25px;
   margin: 0 4rem;
 }
 
@@ -22,13 +22,13 @@
 }
 
 .rigid_repair_services_title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   color: #8974b6;
 }
 
 .rigid_repair_services_description {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .rigid_center_container {
@@ -57,14 +57,14 @@
 }
 
 .rigid_center_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
 }
 
 .rigid_center_list ul {
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 0;
 }
 
@@ -73,7 +73,7 @@
   grid-template-columns: 50% 50%;
   justify-items: center;
   align-items: flex-start;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 5%;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .rigid_perform_title {
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -100,7 +100,7 @@
 }
 
 .rigid_services_title {
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -117,44 +117,44 @@
 @media only screen and (max-width: 1024px) {
   .rigid_title {
     margin-top: 3rem;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .rigid_repair_description {
-    font-size: 35px;
+    font-size: 25px;
     padding: 0 1rem;
   }
 
   .rigid_repair_services_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigid_repair_services_description {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_center_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_center_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_perform_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_perform_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_services_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_services_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 
@@ -162,20 +162,20 @@
 @media only screen and (max-width: 411px) {
   .rigid_title {
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigid_repair_description {
-    font-size: 25px;
+    font-size: 15px;
     padding: 0;
   }
 
   .rigid_repair_services_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_repair_services_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_container {
@@ -193,11 +193,11 @@
   }
 
   .rigid_center_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_middle_container {
@@ -207,23 +207,23 @@
   }
 
   .rigid_perform_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_perform_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_services_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -231,20 +231,20 @@
 @media only screen and (max-width: 414px) {
   .rigid_title {
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigid_repair_description {
-    font-size: 25px;
+    font-size: 15px;
     padding: 0;
   }
 
   .rigid_repair_services_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_repair_services_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_container {
@@ -262,11 +262,11 @@
   }
 
   .rigid_center_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_middle_container {
@@ -276,23 +276,23 @@
   }
 
   .rigid_perform_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_perform_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_services_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -300,20 +300,20 @@
 @media only screen and (max-width: 375px) {
   .rigid_title {
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigid_repair_description {
-    font-size: 25px;
+    font-size: 15px;
     padding: 0;
   }
 
   .rigid_repair_services_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_repair_services_description {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_container {
@@ -331,11 +331,11 @@
   }
 
   .rigid_center_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_middle_container {
@@ -345,23 +345,23 @@
   }
 
   .rigid_perform_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_perform_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_center_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .rigid_services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_services_list ul {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -369,19 +369,19 @@
 @media only screen and (max-width: 320px) {
   .rigid_title {
     margin-top: 2rem;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .rigid_repair_description {
-    font-size: 20px;
+    font-size: 12px;
     padding: 0;
   }
 
   .rigid_repair_services_title {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .rigid_repair_services_description {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

@@ -7,6 +7,7 @@
 
 .foot_img_container {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .foot_img {
@@ -16,14 +17,14 @@
 }
 
 .foot_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
 }
 
 .foot_list ul {
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 0;
   text-align: center;
 }
@@ -36,7 +37,7 @@
   }
 
   .foot_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .foot_img_container {
@@ -47,12 +48,12 @@
 /* ipad */ 
 @media only screen and (max-width: 768px) {
   .foot_title {
-    font-size: 32px;
+    font-size: 22px;
     text-align: center;
   }
 
   .foot_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 } 
 
@@ -64,12 +65,12 @@
   }
 
   .foot_title {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
   .foot_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .foot_img {

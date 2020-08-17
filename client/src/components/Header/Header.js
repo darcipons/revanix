@@ -16,7 +16,7 @@ const Header = () => {
             className="d-block w-100"
             src={img1}
             alt="First slide"
-            height={900}
+            height={700}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -24,7 +24,7 @@ const Header = () => {
             className="d-block w-100"
             src={img2}
             alt="Third slide"
-            height={900}
+            height={700}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -32,7 +32,7 @@ const Header = () => {
             className="d-block w-100"
             src={img3}
             alt="Third slide"
-            height={900}
+            height={700}
           />
         </Carousel.Item>
 
@@ -41,7 +41,7 @@ const Header = () => {
             className="d-block w-100"
             src={img4}
             alt="fourth slide"
-            height={900}
+            height={700}
           />
         </Carousel.Item>
       </Carousel>

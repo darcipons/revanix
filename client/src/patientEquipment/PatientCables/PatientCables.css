@@ -20,7 +20,7 @@
 }
 
 .cables_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -28,7 +28,7 @@
 
 .cables_list ul{
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 0;
   text-align: center;
 }
@@ -44,11 +44,11 @@
   }
 
   .cables_title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .cables_list ul {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 
@@ -62,11 +62,11 @@
   }
 
   .cables_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .cables_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 } 
 
@@ -87,21 +87,21 @@
   }
 
   .cables_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .cables_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 } 
 
 /* iphone 5 */
 @media only screen and (max-width: 320px) {
   .cables_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .cables_list ul {
-    font-size: 18px;
+    font-size: 12px;
   }
 }

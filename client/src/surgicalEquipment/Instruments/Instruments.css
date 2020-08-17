@@ -20,7 +20,7 @@
 }
 
 .instrument_title {
-  font-size: 50px;
+  font-size: 40px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -28,13 +28,13 @@
 
 .instrumnet_list ul {
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 0;
   text-align: center;
 }
 
 .advan_title.instrument {
-  font-size: 40px;
+  font-size: 30px;
   color: #8974b6;
   font-weight: bold;
   text-align: center;
@@ -44,7 +44,7 @@
   list-style: none;
   text-align: center;
   padding-left: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .advan_container.instrument {
@@ -54,11 +54,11 @@
 /* ipad pro */
 @media only screen and (max-width: 1024px) {
   .instrument_title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .instrumnet_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
  .advan_container.instrument {
@@ -66,22 +66,22 @@
  }
 
  .advan_title.instrument {
-   font-size: 35px;
+   font-size: 25px;
  }
 
  .advan_list.instrument ul {
-   font-size: 25px;
+   font-size: 15px;
  }
 }
 
 /* ipad */ 
 @media only screen and (max-device-width: 768px)  {
   .instrument_title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .instrumnet_list ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
  .advan_container.instrument {
@@ -89,11 +89,11 @@
  }
 
  .advan_title.instrument {
-   font-size: 32px;
+   font-size: 22px;
  }
 
  .advan_list.instrument ul {
-   font-size: 25px;
+   font-size: 15px;
  }
 }
 
@@ -110,11 +110,11 @@
   }
 
   .instrument_title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .instrumnet_list ul {
-    font-size: 20px;
+    font-size: 12px;
   }
 
  .advan_container.instrument {
@@ -122,29 +122,29 @@
  }
 
  .advan_title.instrument {
-   font-size: 30px;
+   font-size: 20px;
  }
 
  .advan_list.instrument ul {
-   font-size: 20px;
+   font-size: 12px;
  }
 }
 
 /* iphone x */
 @media only screen and (max-width: 320px) {
   .instrument_title {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .instrumnet_list ul {
-    font-size: 18px;
+    font-size: 12px;
   }
 
  .advan_title.instrument {
-   font-size: 25px;
+   font-size: 15px;
  }
 
  .advan_list.instrument ul {
-   font-size: 18px;
+   font-size: 12px;
  }
 }
